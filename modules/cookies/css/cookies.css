@@ -1,0 +1,20 @@
+#cc-modal-wrapper ul {
+	list-style-type: none;
+	padding: 0;
+}
+#cc-modal-wrapper ul li {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+#cc-modal-wrapper ul li label {
+	font-weight: 300;
+}
+#cc-modal-wrapper ul li label strong {
+	font-weight: 300;
+	font-size: 22px;
+	display: block;
+}
+#cc-modal-wrapper ul li label span {
+	font-size: 14px;
+}
