@@ -115,7 +115,7 @@
 }
 
 .grid {
-	margin: 20px;
+	margin: 35px;
 }
 
 /* clear fix */
@@ -141,7 +141,7 @@
 .grid-item,
 .grid-sizer {
 	width: 16.666666%;
-	border: 20px solid #fff;
+	border: 13px solid #fff;
 }
 .grid-item--w8 {
 	width: 33.33333%;
