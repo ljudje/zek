@@ -194,6 +194,7 @@
 	text-indent: -100em;
 	background-color: transparent;
 }
+/* TODO: Change arrow graphics here */
 .zek-pages button.slick-prev {
 	left: 20px;
 	background: url(/media/dsg/arrow-left.svg) no-repeat center center;
@@ -203,6 +204,8 @@
 	background: url(/media/dsg/arrow-right.svg) no-repeat center center;
 }
 
+
+/* TODO: Change format sizes here */
 .slick-slide {
 	padding-right: 150px;
 	padding-left: 150px;

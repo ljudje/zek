@@ -85,7 +85,7 @@ var Feature =
 					}, 150);
 				}
 			}
-
+			//TODO: Discover why replaceState doesn't work
 			History.replaceState({state:1}, "projects", $('.slick-slide.slick-current.slick-active').data('url'));
 		});
 

@@ -1,5 +1,7 @@
 <?php
 
+// TODO: Manipulate $ogArray
+
 class Content extends Module {
 
 	public function buildFeature ()
@@ -19,6 +21,7 @@ class Content extends Module {
 					'type'			=> 'article',
 					'url'			=> Config::get('url') . Params::$_SERVER['REQUEST_URI'],
 					'site_name'		=> $this->locale['page_title']
+					// TODO: try $project['picture']
 			);
 			if (!empty ($project['picture'])) {
 				$image = Image::getInstance();
