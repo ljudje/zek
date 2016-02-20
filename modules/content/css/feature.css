@@ -1,6 +1,10 @@
 .contentcontent_feature h1 {
 	margin-top: 15px;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 44px;
+	line-height: 120%;
 }
 .contentcontent_feature .title-picture {
 	margin-bottom: 20px;
@@ -60,6 +64,11 @@
 }
 .zek-darker .btn-close:hover {
 	opacity: 1;
+}
+
+.zek-darker .btn-close svg {
+	height: 22px;
+	margin-top: 3px;
 }
 
 .modal-open .zek-darker {
@@ -185,10 +194,6 @@
 	max-width: 100%;
 	height: auto;
 }
-.zek-pages h1 {
-	text-align: center;
-	margin-top: 30px;
-}
 .zek-pages .project-image {
 	margin-bottom: 20px;
 }
@@ -206,6 +211,7 @@
 	font-weight: 400;
 }
 
+
 .zek-pages p, .zek-pages .embedly-responsive {
 	padding-left: 80px;
 	padding-right: 80px;	
@@ -222,7 +228,10 @@
 
 .zek-pages article h1 {
 	font-family: 'Lato', sans-serif;
-	font-size: 51px;
+	text-align: center;
+	margin-top: 48px;
+	font-size: 44px;
+	line-height: 120%;
 }
 
 @media only screen and (max-width : 768px) {
@@ -254,7 +263,7 @@
 
 .zek-pages button.slick-arrow {
 	position: absolute;
-	top: 40px;
+	top: 63px;
 	z-index: 999;
 	width: 24px;
 	height: 24px;
