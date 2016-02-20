@@ -59,10 +59,16 @@ var Feature =
 			}, 200);
 		});
 
+		if ($(window).width() > 768) {
+			var centerPadding = '10vw'
+		} else {
+			var centerPadding = '0'
+		};
+
 		$pagesel.slick({
 			infinite: true,
 			centerMode: true,
-			centerPadding: '12vw',
+			centerPadding: centerPadding,
 			slidesToShow: 1,
 			initialSlide: zek_start,
 			accessibility: false,
@@ -121,6 +127,13 @@ var Feature =
 
 					default: return;
 				}
+			}
+		});
+
+		$('article p').each(function(i, item){
+			var $img = $(item).find('img');
+			if ($img.length == 0) {
+				$(item).addClass('no-image');
 			}
 		});
 	},

@@ -104,6 +104,10 @@
 	cursor: pointer;
 }
 
+.grid {
+	margin: 20px;
+}
+
 /* clear fix */
 .grid:after {
 	content: '';
@@ -127,7 +131,7 @@
 .grid-item,
 .grid-sizer {
 	width: 16.666666%;
-	border: 3px solid #fff;
+	border: 20px solid #fff;
 }
 .grid-item--w8 {
 	width: 33.33333%;
@@ -137,6 +141,12 @@
 }
 
 @media only screen and (max-width : 767px) {
+	.grid {
+		margin: 3px;
+	}
+	.grid-sizer, .grid-item {
+		border: 3px solid #fff;
+	}
 	.grid-sizer,
 	.grid-item {
 		width: 33%;
@@ -181,6 +191,25 @@
 .zek-pages .project-image {
 	margin-bottom: 20px;
 }
+
+.zek-pages p.no-image, .zek-pages h1, .zek-pages h2, .zek-pages h3, .zek-pages h4, .zek-pages h5, .zek-pages h6, .zek-pages ul, .zek-pages ol, .zek-pages table {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 35em;
+}
+
+@media only screen and (max-width : 768px) {
+	.zek-pages p.no-image, .zek-pages h1, .zek-pages h2, .zek-pages h3, .zek-pages h4, .zek-pages h5, .zek-pages h6, .zek-pages ul, .zek-pages ol, .zek-pages table {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width : 1023px) {
+	.zek-pages p.no-image, .zek-pages h1, .zek-pages h2, .zek-pages h3, .zek-pages h4, .zek-pages h5, .zek-pages h6, .zek-pages ul, .zek-pages ol, .zek-pages table {
+		max-width: 740px;
+	}	
+}
+
 .zek-pages button.slick-arrow {
 	position: absolute;
 	top: 40px;
@@ -194,6 +223,7 @@
 	text-indent: -100em;
 	background-color: transparent;
 }
+
 /* TODO: Change arrow graphics here */
 .zek-pages button.slick-prev {
 	left: 20px;
@@ -207,68 +237,68 @@
 
 /* TODO: Change format sizes here */
 .slick-slide {
-	padding-right: 150px;
-	padding-left: 150px;
+	padding-right: 0px;
+	padding-left: 0px;
 	-webkit-overflow-scrolling: touch !important;
 }
 @media only screen and (min-width : 1701px) {
 	.slick-slide {
-		padding-right: 170px;
-		padding-left: 170px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (min-width : 2001px) {
 	.slick-slide {
-		padding-right: 200px;
-		padding-left: 200px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (min-width : 2200px) {
 	.slick-slide {
-		padding-right: 300px;
-		padding-left: 300px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (min-width : 2400px) {
 	.slick-slide {
-		padding-right: 250px;
-		padding-left: 250px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 1700px) {
 	.slick-slide {
-		padding-right: 150px;
-		padding-left: 150px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 1600px) {
 	.slick-slide {
-		padding-right: 100px;
-		padding-left: 100px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 1200px) {
 	.slick-slide {
-		padding-right: 50px;
-		padding-left: 50px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 768px) {
 	.slick-slide {
-		padding-right: 35px;
-		padding-left: 35px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 768px) {
 	.slick-slide {
-		padding-right: 25px;
-		padding-left: 25px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 480px) {
 	.slick-slide {
-		padding-right: 10px;
-		padding-left: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 
@@ -279,10 +309,47 @@
 	-ms-user-select: text;
 	user-select: text;
 }
+.slick-slide {
+	pointer-events: none;
+	opacity: .33;
+}
+.slick-current {
+	pointer-events: auto;
+	opacity: 1;
+}
 .slick-list.draggable {
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+div.grid-item div.wrap {
+	position: relative;
+	height: 100%;
+	transition: background-color .4s;
+}
+
+div.grid-item span.title {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	color: white;
+	opacity: 0;
+}
+
+div.grid-item:hover div.wrap {
+	background-color: rgba(32,32,32,.54);
+	transition: background-color .1s;
+}
+
+div.grid-item:hover span.title {
+	display: block;
+	opacity: 1;
+	transition: opacity .2s;
 }
