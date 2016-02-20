@@ -151,6 +151,9 @@ var Feature =
 					}
 				}
 			});
+			$(article).find('h1+p').each(function(i, item){
+				$(item).addClass('description-para')
+			})
 		})
 
 		var $w1 = $('#main-content .contentcontent_feature h1');

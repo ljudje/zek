@@ -235,6 +235,15 @@ footer {
 	margin-bottom: 40px;
 }
 
+.zek-pages p.description-para {
+	font-size: 17px;
+	margin-top: -6px;
+	margin-bottom: 24px;
+	padding-left: 13px;
+	padding-right: 13px;
+	color: rgb(30, 30, 30);
+}
+
 .zek-pages article h1 {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
@@ -261,6 +270,9 @@ footer {
 	}
 	.zek-pages article p, .zek-pages article .embedly-responsive {
 		margin-bottom: 20px;
+	}
+	.zek-pages p.description-para {
+		margin-bottom: 30px;
 	}
 }
 
