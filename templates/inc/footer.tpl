@@ -49,7 +49,7 @@
 	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 	<script type="text/javascript">
 	  WebFontConfig = {
-	    google: { families: [ 'Fira+Sans:400,300,500,700,400italic,700italic:latin' ] }
+	    google: { families: [ 'Fira+Sans:300,300italic:latin' ] }
 	  };
 	  (function() {
 	    var wf = document.createElement('script');
@@ -59,6 +59,19 @@
 	    var s = document.getElementsByTagName('script')[0];
 	    s.parentNode.insertBefore(wf, s);
 	  })();
+	</script>
+	<script type="text/javascript">
+	WebFontConfig = {
+		google: { families: [ 'Lato:300:latin' ] }
+	};
+	(function() {
+		var wf = document.createElement('script');
+		wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+	})();
 	</script>
 	{$js}
 
