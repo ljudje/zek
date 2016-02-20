@@ -1,3 +1,6 @@
+.contentcontent_feature {
+	margin-top: -8px;
+}
 .contentcontent_feature h1 {
 	margin-top: 15px;
 	text-align: center;
@@ -11,6 +14,10 @@
 }
 .trigger-filter {
 	float: right;
+}
+
+footer {
+	margin-top: 8px;
 }
 
 #main-body-wrap {
@@ -114,8 +121,10 @@
 	cursor: pointer;
 }
 
+
 .grid {
 	margin: 35px;
+	margin-top: 0px;
 }
 
 /* clear fix */
@@ -141,7 +150,7 @@
 .grid-item,
 .grid-sizer {
 	width: 16.666666%;
-	border: 13px solid #fff;
+	border: 12px solid #fff;
 }
 .grid-item--w8 {
 	width: 33.33333%;
