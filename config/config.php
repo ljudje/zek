@@ -6,8 +6,8 @@ ini_set('memory_limit', "64M");
 date_default_timezone_set ("Europe/Ljubljana");
 
 $config = array(
-	'url'					=> 'http://www.domain.com',
-	'db_dsn' 				=> 'mysqli://user:pass@localhost/name',
+	'url'					=> 'http://localhost',
+	'db_dsn' 				=> 'mysqli://zek:zek@127.0.0.1/zek',
 	'db_charset'			=> 'utf8',
 	'db_prefix'				=> '',
 	'db_systables_prefix'	=> '_',
