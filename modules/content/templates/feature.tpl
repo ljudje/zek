@@ -13,9 +13,16 @@
 
 	<div class="zek-project-grid grid">
 		{foreach $projects project}
-		<div class="grid-item grid-item--w{$project.class_w} grid-item--h{$project.class_h} shop{$project.is_shop}">
-			<img src="{$imageCache->img($project.picture, 'project/', $project.thumb_w, $project.thumb_h, true)}" class="img-responsive" data-slick-index="{$.foreach.default.index}" data-url="{$project.url|escape}" />
-		</div>
+			<div class="grid-item grid-item--w{$project.class_w} grid-item--h{$project.class_h} shop{$project.is_shop}">
+				<div class='wrap'>
+				{if strpos($project.picture, 'gif') == true }
+					<img src="/media/uploads/project/{$project.picture}" class="img-responsive" data-slick-index="{$.foreach.default.index}" data-url="{$project.url|escape}" />
+				{else}
+					<img src="{$imageCache->img($project.picture, 'project/', $project.thumb_w, $project.thumb_h, true)}" class="img-responsive" data-slick-index="{$.foreach.default.index}" data-url="{$project.url|escape}" />
+				{/if}
+				<span class='title'>{$project.title}</span>
+				</div>
+			</div>
 		{/}
 		<div class="grid-sizer hidden"></div>
 	</div>
