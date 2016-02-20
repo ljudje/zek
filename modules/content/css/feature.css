@@ -65,7 +65,7 @@
 .modal-open .zek-darker {
 	transform: translateY(100%);
 	box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgb(210, 210, 210);
+	border-bottom: 1px solid rgb(225, 225, 225);
 }
 #zekProjects {
 	background: #fff;
