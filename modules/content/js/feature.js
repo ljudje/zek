@@ -68,7 +68,7 @@ var Feature =
 		$pagesel.slick({
 			infinite: true,
 			centerMode: true,
-			centerPadding: centerPadding,
+			centerPadding: '0',
 			slidesToShow: 1,
 			initialSlide: zek_start,
 			accessibility: false,
@@ -134,6 +134,8 @@ var Feature =
 			var $img = $(item).find('img');
 			if ($img.length == 0) {
 				$(item).addClass('no-image');
+			} else {
+				$img.attr('width', '100%');
 			}
 		});
 	},
