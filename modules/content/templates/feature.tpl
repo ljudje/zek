@@ -4,7 +4,9 @@
 
 	{$content.content}
 
+	<!--
 	<a href="#" class="btn btn-primary trigger-filter">SHOP</a>
+	-->
 
 {/capture}
 {include file="inc/box.tpl" content=$.capture.content title=0}

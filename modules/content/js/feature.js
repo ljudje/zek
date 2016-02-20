@@ -130,14 +130,45 @@ var Feature =
 			}
 		});
 
-		$('article p').each(function(i, item){
-			var $img = $(item).find('img');
-			if ($img.length == 0) {
-				$(item).addClass('no-image');
-			} else {
-				$img.attr('width', '100%');
-			}
-		});
+		var first_image_found;
+
+		$('article').each(function(a, article){
+			first_image_found = false;
+			$(article).find('p, .embedly-responsive').each(function(i, item){
+				var $img = $(item).find('img');
+				if ($img.length == 0) {
+					$(item).addClass('no-image');
+					if ($(item).hasClass('embedly-responsive')) {
+						first_image_found = true;
+					}
+				} else {
+					$img.attr('width', '100%');
+					if (!first_image_found) {
+						first_image_found = true;
+						$(item).addClass('big-image');
+					}
+				}
+			});
+		})
+
+		var $w1 = $('#main-content .contentcontent_feature h1');
+		console.log('w1', $w1.length)
+		var wink, un_wink;
+
+		wink = function() {
+			$w1.text('We’re the ZEK crew ;)');
+			setTimeout(un_wink, 333);
+			console.log('lol')
+		}
+
+		un_wink = function() {
+			$w1.text('We’re the ZEK crew :)')
+			setTimeout(wink, 1000 + Math.random() * 5000);
+			console.log('megalol')
+		}
+
+		wink();
+
 	},
 	lazyLoad: function () {
 		var bottompos = $(window).height();
