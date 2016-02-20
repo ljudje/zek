@@ -199,12 +199,12 @@
 	max-width: 35em;
 }
 
-.zek-pages p {
+.zek-pages p, .zek-pages .embedly-responsive {
 	padding-left: 80px;
 	padding-right: 80px;	
 }
 
-.zek-pages p.big-image {
+.zek-pages p.big-image, .zek-pages .big-responsive {
 	padding-left: 0;
 	padding-right: 0;
 }

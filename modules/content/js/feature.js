@@ -140,6 +140,7 @@ var Feature =
 					$(item).addClass('no-image');
 					if ($(item).hasClass('embedly-responsive')) {
 						first_image_found = true;
+						$(item).addClass('big-responsive')
 					}
 				} else {
 					$img.attr('width', '100%');
@@ -158,13 +159,11 @@ var Feature =
 		wink = function() {
 			$w1.text('We’re the ZEK crew ;)');
 			setTimeout(un_wink, 333);
-			console.log('lol')
 		}
 
 		un_wink = function() {
 			$w1.text('We’re the ZEK crew :)')
 			setTimeout(wink, 1000 + Math.random() * 5000);
-			console.log('megalol')
 		}
 
 		wink();
