@@ -209,7 +209,7 @@
 	padding-right: 0;
 }
 
-.zek-pages article p {
+.zek-pages article p, .zek-pages article .embedly-responsive {
 	margin-bottom: 40px;
 }
 

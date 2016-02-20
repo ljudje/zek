@@ -139,6 +139,7 @@ var Feature =
 				if ($img.length == 0) {
 					$(item).addClass('no-image');
 					if ($(item).hasClass('embedly-responsive')) {
+						$(item).css('padding-bottom', '90vh');
 						first_image_found = true;
 						$(item).addClass('big-responsive')
 					}
