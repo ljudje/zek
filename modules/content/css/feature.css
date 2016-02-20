@@ -216,6 +216,10 @@ footer {
 	line-height: 29px;
 }
 
+.zek-pages p.no-image + p.no-image {
+	margin-top: -20px;
+}
+
 .zek-pages h1, .zek-pages h2, .zek-pages h3, .zek-pages h4, .zek-pages h5, .zek-pages h6, .zek-pages strong, .zek-pages b {
 	font-weight: 400;
 }
@@ -261,6 +265,9 @@ footer {
 		max-width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	.zek-pages p.no-image + p.no-image {
+		margin-top: -10px;
 	}
 	.zek-pages p.no-image, .zek-pages .embedly-responsive {
 		padding-left: 13px;
