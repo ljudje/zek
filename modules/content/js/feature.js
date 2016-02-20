@@ -158,12 +158,12 @@ var Feature =
 		var wink, un_wink;
 
 		wink = function() {
-			$w1.text('We’re the ZEK crew ;)');
+			$w1.text('We’re the ZEK Crew ;)');
 			setTimeout(un_wink, 333);
 		}
 
 		un_wink = function() {
-			$w1.text('We’re the ZEK crew :)')
+			$w1.text('We’re the ZEK Crew :)')
 			setTimeout(wink, 1000 + Math.random() * 5000);
 		}
 
