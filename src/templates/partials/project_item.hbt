@@ -1,0 +1,18 @@
+<div class="project">  
+
+{{{ contents }}}
+
+<div class='project_description'>
+
+{{#if download_link}}
+{{name}} / {{author}} / <a href='{{download_link}}'>Free Download</a>
+{{/if}}
+
+{{#if fatsell_embed}}
+{{name}} / {{author}} / {{> fatsell embed=fatsell_embed}}
+{{/if}}
+
+</div>
+
+<p><a href='/projects/{{paths.name}}'>More about {{name}}</a></p>
+</div>
