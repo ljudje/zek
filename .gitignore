@@ -6,3 +6,5 @@ cms/_custom/cache/*
 *.swp
 media/uploads/fm/.tmb
 
+build/
+node_modules/
