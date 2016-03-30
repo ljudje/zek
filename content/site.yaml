@@ -1,0 +1,4 @@
+# Global site metadata
+
+# Add things you wan't to access in the templates: {{ something }}
+something: Your data
