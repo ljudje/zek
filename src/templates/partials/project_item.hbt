@@ -1,18 +1,9 @@
-<div class="project">  
+<li class="project">
 
-{{{ contents }}}
+<p>{{{ name }}}</p>
 
-<div class='project_description'>
+{{> thumb url=thumbnail}}
 
-{{#if download_link}}
-{{name}} / {{author}} / <a href='{{download_link}}'>Free Download</a>
-{{/if}}
+<p><a href='/projects/{{paths.base}}'>More about {{name}}</a></p>
 
-{{#if fatsell_embed}}
-{{name}} / {{author}} / {{> fatsell embed=fatsell_embed}}
-{{/if}}
-
-</div>
-
-<p><a href='/projects/{{paths.name}}'>More about {{name}}</a></p>
-</div>
+</li>

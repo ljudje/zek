@@ -10,12 +10,14 @@
 
 		<div>{{{ contents }}}</div>
 
+		<ul>
 		{{# each collections.projects }}
 
 			{{> project_item this}}	      
 		
 		{{/each }}
-
+		</ul>
+		
 	</section>
 
 	{{> footer }}
