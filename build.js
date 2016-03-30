@@ -28,7 +28,7 @@ Handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/src/templates
 // Handlebars.registerPartial('image', fs.readFileSync(__dirname + '/src/templates/image.hbt').toString());
 
 // TODO: use minimatch globbing in all patterns & DRY
-var project_pattern = 'projects\/([a-z]|-)+\.(txt|md)';
+var project_pattern = 'projects\/([a-z]|-|[0-9])+\.(txt|md)';
 var member_pattern = 'members\/([a-z]|-)+\.md';
 // var image_pattern = 'projects\/.+\/.+\.(png|PNG|jpg|JPG|jpeg|JPEG|gif|GIF)';
 
@@ -54,8 +54,8 @@ var metalsmith = Metalsmith(__dirname)
 
   // Load projects, images & their descriptions as collections
   .use(collections({
-    members: {                 pattern: member_pattern },
-    projects: {                pattern: project_pattern } //,
+    members: {                 pattern: 'members/*.md' },
+    projects: {                pattern: 'projects/*.md' } //,
     // images: {               pattern: 'projects/*/*.png' },
     // image_descriptions: {   pattern: 'projects/*/*.{txt,md,HTML}' }
   }))
