@@ -9,7 +9,7 @@ importance: 100
 
 {{> cover url='strip-generator_cover.JPG' }}
 
-{{> img_decription url='slika.jpg' description='we are on the picture'}}
+{{> figure url='slika.jpg' description='we are on the picture'}}
 
 ![](strip-generator/2.JPG)
 
