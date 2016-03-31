@@ -1,0 +1,4 @@
+<div class="figure">
+	<img src='{{ url }}'>
+	<p>{{ description }}</p>
+</div>

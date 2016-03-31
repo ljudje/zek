@@ -4,6 +4,6 @@
 
 {{> thumb url=thumbnail}}
 
-<p><a href='/projects/{{paths.base}}'>More about {{name}}</a></p>
+<p><a href='/projects/{{ paths.name }}'>More about {{name}}</a></p>
 
 </li>
