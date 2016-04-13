@@ -1,0 +1,64 @@
+@font-face {
+	font-family:'SupriaSans';
+	src: url('/assets/fonts/SupriaSans-Light.eot');
+	src: url('/assets/fonts/SupriaSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/SupriaSans-Light.woff') format('woff'),
+		url('/assets/fonts/SupriaSans-Light.ttf') format('truetype'),
+		url('/assets/fonts/SupriaSans-Light.svg#SupriaSans-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'SupriaSans';
+	src: url('/assets/fonts/SupriaSans-Regular.eot');
+	src: url('/assets/fonts/SupriaSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/SupriaSans-Regular.woff') format('woff'),
+		url('/assets/fonts/SupriaSans-Regular.ttf') format('truetype'),
+		url('/assets/fonts/SupriaSans-Regular.svg#SupriaSans-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'SupriaSans';
+	src: url('/assets/fonts/SupriaSans-Bold.eot');
+	src: url('/assets/fonts/SupriaSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/SupriaSans-Bold.woff') format('woff'),
+		url('/assets/fonts/SupriaSans-Bold.ttf') format('truetype'),
+		url('/assets/fonts/SupriaSans-Bold.svg#SupriaSans-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'SupriaSans';
+	src: url('/assets/fonts/SupriaSans-RegularItalic.eot');
+	src: url('/assets/fonts/SupriaSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/SupriaSans-RegularItalic.woff') format('woff'),
+		url('/assets/fonts/SupriaSans-RegularItalic.ttf') format('truetype'),
+		url('/assets/fonts/SupriaSans-RegularItalic.svg#SupriaSans-RegularItalic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+    font-family: 'Resolution';
+    src: url('/assets/fonts/resolution-regular.eot');
+    src: url('/assets/fonts/resolution-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/resolution-regular.woff2') format('woff2'),
+         url('/assets/fonts/resolution-regular.woff') format('woff'),
+         url('/assets/fonts/resolution-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+		font-stretch: normal;
+}
