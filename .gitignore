@@ -1,10 +1,20 @@
-media/cache/*
-templates/compiled/*
-cms/templates_c/*
-cms/_custom/cache/*
+/media/cache/*
+/cms/templates_c/*
+/cms/_custom/cache/*
 *.DS_Store
 *.swp
-media/uploads/fm/.tmb
+/media/uploads/fm/.tmb
 
-build/
-node_modules/
+/build
+/node_modules
+
+/Gemfile.lock
+
+/.sass-cache
+
+/src/templates/compiled
+/src/stylesheets/.sass-cache
+/src/assets/css/app.css
+/src/assets/js/app.js
+
+/.tmp
