@@ -1,4 +1,4 @@
-var logging = true;
+var logging = false;
 
 var _LOG_ = function(a, b, c, d) {
   if (logging == true) {
@@ -8,7 +8,7 @@ var _LOG_ = function(a, b, c, d) {
 
 var assign_layouts_by_pattern = function(config, files) {
 
-    console.log('file name pattern matcher');
+    _LOG_('file name pattern matcher');
 
     var pattern = new RegExp(config.pattern);
 
@@ -31,7 +31,7 @@ var assign_layouts_by_pattern = function(config, files) {
 
   assign_layouts_by_collection = function(config, files) {
 
-    console.log('collection matcher');
+    _LOG_('collection matcher');
 
     for (var file in files) {
 
@@ -75,6 +75,44 @@ module.exports = {
 
       done();
     }
+  },
+
+  remove_drafts: function(config) {
+    return function(files, metalsmith, done) {
+      for (var file in files) {
+        if (files[file].draft == true) {
+          _LOG_('# Deleting image', files[file].name)
+          delete files[file];
+        }
+      };
+      done();
+    };
+  },
+
+  remove_images_from_scope: function(config) {
+    return function(files, metalsmith, done) {
+      var image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
+      for (var file in files) {
+        var current_extension = files[file].paths.ext.toLowerCase();
+        if (image_extensions.indexOf(current_extension) > -1) {
+          delete files[file];
+        }
+      };
+      done();
+    };
+  },
+
+  remove_ignored_files: function(config) {
+    return function(files, metalsmith, done) {
+      var ignored_files = ['.DS_Store'];
+      for (var file in files) {
+        var current_file = files[file].paths.base;
+        if (ignored_files.indexOf(current_file) > -1) {
+          delete files[file];
+        }
+      };
+      done();
+    };
   },
 
   project_image_linker: function(config) {
@@ -176,7 +214,7 @@ module.exports = {
   },
 
   assign_layouts: function(options) {
-    console.log(options);
+    _LOG_(options);
 
     return function(files, metalsmith, done) {
 
@@ -184,7 +222,7 @@ module.exports = {
 
         var config = options[i];
 
-        console.log('looking at', config)
+        _LOG_('looking at', config)
 
         if (config.collection != undefined) {
           assign_layouts_by_collection(config, files)
@@ -199,7 +237,6 @@ module.exports = {
       done();
     }
   },
-
 
   debug_metadata: function() {
     return function(files, metalsmith, done) {
