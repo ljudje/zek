@@ -1,0 +1,28 @@
+!!!
+%html{:lang => "en"}
+
+	{{> head }}
+
+	%body.project
+
+		{{> header }}
+
+		%section.main
+
+			%h1 {{ name }}
+
+			%div {{{ contents }}}
+
+			{{#if previous}}
+			%a{href: '/projects/{{ previous.paths.name }}'}
+				&lt; &lt; {{ previous.name }}
+			{{/if}}
+			
+			{{#if next}}
+			%a{href: '/projects/{{ next.paths.name }}'}
+				{{ next.name }} &gt; &gt;
+			{{/if}}
+
+		{{> footer }}
+
+		{{> scripts}}

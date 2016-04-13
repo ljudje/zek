@@ -1,0 +1,21 @@
+!!!
+%html{:lang => "en"}
+
+	{{> head }}
+
+	%body.homepage
+
+		{{> header }}
+
+		%section.main
+
+			%div {{{ contents }}}
+
+			%ul
+				{{# each collections.projects }}
+				{{> project_item this}}
+				{{/each }}
+
+		{{> footer }}
+
+		{{> scripts}}
