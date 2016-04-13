@@ -1,9 +1,0 @@
-<li class="project">
-
-<p>{{{ name }}}</p>
-
-{{> thumb url=thumbnail}}
-
-<p><a href='/projects/{{ paths.name }}'>More about {{name}}</a></p>
-
-</li>

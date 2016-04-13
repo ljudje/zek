@@ -1,8 +1,0 @@
-<head>
-  <title>ZEK</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
-  <meta name="robots" content="index,follow"/>
-  <meta charset="utf-8">
-  <link href="/css/style.css" rel="stylesheet">
-  <script src="http://localhost:35729/livereload.js"></script>
-</head>
