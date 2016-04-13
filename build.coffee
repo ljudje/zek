@@ -37,7 +37,7 @@ Handlebars.registerHelper "doc_image_url", helpers.doc_image_url
 
 # TODO: use minimatch globbing in all patterns & DRY
 project_pattern = 'projects/([a-z]|-|[0-9])+.(txt|md)'
-person_pattern = 'members/([a-z]|-)+.md'
+member_pattern = 'members/([a-z]|-)+.md'
 # image_pattern = 'projects\/.+\/.+\.(png|PNG|jpg|JPG|jpeg|JPEG|gif|GIF)';
 
 # BUILD SCRIPT
@@ -56,7 +56,7 @@ metalsmith = Metalsmith(__dirname)
 	.use(remove_drafts()).use(remove_ignored())
 	# Collections of peole and projects
 	.use(collections(
-		people:
+		members:
 			pattern: 'members/*.md'
 		projects:
 			pattern: 'projects/*.md'
