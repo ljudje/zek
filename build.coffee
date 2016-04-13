@@ -12,7 +12,7 @@ in_place =          require('metalsmith-in-place')
 paths =             require('metalsmith-paths')
 permalinks =        require('metalsmith-permalinks')
 fs =                require('fs')
-utils =             require('./utils')
+utils =             require('./src/builder/utils')
 helpers =           require('./src/builder/helpers')
 
 # Dumps entire metalsmith.metadata() to console
