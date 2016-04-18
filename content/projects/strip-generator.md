@@ -1,6 +1,6 @@
 ---
 name: Strip generator
-thumbnail: strip-generator-thumbnail.jpg
+thumbnail: 3.JPG
 importance: 100
 ---
 # Strip generator

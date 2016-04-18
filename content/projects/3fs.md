@@ -1,6 +1,6 @@
 ---
 name: 3fs
-thumbnail: 3fs-thumbnail.jpg
+thumbnail: 1.JPG
 ---
 # 3fs
 
@@ -10,6 +10,7 @@ Interior design Jana Rot / photos Jaka Vinšek
 The work was awarded with the ‘DOS winter recognition 2009‘.
 
 {{> cover url='/images/3fs/1.JPG' }}
+
 
 ![](/images/3fs/2.JPG)
 

@@ -31,8 +31,6 @@ Handlebars.registerHelper "debug", helpers.debug_handlebars
 # Template helpers
 Handlebars.registerHelper "project_image", helpers.project_image_hb
 Handlebars.registerHelper "project_image_url", helpers.project_image_url
-Handlebars.registerHelper "doc_image", helpers.doc_image_hb
-Handlebars.registerHelper "doc_image_url", helpers.doc_image_url
 
 
 # TODO: use minimatch globbing in all patterns & DRY
