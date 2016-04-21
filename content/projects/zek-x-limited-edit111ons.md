@@ -6,17 +6,17 @@ description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111
 order: 100
 ---
 
-{{ img "_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
+{{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
 
-{{ img "DSC_0063.jpg" }}
+{{> img src="DSC_0063.jpg" }}
 
-{{ img "individuals.jpg" }}
+{{> img src="individuals.jpg" }}
 
 {{# cta }} [See all 111 artworks >](http://zekx111.tumblr.com/) {{/ cta }}
 
-{{ img "008_LIMITED-EDIT111ONS4.jpg" }}
+{{> img src="008_LIMITED-EDIT111ONS4.jpg" }}
 
-{{ img "V5.jpg" }}
+{{> img src="V5.jpg" }}
 
 The exhibition pieces are a representation of mountains with heights from 4,000 m to 6,000 m at a specific time in their existence. The subtle unravelling of dimensions intrinsic to the two-dimensional form leaves room for thought, interpolating the everyman into the problem of transience. That which is subjected to the laws of time is inevitably contingent on recollection; this time, we can take it away.
 
@@ -28,19 +28,19 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 -- Nika Jurman
 
-{{ img "ZEK_letak_print02-1.jpg" }}
+{{> img src="ZEK_letak_print02-1.jpg" }}
 
 {{> youtube id="e18h5OKS5r0" }}
 
-{{ img "018_LIMITED-EDIT111ONSss.jpg" }}
+{{> img src="018_LIMITED-EDIT111ONSss.jpg" }}
 
-{{ img "DSC_0032.jpg" }}
+{{> img src="DSC_0032.jpg" }}
 
-{{ img "zekpero.jpg" }}
+{{> img src="zekpero.jpg" }}
 
-{{ img "050_LIMITED-EDIT111ONSZek-crew_IMG_0690.jpg" }}
+{{> img src="050_LIMITED-EDIT111ONSZek-crew_IMG_0690.jpg" }}
 
-{{ img "zunaj.jpg" }}
+{{> img src="zunaj.jpg" }}
 
 ##### As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie.
 
@@ -48,17 +48,17 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 ### Research phase & Making of
 
-{{ img "635500129876435527_kolektiv_zek.png" }}
+{{> img src="635500129876435527_kolektiv_zek.png" }}
 
-{{ img "10371964_10153276286317564_5615823264779274578_n.jpg" }}
+{{> img src="10371964_10153276286317564_5615823264779274578_n.jpg" }}
 
-{{ img "IMG_0505.JPG" }}
+{{> img src="IMG_0505.JPG" }}
 
-{{ img "10733872_705785456175068_6620859739541209575_o.jpg" }}
+{{> img src="10733872_705785456175068_6620859739541209575_o.jpg" }}
 
-{{ img "10631157_705787679508179_6093050114236472134_o.jpg" }}
+{{> img src="10631157_705787679508179_6093050114236472134_o.jpg" }}
 
-{{ img "jazpos.jpg" }}
+{{> img src="jazpos.jpg" }}
 
-{{ img "10679850_706246312795649_4887000306584404137_o.jpg" }}
+{{> img src="10679850_706246312795649_4887000306584404137_o.jpg" }}
 
