@@ -1,0 +1,193 @@
+@charset 'utf-8'
+@import 'dependencies'
+
+$silver: #9C9C9C
+$metal: #333
+$cox: rgb(60, 60, 60)
+$koln: rgb(30, 30, 30)
+
+=roboto
+	font-family: Roboto, sans-serif
+
+=lato
+	font-family: Lato, sans-serif
+
+=source
+	font-family: 'Source Sans Pro', sans-serif
+
+// HEADER //
+
+header 
+	.logo
+		// -webkit-transition: margin
+		// transition: margin
+		text-align: center
+		img
+			margin: 11px
+
+	nav.is-anchored
+		.logo
+			background: transparent
+		img
+			height: 27px
+	nav.is-stuck
+		.logo
+			background: white
+		img
+			height: 20px
+			opacity: .66
+
+// *** HOMEPAGE **** //
+
+body.home
+	background: white
+	
+	.welcome-message
+		text-align: center
+		margin:
+			top: 2rem
+			bottom: 2rem
+		h1
+			+lato
+			color: $silver
+			font-weight: 200
+			font-size: 40px
+
+	.projects
+		+grid-row
+		margin:
+			left: 2rem
+			right: 2rem
+
+	.project
+		+grid-column(1 of 3)
+		padding:
+			top: 0.5rem
+			bottom: 0.5rem
+
+		a
+			position: relative
+			display: block
+			background: $metal
+
+		.project-thumbnail
+			background-size: cover
+			background-position: center
+
+		a
+			.project-thumbnail
+				-webkit-transition: opacity .2s
+				transition: opacity .2s
+				opacity: 1
+			.title
+				-webkit-transition: opacity 1s
+				transition: opacity 1s
+				opacity: 0
+		a:hover
+			.project-thumbnail
+				-webkit-transition: opacity 1s
+				transition: opacity 1s
+				opacity: 0.33
+			.title
+				-webkit-transition: opacity .2s
+				transition: opacity .2s
+				opacity: 1
+
+		.title
+			+lato
+			position: absolute
+			text-align: center
+			left: 50%
+			top: 50%
+			-webkit-transform: translate(-50%, -50%)
+			transform: translate(-50%, -50%)
+			font-size: 20px
+			color: white
+
+// *** PROJECTS **** //
+
+body.project
+
+	.prev-arrow, .next-arrow
+		position: fixed
+		top: 5rem
+
+		img
+			opacity: 0.66
+			height: 66%
+
+	.prev-arrow
+		left: 1rem
+	.next-arrow
+		right: 1rem
+	
+	h1
+		+lato
+		font-size: 36px
+		font-weight: 200
+		color: $cox
+		text-align: center
+
+	.description
+		+source
+		font-size: 17px
+		font-weight: 300
+		color: $koln
+		text-align: center
+
+	.cover
+		img
+			margin: 
+				top: 2rem
+				bottom: 2rem
+
+			width: 100%
+
+	.contents
+		+grid-row
+		margin:
+			left: 4rem
+			right: 4rem
+		
+		h1, h2, h3, h4, h5, h6, p, .youtube
+			+grid-column(1 of 1)
+
+		h1, h2, h3, h4, h5, h6
+			+lato
+			text-align: center
+			margin-top: 2rem
+			margin-bottom: 2rem
+
+		.youtube
+			text-align: center
+			margin-bottom: 2rem
+
+		p
+			+source
+			font-size: 21px
+			font-weight: 300
+			color: $koln
+			margin-bottom: 2rem
+
+			img
+				width: 100%
+
+		p.no-img
+			padding:
+				left: 12rem
+				right: 12rem
+
+		p.cta
+			text-align: center
+			a
+				font-size: 24px
+				font-weight: 400
+
+	#page article >
+		.prev, .next
+			text-align: center
+
+// *** MISC &&& //
+
+footer
+	display: none
