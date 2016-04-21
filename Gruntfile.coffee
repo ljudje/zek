@@ -38,7 +38,7 @@ module.exports = (grunt) ->
 				tasks: ['exec']
 
 			rebuild:
-				files: ['content/{,*/}*.md', 'build.coffee']
+				files: ['content/{,*/}*.md', 'build.coffee', 'src/builder/{,*/}*.coffee']
 				tasks: ['exec']
 
 			assets:
