@@ -1,9 +1,22 @@
+marked = require('marked')
+Handlebars = require('handlebars')
 
 _project_image_hb = (project, image) ->
 	'![](' + _project_image_url(project, image) + ')'
 
 _project_image_url = (project, image) ->
 	'/assets/projects/' + project + '/' + image
+
+_image_hb = (paths, image) ->
+	"![](/assets/#{paths.dir}/#{paths.name}/#{image})"
+
+_find_image_asset = (image_assets, path) ->
+	found = false
+	for ile in image_assets
+		if ile.paths.src == path
+			found = ile
+
+	found
 
 module.exports =
 	debug_handlebars: (optional) ->
@@ -17,3 +30,34 @@ module.exports =
 
 	project_image_hb: (image) ->
 		_project_image_hb(@paths.name, image)
+
+	image_hb: (image, options) ->
+		paths = options.data.root.paths
+
+		full_path = "/assets/#{paths.dir}/#{paths.name}/#{image}"
+		image = _find_image_asset(@image_assets, full_path)
+		
+		data =
+			src: full_path
+			width: image.geom_width
+			height: image.geom_height
+			y_ratio: image.geom_y_ratio
+
+		return options.fn(data)
+
+	simple_image_hb: (image) ->
+		"![](#{full_path})"
+		
+	padded_content: () ->
+		params = Array.prototype.slice.call(arguments)
+		options = params[params.length - 1]
+		return "<div class='padded'>" + options.fn(this) + "</div>"
+
+	markdown: () ->
+		params = Array.prototype.slice.call(arguments)
+		return marked(params[0])
+
+	cta: () ->
+		params = Array.prototype.slice.call(arguments)
+		options = params[params.length - 1]
+		return "<p class='cta'>" + options.fn(this) + "</p>"
