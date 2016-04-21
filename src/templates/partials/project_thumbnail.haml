@@ -1,0 +1,5 @@
+.project
+	%a{href: "/projects/{{ this.paths.name }}"}
+		.project-thumbnail{style: 'background-image: url({{ project_image_url this.thumbnail }});'}
+			%img.sizer{src: '/assets/1by1.png', style: 'width: 100%'}
+		%span.title {{ this.name }}
