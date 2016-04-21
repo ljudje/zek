@@ -45,6 +45,10 @@ module.exports = (grunt) ->
 				files: ['src/assets/{,*/}*.*']
 				tasks: ['copy:assets']
 
+			project_images:
+				files: ['content/projects/{,*/}*.{jpg,JPG,jpeg,JPEG,gif,GIF,png,PNG,svg,SVG,webp,WEBP}']
+				tasks: ['copy:project_images']
+
 		sass:
 			options:
 				loadPath: [
