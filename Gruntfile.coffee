@@ -115,6 +115,7 @@ module.exports = (grunt) ->
 
 		exec:
 			metalsmith: './node_modules/coffee-script/bin/coffee build.coffee'
+			browser: 'open http://localhost:9080/'
 
 		# useminPrepare:
 		# 	html: [
@@ -130,7 +131,8 @@ module.exports = (grunt) ->
 	grunt.registerTask('styles', ['sass'])
 	grunt.registerTask('scripts', ['coffee'])
 	grunt.registerTask('templates', ['haml'])
-	grunt.registerTask('content', ['exec', 'copy'])
+	grunt.registerTask('content', ['exec:metalsmith', 'copy'])
+	grunt.registerTask('open', ['exec:browser'])
 	# grunt.registerTask('optimization', [
 	# 	'useminPrepare'
 	# 	'concat'
@@ -149,4 +151,4 @@ module.exports = (grunt) ->
 		'content'
 		# 'optimization'
 	])
-	grunt.registerTask('dev', ['build', 'watch'])
+	grunt.registerTask('dev', ['build', 'open', 'watch'])
