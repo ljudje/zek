@@ -29,17 +29,17 @@ module.exports = (grunt) ->
 
 			haml:
 			  files: ['src/templates/{,*/}*.haml'],
-			  tasks: ['haml', 'exec']
+			  tasks: ['haml', 'exec:metalsmith']
 
 			handlebars:
 				files: [
 					'src/scripts/templates/compiled/{,*/}*.hbt'
 				]
-				tasks: ['exec']
+				tasks: ['exec:metalsmith']
 
 			rebuild:
 				files: ['content/{,*/}*.md', 'build.coffee', 'src/builder/{,*/}*.coffee']
-				tasks: ['exec']
+				tasks: ['exec:metalsmith']
 
 			assets:
 				files: ['src/assets/{,*/}*.*']
@@ -151,4 +151,4 @@ module.exports = (grunt) ->
 		'content'
 		# 'optimization'
 	])
-	grunt.registerTask('dev', ['build', 'open', 'watch'])
+	grunt.registerTask('dev', ['build', 'watch'])

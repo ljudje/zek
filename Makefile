@@ -10,8 +10,11 @@ dev: node_modules Gemfile.lock
 server: node_modules
 	node ./node_modules/static-server/bin/static-server.js build
 
+open: node_modules
+	open http://localhost:9080
+
 dev-server:
-	make dev server -j2
+	make dev server open -j3
 
 node_modules: package.json
 	npm install
