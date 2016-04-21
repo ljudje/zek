@@ -22,12 +22,12 @@ namespace :deploy do
 	task :setup_config, roles: :app do
 		sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
 	end
+	after "deploy:setup", "deploy:setup_config"
 	task :build_static_page do
 		run "cd #{release_path} && bundle && npm install && make build"
 	end
-	after 'deploy:update_code', 'deploy:build_static_page'
+	# after 'deploy:update_code', 'deploy:build_static_page'
 end
-after "deploy:setup", "deploy:setup_config"
 
 
 namespace :deploy do
