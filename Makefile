@@ -19,6 +19,8 @@ node_modules: package.json
 Gemfile.lock: Gemfile
 	bundle install
 
+default: dev-server
+
 .PHONY: install
 
 .PHONY: build
