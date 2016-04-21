@@ -31,18 +31,19 @@ module.exports =
 	project_image_hb: (image) ->
 		_project_image_hb(@paths.name, image)
 
-	image_hb: (image, options) ->
+	image_hb: (name, options) ->
 		paths = options.data.root.paths
 
-		full_path = "/assets/#{paths.dir}/#{paths.name}/#{image}"
-		image = _find_image_asset(@image_assets, full_path)
+		full_path = "/assets/#{paths.dir}/#{paths.name}/#{name}"
+		img = _find_image_asset(@image_assets, full_path)
 		
 		data =
 			src: full_path
-			width: image.geom_width
-			height: image.geom_height
-			y_ratio: image.geom_y_ratio
-			x_ratio: 100 / image.geom_y_ratio
+			width: img.geom_width
+			height: img.geom_height
+			y_ratio: img.geom_y_ratio
+			x_ratio: 100 / img.geom_y_ratio
+			name: name
 
 		return options.fn(data)
 

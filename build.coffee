@@ -32,7 +32,7 @@ image_dimensions = utils.image_dimensions
 Handlebars.registerHelper "debug", helpers.debug_handlebars
 # Template helpers
 Handlebars.registerHelper "project_image", helpers.project_image_hb
-Handlebars.registerHelper "image", helpers.image_hb
+Handlebars.registerHelper "responsive_image", helpers.image_hb
 Handlebars.registerHelper "project_image_url", helpers.project_image_url
 Handlebars.registerHelper "padded_content", helpers.padded_content
 Handlebars.registerHelper "markdown", helpers.markdown

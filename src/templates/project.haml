@@ -38,7 +38,9 @@
 				{{#if local}}
 				%img{src: '{{ project_image_url cover }}'}
 				{{else}}
-				%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ project_image_url cover }}'}
+				{{# responsive_image cover }}
+				%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ src }}', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
+				{{/ responsive_image }}
 				{{/if}}
 			{{/if}}
 
