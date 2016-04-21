@@ -25,8 +25,14 @@
 			.description {{{ markdown description }}}
 			{{/if}}
 
+			{{#if cover}}
 			.cover
+				{{#if local}}
 				%img{src: '{{ project_image_url cover }}'}
+				{{else}}
+				%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ project_image_url cover }}'}
+				{{/if}}
+			{{/if}}
 
 			.contents {{{ contents }}}
 
