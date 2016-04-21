@@ -1,17 +1,16 @@
 # ZEK portfolio
 
-Metalsmith powered portfolio
+![](http://i.imgur.com/DgxvOrO.png)
 
 Deployment-ready files are contained in the `build` directory.
 
-To work on the project run these commands:
+To work on the project double-click `Preview on this Computer`
 
-    $ npm install
-    $ node build.js
+To publish to the internet double-click `Publish to www.zek.si`
 
-Or simply:
+To work on the website:
 
-    $ make build
+    $ make dev-server
     
 ## Requirements for OS X
 
