@@ -9,9 +9,28 @@
 
 		%section.main
 
+			{{#if previous}}
+			%a.prev-arrow{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
+				%img{src: '/assets/arrow-left.svg'}
+			{{/if}}
+			
 			%h1 {{ name }}
 
-			%div {{{ contents }}}
+			{{#if next}}
+			%a.next-arrow{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
+				%img{src: '/assets/arrow-right.svg'}
+			{{/if}}
+
+			{{#if description }}
+			.description {{{ markdown description }}}
+			{{/if}}
+
+			.cover
+				%img{src: '{{ project_image_url cover }}'}
+
+			.contents {{{ contents }}}
+
+		%section.related
 
 			{{#if previous}}
 			%a{href: '/projects/{{ previous.paths.name }}'}

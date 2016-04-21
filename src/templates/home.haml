@@ -3,18 +3,18 @@
 
 	{{> head }}
 
-	%body.homepage
+	%body.home
 
 		{{> header }}
+		
+		.welcome-message
+			%h1 {{{ contents }}}
+					
 
-		%section.main
-
-			%div {{{ contents }}}
-
-			%ul
-				{{# each collections.projects }}
-				{{> project_item this}}
-				{{/each }}
+		.projects
+			{{# each collections.projects }}
+			{{> project_thumbnail this }}
+			{{/each }}			
 
 		{{> footer }}
 
