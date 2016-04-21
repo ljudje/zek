@@ -1,3 +1,5 @@
-.header
-	.logo
-		%a{href: "/"} ZEK
+%header{'data-sticky-container': ''}
+	%nav.sticky{'data-sticky': '', 'data-options': 'marginTop: 0;', 'data-top-anchor': '1', style: 'width: 100%;'}
+		.logo
+			%a{href: '/', title: 'ZEK'}
+				%img{src: '/assets/logo.svg', alt: 'ZEK'}
