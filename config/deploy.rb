@@ -26,7 +26,7 @@ namespace :deploy do
 	task :build_static_page do
 		run "cd #{release_path} && bundle && npm install && make build"
 	end
-	# after 'deploy:update_code', 'deploy:build_static_page'
+	after 'deploy:update_code', 'deploy:build_static_page'
 end
 
 
