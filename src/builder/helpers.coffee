@@ -42,6 +42,7 @@ module.exports =
 			width: image.geom_width
 			height: image.geom_height
 			y_ratio: image.geom_y_ratio
+			x_ratio: 100 / image.geom_y_ratio
 
 		return options.fn(data)
 

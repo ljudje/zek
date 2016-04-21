@@ -1,3 +1,14 @@
-{{#image this.src}}
+
+{{# if lejga }}
+
+{{# image this.src }}
 %img{src: '{{ src }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', style: 'width: 100%'}/
 {{/image}}
+
+{{ else }}
+
+{{# image this.src }}
+%p.imgix-fluid{'data-src': 'http://static-zek.ljudje.si/{{ src }}?fit=crop', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', style: 'padding-top: {{ x_ratio }}%'}
+{{/image}}
+
+{{/ if }}

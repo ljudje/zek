@@ -1,3 +1,16 @@
 %script{src: "/assets/js/jquery.min.js"}
 %script{src: "/assets/js/foundation.min.js"}
 %script{src: "/assets/js/app.js"}
+
+%script{:src => "https://www.imgix.com/libraries/imgix.js"}
+:javascript
+	imgix.onready(function() {
+		imgix.fluid({
+			updateOnResizeDown: true,
+			pixelStep: 5,
+			autoInsertCSSBestPractices: true,
+			lazyLoad: true,
+			lazyLoadOffsetVertical: 100,
+			lazyLoadColor: true
+		});
+	});

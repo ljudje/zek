@@ -10,5 +10,5 @@ $(document).ready ->
 	$('nav.sticky .logo').css(paddingTop: '44px')
 
 	$('.contents p').each (i, p) ->
-		if $(p).find('img').length == 0
+		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
 			$(p).addClass('no-img')
