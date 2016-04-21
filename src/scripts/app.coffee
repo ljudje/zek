@@ -13,8 +13,8 @@ $(document).ready ->
 		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
 			$(p).addClass('no-img')
 
-	$('.imgix-fluid').each (i, el) ->
-		# ix = new imgix.URL('//zek.imgix.com/' + $(el).data('local'))
-		ix = new imgix.URL($(el).data('src'))
-		ix.getColors (colors) ->
-			$(el).css(backgroundColor: colors[0])
+	# $('.imgix-fluid').each (i, el) ->
+	# 	# ix = new imgix.URL('//zek.imgix.com/' + $(el).data('local'))
+	# 	ix = new imgix.URL($(el).data('src'))
+	# 	ix.getColors (colors) ->
+	# 		$(el).css(backgroundColor: colors[0])
