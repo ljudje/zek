@@ -25,12 +25,18 @@ remove_images = utils.remove_images_from_scope
 remove_drafts = utils.remove_drafts
 # Remove ignored
 remove_ignored = utils.remove_ignored_files
+# Image dimensions
+image_dimensions = utils.image_dimensions
 
 # A Handlebars helper that helps debug the local scope
 Handlebars.registerHelper "debug", helpers.debug_handlebars
 # Template helpers
 Handlebars.registerHelper "project_image", helpers.project_image_hb
+Handlebars.registerHelper "image", helpers.image_hb
 Handlebars.registerHelper "project_image_url", helpers.project_image_url
+Handlebars.registerHelper "padded_content", helpers.padded_content
+Handlebars.registerHelper "markdown", helpers.markdown
+Handlebars.registerHelper "cta", helpers.cta
 
 
 # TODO: use minimatch globbing in all patterns & DRY
@@ -50,6 +56,8 @@ metalsmith = Metalsmith(__dirname)
 	.use(paths(
 		property: 'paths'
 	))
+	# Image dimensions
+	.use(image_dimensions())
 	# Removes drafts & ignored files from the pipeline
 	.use(remove_drafts()).use(remove_ignored())
 	# Collections of peole and projects
@@ -59,8 +67,6 @@ metalsmith = Metalsmith(__dirname)
 		projects:
 			pattern: 'projects/*.md'
 	))
-	# Removes images from the content compilation pipeline
-	.use(remove_images())
 	# Assign layouts to markdown files according to pattern (source in util.js)
 	.use(assign_layouts(
 		homepage:
@@ -88,6 +94,8 @@ metalsmith = Metalsmith(__dirname)
 	))
 	# Moves HTML files into a folder with the same name, renames them to index.html
 	.use(permalinks())
+	# Removes images from the content compilation pipeline
+	.use(remove_images())
 	# Development utility (source in util.js)
 	# .use(debug_metadata())
 	# Build
