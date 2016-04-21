@@ -1,4 +1,4 @@
-set :application, "static-sek"
+set :application, "static-zek"
 
 set :user, "zek"
 server "zek.ljudje.si", :web, :app, :db, primary: true
@@ -23,6 +23,12 @@ namespace :deploy do
     sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
   end
 end
+after "deploy:setup", "deploy:setup_config"
+
+task :build_static_page do
+	run "cd #{release_path} && bundle && npm install && make build"
+end
+after 'deploy:update_code', 'deploy:build_static_page'
 
 namespace :deploy do
   task :migrate do
