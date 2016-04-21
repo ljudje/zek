@@ -3,6 +3,14 @@
 
 	{{> head }}
 
+	%meta{property: 'og:title', content: 'ZEK crew'}
+	{{#if description}}
+	%meta{property: 'og:description', content: "We're the ZEK crew :)"}
+	{{/if}}
+	{{#if cover}}
+	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/logo.svg'}
+	{{/if}}
+
 	%body.home
 
 		{{> header }}

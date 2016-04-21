@@ -3,6 +3,14 @@
 
 	{{> head }}
 
+	%meta{property: 'og:title', content: '{{ name }} | ZEK'}
+	{{#if description}}
+	%meta{property: 'og:description', content: '{{ description }}'}
+	{{/if}}
+	{{#if cover}}
+	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si{{ project_image_url cover }}'}
+	{{/if}}
+
 	%body.project
 
 		{{> header }}
