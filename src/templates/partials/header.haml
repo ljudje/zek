@@ -1,5 +1,6 @@
-%header{'data-sticky-container': ''}
-	%nav.sticky{'data-sticky': '', 'data-options': 'marginTop: 0;', 'data-top-anchor': '1', style: 'width: 100%;'}
-		.logo
-			%a{href: '/', title: 'ZEK'}
-				%img{src: '/assets/logo.svg', alt: 'ZEK'}
+%header
+	.wrap{'data-sticky-container': true}
+		%nav.sticky{'data-sticky': true, 'data-options': 'anchor: page; marginTop: 0;', style: 'width: 100%;'}
+			.logo
+				%a{href: '/', title: 'ZEK'}
+					%img{src: '/assets/logo.svg', alt: 'ZEK'}

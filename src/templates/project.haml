@@ -11,53 +11,53 @@
 	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si{{ project_image_url cover }}'}
 	{{/if}}
 
-	%body.project
+	%body.project.page
 
-		{{> header }}
+		#page
 
-		%section.main
+			{{> header }}
 
-			{{#if previous}}
-			%a.prev-arrow{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
-				%img{src: '/assets/arrow-left.svg'}
-			{{/if}}
-			
-			%h1 {{ name }}
+			%section.main
 
-			{{#if next}}
-			%a.next-arrow{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
-				%img{src: '/assets/arrow-right.svg'}
-			{{/if}}
-
-			{{#if description }}
-			.description {{{ markdown description }}}
-			{{/if}}
-
-			{{#if cover}}
-			.cover
-				{{#if local}}
-				%img{src: '{{ project_image_url cover }}'}
-				{{else}}
-				{{# responsive_image cover }}
-				%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ src }}', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
-				{{/ responsive_image }}
+				{{#if previous}}
+				%a.prev-arrow{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
+					%img{src: '/assets/arrow-left.svg'}
 				{{/if}}
-			{{/if}}
+				
+				%h1 {{ name }}
 
-			.contents {{{ contents }}}
+				{{#if next}}
+				%a.next-arrow{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
+					%img{src: '/assets/arrow-right.svg'}
+				{{/if}}
 
-		%section.related
+				{{#if description }}
+				.description {{{ markdown description }}}
+				{{/if}}
 
-			{{#if previous}}
-			%a{href: '/projects/{{ previous.paths.name }}'}
-				&lt; &lt; {{ previous.name }}
-			{{/if}}
-			
-			{{#if next}}
-			%a{href: '/projects/{{ next.paths.name }}'}
-				{{ next.name }} &gt; &gt;
-			{{/if}}
+				{{#if cover}}
+				.cover
+					{{#if local}}
+					%img{src: '{{ project_image_url cover }}'}
+					{{else}}
+					{{# responsive_image cover }}
+					%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ src }}', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
+					{{/ responsive_image }}
+					{{/if}}
+				{{/if}}
 
-		{{> footer }}
+				.contents {{{ contents }}}
+
+			%section.related
+				{{#if next}}
+				%p.links
+					%a{href: '/'} Back
+					|
+					Next project: 
+					%a{href: '/projects/{{ next.paths.name }}'}
+						{{ next.name }}
+				{{/if}}
+
+			{{> footer }}
 
 		{{> scripts}}

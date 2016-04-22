@@ -11,19 +11,22 @@
 	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/logo.svg'}
 	{{/if}}
 
-	%body.home
+	%body.home.page
 
-		{{> header }}
-		
-		.welcome-message
-			%h1 {{{ contents }}}
-					
 
-		.projects
-			{{# each collections.projects }}
-			{{> project_thumbnail this }}
-			{{/each }}			
+		#page
+			
+			{{> header }}
 
-		{{> footer }}
+			.welcome-message
+				%h1 {{{ contents }}}
+						
+
+			.projects
+				{{# each collections.projects }}
+				{{> project_thumbnail this }}
+				{{/each }}			
+
+			{{> footer }}
 
 		{{> scripts}}
