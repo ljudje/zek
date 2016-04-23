@@ -1,15 +1,4 @@
 %script{src: "/assets/js/jquery.min.js"}
 %script{src: "/assets/js/foundation.min.js"}
+%script{src: "/assets/js/imgix.min.js"}
 %script{src: "/assets/js/app.js"}
-
-%script{:src => "/assets/js/imgix.min.js"}
-:coffeescript
-	imgix.onready () ->
-
-		imgix.fluid
-			updateOnResizeDown: true,
-			pixelStep: 5,
-			autoInsertCSSBestPractices: true,
-			lazyLoad: true,
-			lazyLoadOffsetVertical: -100,
-			lazyLoadColor: false
