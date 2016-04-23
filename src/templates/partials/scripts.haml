@@ -2,15 +2,14 @@
 %script{src: "/assets/js/foundation.min.js"}
 %script{src: "/assets/js/app.js"}
 
-%script{:src => "https://www.imgix.com/libraries/imgix.js"}
-:javascript
-	imgix.onready(function() {
-		imgix.fluid({
+%script{:src => "/assets/js/imgix.min.js"}
+:coffeescript
+	imgix.onready () ->
+
+		imgix.fluid
 			updateOnResizeDown: true,
 			pixelStep: 5,
 			autoInsertCSSBestPractices: true,
 			lazyLoad: true,
-			lazyLoadOffsetVertical: 100,
-			lazyLoadColor: true
-		});
-	});
+			lazyLoadOffsetVertical: -100,
+			lazyLoadColor: false
