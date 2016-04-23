@@ -12,7 +12,9 @@ module.exports = (grunt) ->
 	grunt.initConfig
 		pkg: grunt.file.readJSON('package.json')
 
-		clean: [ "build/{,*/}*.*", "src/templates/compiled" ]
+		clean: 
+			build: "build/{,*/}*.*"
+			templates: "src/templates/compiled"
 
 		watch:
 			options:
