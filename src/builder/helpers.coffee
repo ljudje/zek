@@ -13,21 +13,8 @@ _image_hb = (paths, image) ->
 _find_image_asset = (image_assets, path) ->
 	found = false
 	for file in image_assets
-		if file.paths.src == path
+		if file.paths.href == "/projects/#{path}"
 			found = file
-
-	found
-
-_find_image_asset_2 = (image_assets, path) ->
-	found = false
-	once = false
-	for file in image_assets
-		unless once
-			once = true
-
-		if file.paths.src == path
-			found = file
-
 	found
 
 module.exports =
@@ -44,23 +31,25 @@ module.exports =
 		_project_image_hb(@paths.name, image)
 
 	image_hb: (from, name, options) ->
+		# If we didn't specify a scope
 		if options == undefined
 			options = name
 			name = from
 			from = undefined
-
-		paths = options.data.root.paths
-
-		if from != undefined
-			full_path = "/assets/#{from.paths.dir}/#{from.paths.name}/#{name}"
-			img = _find_image_asset_2(@image_assets, full_path)
+			path = options.data.root.paths
 		else
-			full_path = "/assets/#{paths.dir}/#{paths.name}/#{name}"
-			img = _find_image_asset(@image_assets, full_path)
+			path = from.paths
 
-		
+
+		dir = encodeURIComponent(path.dir)
+		parent = encodeURIComponent(path.name)
+		name = encodeURIComponent(name)
+		collection_path = "#{parent}/#{name}"
+		full_path = "#{dir}/#{parent}/#{name}"
+		img = _find_image_asset(@image_assets, collection_path)
+
 		data =
-			src: full_path
+			src: collection_path
 			width: img.geom_width
 			height: img.geom_height
 			y_ratio: img.geom_y_ratio

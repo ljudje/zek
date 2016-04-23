@@ -8,7 +8,7 @@
 	%meta{property: 'og:description', content: '{{ description }}'}
 	{{/if}}
 	{{#if cover}}
-	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si{{ project_image_url cover }}'}
+	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/projects/{{ encode paths.name }}/{{ encode cover }}'}
 	{{/if}}
 
 	%body.project.page
@@ -41,7 +41,7 @@
 					%img{src: '{{ project_image_url cover }}'}
 					{{else}}
 					{{# responsive_image cover }}
-					%img.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ src }}', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
+					%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
 					{{/ responsive_image }}
 					{{/if}}
 				{{/if}}

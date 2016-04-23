@@ -8,7 +8,7 @@
 {{ else }}
 
 {{# responsive_image this.src }}
-%p.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', style: 'padding-top: {{ x_ratio }}%;'}
+%p.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: {{ x_ratio }}%;'}
 {{/ responsive_image }}
 
 {{/ if }}

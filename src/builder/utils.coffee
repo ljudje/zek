@@ -81,8 +81,9 @@ module.exports =
 						f.geom_width = dimensions.width
 						f.geom_height = dimensions.height
 						f.geom_y_ratio = dimensions.width / dimensions.height
-						# Cache src path
-						f.paths.src = "/assets#{f.paths.href}"
+						# Cache src path (remove projects/ prefix)
+						href = f.paths.href
+						f.paths.src = href.substr(9, href.length)
 						# Push to image assets
 						metalsmith._metadata.image_assets.push(f)
 

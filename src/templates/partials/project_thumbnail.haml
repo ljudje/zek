@@ -7,7 +7,7 @@
 
 		{{ else }}
 
-		.project-thumbnail.imgix-fluid{'data-src': 'http://static-zek.ljudje.si{{ project_image_url this.thumbnail }}?fit=crop', style: 'padding-top: 100%'}		
+		.project-thumbnail.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ encode this.paths.name }}/{{ encode this.thumbnail }}?fit=crop', style: 'padding-top: 100%'}		
 
 		{{/ if }}
 
