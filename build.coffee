@@ -4,6 +4,7 @@
 
 Metalsmith =        require('metalsmith')
 Handlebars =        require('handlebars')
+helper =            require('handlebars-helper')
 metadata =          require('metalsmith-metadata')
 markdown =          require('metalsmith-markdown')
 collections =       require('metalsmith-collections')
@@ -38,6 +39,8 @@ Handlebars.registerHelper "padded_content", helpers.padded_content
 Handlebars.registerHelper "markdown", helpers.markdown
 Handlebars.registerHelper "cta", helpers.cta
 
+# Register Solidus helpers
+helper.help(Handlebars)
 
 # TODO: use minimatch globbing in all patterns & DRY
 project_pattern = 'projects/([a-z]|-|[0-9])+.(txt|md)'
