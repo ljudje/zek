@@ -35,6 +35,9 @@ body.page
 				height: 27px
 
 		nav.is-stuck
+			box-shadow: 0 2px 50px rgba(0,0,0,0.1)
+			border-bottom: 1px solid rgb(225,225,225)
+
 			.logo
 				background: white
 			img
@@ -127,7 +130,7 @@ body.project
 
 	.prev-arrow, .next-arrow
 		position: fixed
-		top: 5rem
+		top: 5.6rem
 
 		img
 			opacity: 0.66
@@ -140,21 +143,24 @@ body.project
 	
 	h1
 		+lato
-		font-size: 36px
+		font-size: 2.2rem
 		font-weight: 200
 		color: $cox
 		text-align: center
+		margin:
+			top: 2.1rem
+			bottom: 1.5rem
 
 	.description
 		+source
-		font-size: 17px
+		font-size: 0.97rem
 		font-weight: 300
 		color: $koln
 		text-align: center
+		max-width: 42rem
 		margin:
-			left: 4rem
-			right: 4rem
-
+			left: auto
+			right: auto
 	.cover
 		margin: 
 			top: 2rem
@@ -186,11 +192,17 @@ body.project
 
 		p, ul, ol, dl, table, blockquote
 			+source
+			font-size: 1.16rem
+			color: rgb(60,60,60)
+
 		p
-			font-size: 21px
 			font-weight: 300
 			color: $koln
 			margin-bottom: 2rem
+			float: none
+			margin:
+				left: auto
+				right: auto
 
 			img
 				width: 100%
@@ -199,9 +211,7 @@ body.project
 			background-color: #efefef
 
 		p.no-img
-			padding:
-				left: 12rem
-				right: 12rem
+			max-width: 35rem
 
 		p.cta
 			text-align: center
