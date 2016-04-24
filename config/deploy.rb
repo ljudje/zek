@@ -11,7 +11,7 @@ set :deploy_via, :remote_cache
 
 set :scm, "git"
 set :repository, "git@github.com:ljudje/zek"
-set :branch, "zekstatic"
+set :branch, "master"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
