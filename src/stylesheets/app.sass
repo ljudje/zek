@@ -250,7 +250,10 @@ body.project
 			margin-bottom: 2rem
 
 		.spacer
-			padding-top: 3rem
+			+breakpoint(small)
+				padding-top: 1rem
+			+breakpoint(medium up)
+				padding-top: 3rem
 
 		p, ul, ol, dl, table, blockquote
 			+source
