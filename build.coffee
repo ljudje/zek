@@ -38,6 +38,7 @@ Handlebars.registerHelper "project_image_url", helpers.project_image_url
 Handlebars.registerHelper "padded_content", helpers.padded_content
 Handlebars.registerHelper "markdown", helpers.markdown
 Handlebars.registerHelper "cta", helpers.cta
+Handlebars.registerHelper "spacer", helpers.spacer
 
 # Register Solidus helpers
 helper.help(Handlebars)
@@ -69,7 +70,7 @@ metalsmith = Metalsmith(__dirname)
 			pattern: 'members/*.md'
 		projects:
 			pattern: 'projects/*.md'
-			sortBy: 'order'
+			sortBy: 'order'	
 	))
 	# Assign layouts to markdown files according to pattern (source in util.js)
 	.use(assign_layouts(

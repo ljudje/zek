@@ -60,6 +60,9 @@ module.exports =
 
 	simple_image_hb: (image) ->
 		"![](#{full_path})"
+
+	spacer: ->
+		new Handlebars.SafeString("<div class='spacer'></div>")
 		
 	padded_content: () ->
 		params = Array.prototype.slice.call(arguments)
