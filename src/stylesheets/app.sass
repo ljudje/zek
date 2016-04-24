@@ -18,11 +18,30 @@ $tricex: #3c3c3c
 
 // HEADER //
 
+.anchored-nav
+	box-shadow: 0 2px 50px rgba(0,0,0,0)
+	border-bottom: 1px solid transparent
+	.logo
+		background: transparent
+	img
+		height: 27px
+
+.stuck-nav
+	box-shadow: 0 2px 50px rgba(0,0,0,0.1)
+	border-bottom: 1px solid rgb(225,225,225)
+
+	.logo
+		background: white
+	img
+		height: 20px
+		opacity: .66
+
 body.page
 	header
 		height: 49px
 
 		nav
+			transition: box-shadow .2s, border-bottom .2s
 			.logo
 				text-align: center
 			img
@@ -30,20 +49,10 @@ body.page
 				transition: height 0.4s, opacity 1.2s
 
 		nav.is-anchored
-			.logo
-				background: transparent
-			img
-				height: 27px
+			@extend .anchored-nav
 
 		nav.is-stuck
-			box-shadow: 0 2px 50px rgba(0,0,0,0.1)
-			border-bottom: 1px solid rgb(225,225,225)
-
-			.logo
-				background: white
-			img
-				height: 20px
-				opacity: .66
+			@extend .stuck-nav
 
 
 // *** HOMEPAGE **** //
@@ -139,6 +148,9 @@ body.project
 
 	#page
 		margin-top: 0
+
+	header nav
+		@extend .stuck-nav
 
 	header nav img
 		height: 20px
