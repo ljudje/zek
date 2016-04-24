@@ -234,7 +234,7 @@ body.project
 			font-weight: 300
 			color: $koln
 			margin-bottom: 2rem
-			float: none
+			float: none !important
 			margin:
 				left: auto
 				right: auto
@@ -246,7 +246,10 @@ body.project
 			background-color: #efefef
 
 		p.no-img, p.small-img
-			+grid-column(8 of 12)
+			+breakpoint(small)
+				+grid-column(1 of 1)
+			+breakpoint(medium up)
+				+grid-column(8 of 12)
 			float: none !important
 			margin:
 				left: auto
