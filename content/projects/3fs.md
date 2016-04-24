@@ -6,3 +6,5 @@ description: Graphic design of 3FS office walls, made with custom cut black and 
 ---
 
 The work was awarded with the ‘DOS winter recognition 2009‘.
+
+#MY LIFE IS A JOKE
