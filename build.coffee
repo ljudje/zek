@@ -69,6 +69,7 @@ metalsmith = Metalsmith(__dirname)
 			pattern: 'members/*.md'
 		projects:
 			pattern: 'projects/*.md'
+			sortBy: 'order'
 	))
 	# Assign layouts to markdown files according to pattern (source in util.js)
 	.use(assign_layouts(
