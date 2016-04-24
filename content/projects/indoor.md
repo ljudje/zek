@@ -1,7 +1,7 @@
 ---
 name: Indoor
 thumbnail: indoor_thumb.jpeg
-cover: racuncover.jpg
+cover: racun_cover.jpg
 description: An exhibition of posters made of laser printed graphics on gradient paper (Belgrade / 2009).
 order: 500
 ---
