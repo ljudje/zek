@@ -160,11 +160,32 @@ body.project
 
 	.prev-arrow, .next-arrow
 		position: fixed
-		top: 5.6rem
+		display: block
 
 		img
 			opacity: 0.66
-			height: 66%
+
+	+breakpoint(small)
+		.prev-arrow
+			padding-right: 10px
+		.next-arrow
+			padding-left: 10px
+
+		.prev-arrow, .next-arrow
+			top: 0.2rem
+			z-index: 999
+			padding:
+				top: 4px
+				bottom: 4px
+			img
+				height: 1rem
+
+	+breakpoint(medium up)
+		.prev-arrow, .next-arrow
+			top: 5.6rem
+			img
+				height: 66%
+
 
 	.prev-arrow
 		left: 1rem
@@ -191,6 +212,12 @@ body.project
 		margin:
 			left: auto
 			right: auto
+
+		+breakpoint(small)
+			padding:
+				left: 1rem
+				right: 1rem
+
 	.cover
 		margin: 
 			top: 2rem
