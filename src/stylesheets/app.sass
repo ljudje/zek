@@ -245,8 +245,12 @@ body.project
 		p.imgix-fluid
 			background-color: #efefef
 
-		p.no-img
-			max-width: 35rem
+		p.no-img, p.small-img
+			+grid-column(8 of 12)
+			float: none !important
+			margin:
+				left: auto
+				right: auto
 
 		p.cta
 			text-align: center

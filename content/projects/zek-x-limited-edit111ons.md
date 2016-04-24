@@ -3,7 +3,7 @@ name: ZEK x LIMITED EDIT111ONS
 thumbnail: 008_LIMITED-EDIT111ONS4.jpg
 cover: 008_LIMITED-EDIT111ONS3.jpg
 description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project (Poligon, Ljubljana / 2014).
-order: 100
+order: 10
 ---
 
 {{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
@@ -52,17 +52,17 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 ### Research phase & Making of
 
-{{> img src="635500129876435527_kolektiv_zek.png" }}
+{{> img src="635500129876435527_kolektiv_zek.png" size="small" }}
 
-{{> img src="10371964_10153276286317564_5615823264779274578_n.jpg" }}
+{{> img src="10371964_10153276286317564_5615823264779274578_n.jpg" size="small" }}
 
-{{> img src="IMG_0505.JPG" }}
+{{> img src="IMG_0505.JPG" size="small" }}
 
-{{> img src="10733872_705785456175068_6620859739541209575_o.jpg" }}
+{{> img src="10733872_705785456175068_6620859739541209575_o.jpg" size="small" }}
 
-{{> img src="10631157_705787679508179_6093050114236472134_o.jpg" }}
+{{> img src="10631157_705787679508179_6093050114236472134_o.jpg" size="small" }}
 
-{{> img src="jazpos.jpg" }}
+{{> img src="jazpos.jpg" size="small" }}
 
-{{> img src="10679850_706246312795649_4887000306584404137_o.jpg" }}
+{{> img src="10679850_706246312795649_4887000306584404137_o.jpg" size="small" }}
 
