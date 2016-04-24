@@ -16,6 +16,9 @@ open: node_modules
 dev-server:
 	make dev server open -j3
 
+deploy:
+	git push && cap deploy
+
 node_modules: package.json
 	npm install
 
