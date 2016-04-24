@@ -48,6 +48,8 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{> youtube id="uFc5gbmu7HM" }}
 
+{{ spacer }}
+
 ### Research phase & Making of
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
