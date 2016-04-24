@@ -1,4 +1,4 @@
-if document.location.href.indexOf('localhost') > -1
+overwrite_images_with_local_paths = ->
 	$('.imgix-fluid').each (i, el) ->
 		path = $(el).data('src')
 		path = path.replace('http://zek.imgix.net/', '/assets/projects/')
@@ -9,13 +9,23 @@ if document.location.href.indexOf('localhost') > -1
 		else
 			$(el).css(backgroundImage: "#{bim}", backgroundSize: "cover")
 
-$(document).ready ->
-	$(document).foundation()
-
+style_content = ->
 	$('.contents p').each (i, p) ->
 		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
 			$(p).addClass('no-img')
-			
+
+	$('.contents .youtube iframe').each (i, y) ->
+		width = $(y).width()
+		height = width / 1.6
+		$(y).height(height)	
+
+if document.location.href.indexOf('localhost') > -1
+	overwrite_images_with_local_paths()
+
+$(document).ready ->
+	$(document).foundation()
+
+	style_content()
 
 	if document.location.href.indexOf('localhost') == -1
 		imgix.onready () ->
