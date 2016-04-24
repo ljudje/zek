@@ -8,6 +8,7 @@ order: 300
 
 {{> img src="4.jpg" }}
 
+{{> youtube id="uFc5gbmu7HM" }}
 
 <iframe src="https://player.vimeo.com/video/6923270?title=0&byline=0&portrait=0" width="2000" height="1500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
