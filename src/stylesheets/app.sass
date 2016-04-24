@@ -5,6 +5,7 @@ $silver: #9C9C9C
 $metal: #333
 $cox: rgb(60, 60, 60)
 $koln: rgb(30, 30, 30)
+$tricex: #3c3c3c
 
 =roboto
 	font-family: Roboto, sans-serif
@@ -51,7 +52,7 @@ body.home
 	background: white
 
 	#page
-		margin-top: 4rem
+		margin-top: 2rem
 	
 	header nav img
 		height: 27px
@@ -59,13 +60,13 @@ body.home
 	.welcome-message
 		text-align: center
 		margin:
-			top: 2rem
+			top: 0
 			bottom: 2rem
-		h1
+		p
 			+lato
-			color: $silver
+			color: $tricex
 			font-weight: 200
-			font-size: 40px
+			font-size: 1.6rem
 
 	.projects
 		+grid-row
@@ -88,7 +89,7 @@ body.home
 			+grid-column(1 of 3)
 
 		float: left !important
-		
+
 		padding:
 			top: 0.5rem
 			bottom: 0.5rem
