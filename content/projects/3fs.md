@@ -8,9 +8,6 @@ order: 1100
 
 The work was awarded with the ‘DOS winter recognition 2009‘.
 
-{{> img src="3fs1.JPG" }}
-
-{{> img src="3fs1.JPG" }}
 
 {{> img src="3fs2.JPG" }}
 
