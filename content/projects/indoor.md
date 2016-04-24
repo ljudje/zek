@@ -6,9 +6,13 @@ description: An exhibition of posters made of laser printed graphics on gradient
 order: 500
 ---
 
+{{> img src="facelift.jpg" }}
+
 {{> img src="candelight1.jpg" }}
 
 {{> img src="candelight2.jpg" }}
+
+{{> img src="milka.jpg" }}
 
 {{> img src="caphead.jpg" }}
 
@@ -22,15 +26,7 @@ order: 500
 
 {{> img src="domzale6.jpg" }}
 
-{{> img src="facelift.jpg" }}
-
-{{> img src="foopack.jpg" }}
-
-{{> img src="gum.jpg" }}
-
-{{> img src="majica.jpg" }}
-
-{{> img src="milka.jpg" }}
+{{> img src="gumb.jpg" }}
 
 {{> img src="ribi.jpg" }}
 
@@ -39,3 +35,11 @@ order: 500
 {{> img src="sucks.jpg" }}
 
 {{> img src="zek-crew-printam.jpg" }}
+
+{{> img src="four1.jpg" }}
+
+{{> img src="four2.jpg" }}
+
+{{> img src="foopack.jpg" }}
+
+{{> img src="majica.jpg" }}
