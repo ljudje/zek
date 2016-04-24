@@ -8,7 +8,6 @@ if document.location.href.indexOf('localhost') > -1
 			el.src = path
 		else
 			$(el).css(backgroundImage: "#{bim}", backgroundSize: "cover")
-		console.log('ok', bim, $(el).attr('style'))
 
 $(document).ready ->
 	$(document).foundation()
@@ -27,3 +26,15 @@ $(document).ready ->
 				lazyLoad: true,
 				lazyLoadOffsetVertical: -200,
 				lazyLoadColor: false
+
+	$(document).on 'keydown', (e) ->
+		# left
+		if e.keyCode == 37
+			$el = $('body.project a.prev-arrow')
+			if  $el.length > 0
+				document.location.href = $el.attr('href')
+		# right
+		if e.keyCode == 39
+			$el = $('body.project a.next-arrow')
+			if  $el.length > 0
+				document.location.href = $el.attr('href')
