@@ -16,8 +16,6 @@ order: 1700
 
 {{> img src="HeyToday.png" }}
 
-{{> img src="artur-glow.jpg" }}
-
 {{> img src="Malibu.png" }}
 
 {{> img src="oval-trikot-artur-2016.jpg" }}
