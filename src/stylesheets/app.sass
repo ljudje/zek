@@ -69,12 +69,24 @@ body.home
 
 	.projects
 		+grid-row
+
 		margin:
-			left: 2rem
-			right: 2rem
+			left: 0.5rem
+			right: 0.5rem
+
+		+breakpoint(medium up)
+			margin:
+				left: 2rem
+				right: 2rem
 
 	.project
-		+grid-column(1 of 3)
+		+breakpoint(medium up)
+			+grid-column(1 of 3)
+		+breakpoint(small)
+			+grid-column(1 of 2)
+		+breakpoint(large up)
+			+grid-column(1 of 4)
+		float: left
 		padding:
 			top: 0.5rem
 			bottom: 0.5rem
