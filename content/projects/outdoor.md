@@ -1,41 +1,65 @@
 ---
-name: Indoor
-thumbnail: indoor_thumb.jpeg
-cover: racuncover.jpg
-description: An exhibition of posters made of laser printed graphics on gradient paper (Belgrade / 2009).
-order: 500
+name: Outdoor
+thumbnail: outdoor_thumb.jpeg
+cover: begmozganovcover.jpg
+description: 
+order: 600
 ---
 
-{{> img src="candelight1.jpg" }}
+{{> img src="cattothechase.jpg" }}
 
-{{> img src="candelight2.jpg" }}
+{{> img src="dobrodosli.jpg" }}
 
-{{> img src="caphead.jpg" }}
+{{> img src="artur-trok.jpg" }}
 
-{{> img src="domzale1.jpg" }}
+{{> img src="bozicek.jpg" }}
 
-{{> img src="domzale2.jpg" }}
+{{> img src="childhood-pattern.jpg" }}
 
-{{> img src="domzale3.jpg" }}
+{{> img src="drek.jpg" }}
 
-{{> img src="domzale4.jpg" }}
+{{> img src="four1.jpg" }}
 
-{{> img src="domzale6.jpg" }}
+{{> img src="four2.jpg" }}
 
-{{> img src="facelift.jpg" }}
+{{> img src="frozek.jpg" }}
 
-{{> img src="foopack.jpg" }}
+{{> img src="glavur.jpg" }}
 
-{{> img src="gum.jpg" }}
+{{> img src="imwithstupid.jpg" }}
 
-{{> img src="majica.jpg" }}
+{{> img src="kokice.jpg" }}
 
-{{> img src="milka.jpg" }}
+{{> img src="kroznik-klobuk.jpg" }}
 
-{{> img src="ribi.jpg" }}
+{{> img src="layers-freedom.jpg" }}
 
-{{> img src="sova.jpg" }}
+{{> img src="layers-nature.jpg" }}
 
-{{> img src="sucks.jpg" }}
+{{> img src="leon.jpg" }}
 
-{{> img src="zek-crew-printam.jpg" }}
+{{> img src="lobanja-smeti.jpg" }}
+
+{{> img src="luka-koper-plastic-monster.jpg" }}
+
+{{> img src="metlika.jpg" }}
+
+{{> img src="nalepke.jpg" }}
+
+{{> img src="oblikobranje.jpg" }}
+
+{{> img src="panda-orca-artnak.jpg" }}
+
+{{> img src="pomlad-je-sen-zime.jpg" }}
+
+{{> img src="sablona.jpg" }}
+
+{{> img src="scream.jpg" }}
+
+{{> img src="senca-spreji.jpg" }}
+
+{{> img src="the-chase.jpg" }}
+
+{{> img src="supki.jpg" }}
+
+{{> img src="ZEK-LucilleCaballero.jpg" }}
