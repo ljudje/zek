@@ -6,13 +6,13 @@ description: [A tool for creating your own comics] (http://stripgenerator.com/)�
 order: 1200
 ---
 
-{{> img src=“strip1.jpg” }}
+{{> img src="strip1.jpg" }}
 
-{{> img src=“strip2.jpg” }}
+{{> img src="strip2.jpg" }}
 
-{{> img src=“strip3.jpg” }}
+{{> img src="strip3.jpg" }}
 
-{{> img src=“strip4.jpg” }}
+{{> img src="strip4.jpg" }}
 
 
 
