@@ -71,7 +71,8 @@ module.exports =
 
 	markdown: () ->
 		params = Array.prototype.slice.call(arguments)
-		return marked(params[0])
+		mdo = marked(params[0])
+		return new Handlebars.SafeString(mdo)
 
 	cta: () ->
 		params = Array.prototype.slice.call(arguments)
