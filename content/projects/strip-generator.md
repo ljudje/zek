@@ -13,14 +13,3 @@ order: 1200
 {{> img src="strip3.jpg" }}
 
 {{> img src="strip4.jpg" }}
-
-
-
-## Lol
-
-We are still missing:
-
-- video
-- gif
-- ...
-- list styling
