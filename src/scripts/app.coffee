@@ -14,10 +14,10 @@ style_content = ->
 		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
 			$(p).addClass('no-img')
 
-	$('.contents .youtube iframe').each (i, y) ->
-		width = $(y).width()
+	$('.contents .youtube iframe, .contents .vimeo iframe').each (i, v) ->
+		width = $(v).width()
 		height = width / 1.6
-		$(y).height(height)	
+		$(v).height(height)	
 
 if document.location.href.indexOf('localhost') > -1
 	overwrite_images_with_local_paths()

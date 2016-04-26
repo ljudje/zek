@@ -8,8 +8,7 @@ order: 300
 
 {{> img src="4.jpg" }}
 
-
-<iframe src="https://player.vimeo.com/video/6923270?title=0&byline=0&portrait=0" width="2000" height="1500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{> vimeo id='6923270'}}
 
 <div class="embedly-responsive" style="position: relative;padding-bottom: 177.778%;height: 0;overflow: hidden;"><iframe class="embedly-embed" frameborder="0" scrolling="no" allowfullscreen src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fthumbs.gfycat.com%2FInsistentComposedGuanaco-mobile.mp4&src_secure=1&url=http%3A%2F%2Fgfycat.com%2FInsistentComposedGuanaco&image=https%3A%2F%2Fthumbs.gfycat.com%2FInsistentComposedGuanaco-thumb100.jpg&key=4391e64690444f0ea2b580d367df61d9&type=video%2Fmp4&schema=gfycat" width="720" height="1280" style="position: absolute;top: 0;left: 0;width:  q%;height: 100%;"></iframe></div>
 
