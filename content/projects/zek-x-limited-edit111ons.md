@@ -28,11 +28,9 @@ To effectively grasp the intricacy of the construction of exhibition pieces, we 
 
 The authorial gesture is founded on principles of formalism and the mathemati- cally precise geographical data from the lives of majestic summits. In addition to the bohemian intuitive mastering of the language of visual arts, the scientific aspect of the exhibit pieces called for an expedition through heaps and mountains of paper, securing the calculations’ place in art. Rather than suggesting a mere artistic interpretation, the most recent ZEK intervention is therefore an excerpt of reality, transcending the limits of an exhibition piece form. It could be said that its entirety is held up to absent standards, emerging as a reminder of the elusive structure of time and the fleeting comprehensive- ness of space. It is precisely the absence of standards and cardinal directions that enables us to cease to be amazed, be it at our own insignificance or at— likewise our own—misguided conception of the world around us.
 
--- Nika Jurman
+— Nika Jurman
 
 {{ spacer }}
-
-{{> img src="ZEK_letak_print02-1.jpg" }}
 
 {{> youtube id="e18h5OKS5r0" }}
 
@@ -50,7 +48,11 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{> youtube id="uFc5gbmu7HM" }}
 
+{{ spacer }}
+
 ### Research phase & Making of
+
+{{> img src="ZEK_letak_print02-1.jpg" }}
 
 {{> img src="635500129876435527_kolektiv_zek.png" size="small" }}
 
