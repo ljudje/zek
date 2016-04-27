@@ -3,7 +3,7 @@ name: Type
 thumbnail: trnfest_thumb.jpeg
 cover: trnfest2_cover.jpg
 description: 
-order: 1700
+order: 1690
 ---
 
 {{> img src="trnfest1.jpg" }}

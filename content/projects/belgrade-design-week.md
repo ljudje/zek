@@ -3,7 +3,7 @@ name: Belgrade design week
 thumbnail: belgrade_thumb.jpeg
 cover: belgradecover.jpg
 description: An exhibition of posters made of laser printed graphics on gradient paper (Belgrade / 2009).
-order: 500
+order: 510
 ---
 
 {{> img src="belgrade2.jpg" }}
