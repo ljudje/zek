@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>footer-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.8107196   0 0 0 0 0.8107196   0 0 0 0 0.8107196  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-4" sketch:type="MSArtboardGroup" transform="translate(-495.000000, -609.000000)">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(-2.000000, 522.000000)">
+                <rect id="Header-Background" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="207"></rect>
+                <g id="mail" transform="translate(498.000000, 91.000000)" stroke="#000000" stroke-width="1.5" sketch:type="MSShapeGroup" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-6" transform="translate(13.650000, 9.000000) scale(-1, -1) translate(-13.650000, -9.000000) " x="0" y="0" width="27.3" height="18"></rect>
+                    <path d="M0.318312484,0.375187039 L13.8740065,12 L27.0288063,0.375187039" id="Path-6"></path>
+                    <path d="M0.35,17.625 L9.93846601,8.83566533" id="Path-7"></path>
+                    <path d="M18.2186901,17.625 L27.3186904,8.625" id="Path-7-Copy" transform="translate(22.584345, 13.125000) scale(-1, 1) translate(-22.584345, -13.125000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
