@@ -1,24 +1,15 @@
-
-{{# if local }}
-
-{{# responsive_image this.src }}
-%img{src: '{{ src }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', style: 'width: 100%'}/
-{{/ responsive_image }}
-
-{{ else }}
-
 {{# equal this.size "small" }}
 
-{{# responsive_image this.src }}
-%p.imgix-fluid.small-img{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: calc({{ x_ratio }}%*2/3);'}
-{{/ responsive_image }}
+.responsive-image
+	{{# responsive_image this.src }}
+	.imgix-fluid.small-img{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: calc({{ x_ratio }}%*2/3);'}
+	{{/ responsive_image }}
 
 {{ else }}
 
-{{# responsive_image this.src }}
-%p.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: {{ x_ratio }}%;'}
-{{/ responsive_image }}
+.responsive-image
+	{{# responsive_image this.src }}
+	.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: {{ x_ratio }}%;'}
+	{{/ responsive_image }}
 
 {{/ equal }}
-
-{{/ if }}
