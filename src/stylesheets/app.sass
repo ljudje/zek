@@ -235,7 +235,7 @@ body.project
 	
 	.contents
 
-		h1, h2, h3, h4, h5, h6, p, .youtube
+		h1, h2, h3, h4, h5, h6, p, .youtube, .vimeo, .responsive-image
 			+grid-column(1 of 1)
 			float: none
 
@@ -247,6 +247,8 @@ body.project
 
 		.youtube, .vimeo
 			text-align: center
+
+		p, ul, ol, dl, table, blockquote, .youtube, .vimeo, .responsive-image
 			margin-bottom: 2rem
 
 		.spacer
@@ -263,7 +265,6 @@ body.project
 		p
 			font-weight: 300
 			color: $koln
-			margin-bottom: 2rem
 			float: none !important
 			margin:
 				left: auto
@@ -294,20 +295,96 @@ body.project
 				font-size: 24px
 				font-weight: 400
 
-	.related
-		.links
-			+lato
-			text-align: center
+	.share
+		+grid-row
+		margin-bottom: 6rem
+
+		.name, .date
 			+grid-column(1 of 1)
-		.back, .next
-			+source
-			+grid-column(6 of 12)
-		.back
+		.fb, .tw, .tu
+			+grid-column(1 of 3)
+		.date
+			text-align: center
+		.fb
 			text-align: right
-		.next
+		.tw
+			text-align: center
+		.tu
 			text-align: left
+
+	.related
+		height: 70vh
+		position: relative
+		margin-top: 2rem
+
+		a
+			+lato
+			
+			.img
+				width: 100%
+				padding-top: 80%
+				background-position: center
+				-webkit-transition: opacity .2s
+				transition: opacity .2s
+
+			.title
+				-webkit-transition: opacity .5s
+				transition: opacity .5s, color .5s
+
+		a
+			.img
+				opacity: .2
+			.title
+				opacity: 1
+				color: $black
+
+		a:hover
+			.img
+				opacity: 0
+			.title
+				opacity: 1
+				color: $black
+		
+		.prev-thumb, .next-thumb
+			+grid-column(1 of 2)
+			
+			.title
+				position: absolute
+				top: 5.3rem
+
+			.name, .meta
+				display: block
+			.name
+				font-size: 2rem
+			.meta
+				font-size: 1rem
+
+		.prev-thumb
+			a
+				text-align: left
+			.title
+				left: 6rem
+
+		.next-thumb
+			a
+				text-align: right
+			.title
+				right: 6rem
+				
+
 
 // *** MISC &&& //
 
 footer
-	display: none
+	height: 30vh
+	+grid-column
+
+	.fb, .email, .instagram
+		+grid-column(1 of 3)
+		line-height: 20vh
+	.fb
+		text-align: right
+	.email
+		text-align: center
+	.instagram
+		text-align: left

@@ -48,14 +48,46 @@
 
 				.contents {{{ contents }}}
 
+			{{#if false }}
+			%section.share
+				%h1.name
+					{{ name }}
+				.fb
+					%a{href: '#'} facebook
+				.tw
+					%a{href: '#'} twitter
+				.tu
+					%a{href: '#'} tumblr
+			{{/if}}
+
 			%section.related
+				{{#if previous }}
+				.prev-thumb
+					%a{href: '/projects/{{ previous.paths.name }}'}
+						{{# responsive_image previous previous.thumbnail }}
+						.img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+						{{/ responsive_image }}
+						%br/
+						%span.title
+							%span.name {{ previous.name }}
+							%span.meta Previous project
+				{{ else }}
+				.prev-thumb
+					.none
+				{{/if}}
 				{{#if next}}
-				%p.links
-					%a{href: '/'} Back
-					|
-					Next project: 
+				.next-thumb
 					%a{href: '/projects/{{ next.paths.name }}'}
-						{{ next.name }}
+						{{# responsive_image next next.thumbnail }}
+						.img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+						{{/ responsive_image }}
+						%br/
+						%span.title
+							%span.name {{ next.name }}
+							%span.meta Next project
+				{{ else }}
+				.next-thumb
+					.none
 				{{/if}}
 
 			{{> footer }}
