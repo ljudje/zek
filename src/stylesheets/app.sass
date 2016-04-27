@@ -186,7 +186,6 @@ body.project
 			img
 				height: 66%
 
-
 	.prev-arrow
 		left: 1rem
 	.next-arrow
@@ -372,19 +371,39 @@ body.project
 				right: 6rem
 				
 
-
 // *** MISC &&& //
 
 footer
 	height: 30vh
+	position: relative
 	+grid-column
 
-	.fb, .email, .instagram
-		+grid-column(1 of 3)
-		line-height: 20vh
-	.fb
-		text-align: right
-	.email
+	.links
+		+grid-column(1 of 1)
 		text-align: center
-	.instagram
-		text-align: left
+
+		a
+			margin-top: 15vh
+			display: inline-block
+			line-height: 2rem
+			width: 2rem
+			height: 2rem
+			background-position: center center
+			background-repeat: no-repeat
+			background-size: cover
+			-webkit-transform: translateY(-50%)
+			transform: translateY(-50%)
+
+			span
+				display: none
+
+	a.fb
+		background-image: url(/assets/footer-facebook.svg)
+	a.email
+		background-image: url(/assets/footer-mail.svg)
+		margin-left: 4rem
+		margin-right: 4rem
+	a.instagram
+		margin-left: 0.3rem
+		background-image: url(/assets/footer-instagram.svg)
+		
