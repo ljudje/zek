@@ -3,7 +3,7 @@ name: Type
 thumbnail: thumbnail-type.png
 cover: DieZekCrew01.png
 description: 
-order: 1700
+order: 600
 ---
 
 {{> img src="tanek-artur-2016.jpg" }}
