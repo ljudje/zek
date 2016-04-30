@@ -13,7 +13,7 @@ order: 460
 
 {{> img src="childhood-pattern.jpg" }}
 
-{{> img src="luka-koper-plastic-monster.jpg" }}
+{{> img src="plasticbagmonster.jpg" }}
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
@@ -29,15 +29,23 @@ order: 460
 
 {{> img src="imwithstupid.jpg" }}
 
+{{> img src="kdortobere.jpg" }}
+
+{{> img src="oblikobranje.gif" }}
+
 {{> img src="ZEK-LucilleCaballero.jpg" }}
 
-{{> img src="frozek.jpg" }}
-
 {{> img src="kokice.jpg" }}
+
+{{> img src="drek.jpg" }}
+
+{{> img src="drek-proces.jpg" }}
 
 {{> img src="kroznik-klobuk.jpg" }}
 
 {{> img src="leon.jpg" }}
+
+{{> img src="scream.jpg" }}
 
 {{> img src="lobanja-smeti.jpg" }}
 
@@ -45,20 +53,14 @@ order: 460
 
 {{> img src="artur-trok.jpg" }}
 
-{{> img src="sablona.jpg" }}
-
-{{> img src="scream.jpg" }}
+{{> img src="glavur.jpg" }}
 
 {{> img src="senca-spreji.jpg" }}
 
-{{> img src="drek.jpg" }}
+{{> img src="frozek.jpg" }}
 
-{{> img src="drek-proces.jpg" }}
+{{> img src="sablona.jpg" }}
 
 {{> img src="supki.jpg" }}
-
-{{> img src="glavur.jpg" }}
-
-{{> img src="oblikobranje.jpg" }}
 
 {{> img src="nalepke.jpg" }}

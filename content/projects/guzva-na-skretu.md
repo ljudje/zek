@@ -14,8 +14,6 @@ order: 1310
 
 {{> img src="guzva12.jpg" }}
 
-{{> img src="guzva14.jpg" }}
-
 {{> img src="guzva10.jpg" }}
 
 {{> img src="guzva4.jpg" }}

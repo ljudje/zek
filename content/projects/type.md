@@ -22,6 +22,8 @@ order: 600
 
 {{> img src="Randy.png" }}
 
+{{> img src="Randy_canvas.jpg" }}
+
 {{> img src="TattooType_delovna03.png" }}
 
 {{> img src="tipografiti-04.jpg" }}
