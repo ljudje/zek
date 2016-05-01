@@ -7,25 +7,21 @@ order: 460
 ---
 
 
-{{> img src="dobrodosli.jpg" }}
+{{> img src="dobrodosli.JPG" }}
 
 {{> img src="bozicek.jpg" }}
-
-{{> img src="childhood-pattern.jpg" }}
 
 {{> img src="plasticbagmonster.jpg" }}
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
-{{> img src="layers-nature.jpg" }}
-
-{{> img src="layers-freedom.jpg" }}
+{{> img src="childhood-pattern.jpg" }}
 
 {{> img src="cattothechase.jpg" }}
 
 {{> img src="the-chase.jpg" }}
 
-{{> img src="panda-orca-artnak.jpg" }}
+{{> img src="panda-orca-artnak.JPG" }}
 
 {{> img src="imwithstupid.jpg" }}
 
@@ -41,15 +37,19 @@ order: 460
 
 {{> img src="drek-proces.jpg" }}
 
+{{> img src="layers-nature.jpg" }}
+
+{{> img src="layers-freedom.jpg" }}
+
 {{> img src="kroznik-klobuk.jpg" }}
 
 {{> img src="leon.jpg" }}
 
 {{> img src="scream.jpg" }}
 
-{{> img src="lobanja-smeti.jpg" }}
-
 {{> img src="metlika.jpg" }}
+
+{{> img src="lobanja-smeti.JPG" }}
 
 {{> img src="artur-trok.jpg" }}
 
