@@ -1,6 +1,6 @@
 ---
 name: Type
-thumbnail: thumbnail-type.png
+thumbnail: thumbthezek.jpg
 cover: DieZekCrew01.png
 description: 
 order: 600

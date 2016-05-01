@@ -1,6 +1,6 @@
 ---
 name: Illustrations
-thumbnail: thumbnail-illustrations.jpeg
+thumbnail: bone.png
 cover: kit.jpg
 description: 
 order: 1400

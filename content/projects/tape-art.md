@@ -1,6 +1,6 @@
 ---
 name: Tape Art
-thumbnail: thumbnail-tapeart.jpeg
+thumbnail: thumbnail-tapeart.jpg
 cover: tapeart1.jpg
 description: We made custom billboards for Orto's Tape Art campaign.
 order: 1500

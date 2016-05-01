@@ -14,10 +14,6 @@ order: 500
 
 {{> img src="milka.jpg" }}
 
-{{> img src="brixtonbike.jpg" }}
-
-{{> img src="posbike.jpg" }}
-
 {{> img src="caphead.jpg" }}
 
 {{> img src="sova.jpg" }}
@@ -32,6 +28,12 @@ order: 500
 
 {{> img src="gumb.jpg" }}
 
+{{> img src="brixtonbike.jpg" }}
+
+{{> img src="solarbike.jpg" }}
+
+{{> img src="posbike.jpg" }}
+
 {{> img src="celtra.jpg" }}
 
 {{> img src="zek-crew-printam.jpg" }}
@@ -43,6 +45,8 @@ order: 500
 {{> img src="four2.jpg" }}
 
 {{> img src="mavricazek.jpg" }}
+
+{{> img src="mavricazek2.jpg" }}
 
 {{> img src="izrezanci2.jpg" }}
 
@@ -59,5 +63,3 @@ order: 500
 {{> img src="domzale6.jpg" }}
 
 {{> img src="foopack.jpg" }}
-
-{{> img src="majica.jpg" }}
