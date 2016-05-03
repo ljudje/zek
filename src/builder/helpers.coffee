@@ -1,5 +1,6 @@
 marked = require('marked')
 Handlebars = require('handlebars')
+sanitizeHTML = require('sanitize-html')
 
 _project_image_hb = (project, image) ->
 	'![](' + _project_image_url(project, image) + ')'
@@ -79,3 +80,29 @@ module.exports =
 		params = Array.prototype.slice.call(arguments)
 		options = params[params.length - 1]
 		return "<p class='cta'>" + options.fn(this) + "</p>"
+
+	strip_html: (markup) ->
+		sanitizeHTML(markup, allowedTags: [])
+
+	chain: () ->
+		helpers = []
+		for arg, index in arguments
+			# If the argument is a Handlebars helper
+			if Handlebars.helpers[arg]
+				# push the helper on the helpers stack
+				helpers.push Handlebars.helpers[arg]
+			# Otherwise the argumant is the actual value
+			else
+				# Memoize the argument
+				value = arg
+				# Chain the helper processing
+				for helper in helpers
+					# Get the scope from arguments
+					scope = arguments[index + 1]
+					# Rewrite the value with helper output
+					value = helper(value, scope)
+				# Break out of the loop to skip processing scope
+				return value
+		# Return accumulated value
+		return value
+

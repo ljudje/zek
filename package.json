@@ -38,6 +38,7 @@
     "metalsmith-paths": "^2.1.1",
     "metalsmith-permalinks": "^0.4.1",
     "motion-ui": "^1.2.2",
+    "sanitize-html": "^1.11.4",
     "static-server": "^2.0.2"
   },
   "browserify": {
