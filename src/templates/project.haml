@@ -6,11 +6,11 @@
 	%meta{property: 'og:title', content: '{{ name }} | ZEK'}
 
 	{{# if description }}
-	%meta{property: 'og:description', content: '{{ description }}'}
+	%meta{property: 'og:description', content: '{{ chain "markdown" "strip_html" description }}'}
 	{{/ if }}
 
 	{{# if cover }}
-	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/projects/{{ encode paths.name }}/{{ encode cover }}'}
+	%meta{property: 'og:image', content: 'http://{{ site.asset_host }}/{{ encode paths.name }}/{{ encode cover }}?w=1200&fm=jpg'}
 	{{/ if }}
 
 	%body.project.page

@@ -5,13 +5,9 @@
 
 	%meta{property: 'og:title', content: 'ZEK crew'}
 
-	{{# if description }}
-	%meta{property: 'og:description', content: "We're the ZEK crew :)"}
-	{{/ if }}
+	%meta{property: 'og:description', content: "We're the ZEK crew ;)"}
 	
-	{{# if cover }}
-	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/logo.svg'}
-	{{/ if }}
+	%meta{property: 'og:image', content: 'http://{{ site.hostname }}/assets/facebook_cover.jpg'}
 
 	%body.home.page
 
