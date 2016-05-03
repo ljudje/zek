@@ -40,13 +40,14 @@ module.exports =
 		else
 			path = from.paths
 
+		image_assets = options.data.root.image_assets
 
 		dir = encodeURIComponent(path.dir)
 		parent = encodeURIComponent(path.name)
 		name = encodeURIComponent(name)
 		collection_path = "#{parent}/#{name}"
 		full_path = "#{dir}/#{parent}/#{name}"
-		img = _find_image_asset(@image_assets, collection_path)
+		img = _find_image_asset(image_assets, collection_path)
 
 		data =
 			src: collection_path
