@@ -34,7 +34,7 @@ $(document).ready ->
 				pixelStep: 5,
 				autoInsertCSSBestPractices: true,
 				lazyLoad: true,
-				lazyLoadOffsetVertical: 1000,
+				lazyLoadOffsetVertical: 2000,
 				lazyLoadColor: false
 
 	$(document).on 'keydown', (e) ->
