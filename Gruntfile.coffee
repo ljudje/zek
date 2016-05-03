@@ -60,7 +60,7 @@ module.exports = (grunt) ->
 			dist:
 				options:
 					sourcemap: 'none'
-					style: 'nested'
+					style: 'compressed'
 				files: [{
 					expand: true
 					cwd: 'src/stylesheets'
