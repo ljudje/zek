@@ -4,10 +4,12 @@
   "version": "0.0.1",
   "description": "ZEK CREW",
   "devDependencies": {
+    "browserify-shim": "^3.8.12",
     "coffee-script": "^1.10.0",
     "foundation-sites": "^6.2.0",
     "graceful-fs": "^4.0.0",
     "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-coffee": "^1.0.0",
@@ -24,6 +26,7 @@
     "handlebars": "^4.0.5",
     "handlebars-helper": "0.0.12",
     "image-size": "^0.5.0",
+    "imagesloaded": "^4.1.0",
     "jquery": "^2.2.2",
     "lodash": "^4.0.0",
     "metalsmith": "^2.1.0",
@@ -36,5 +39,22 @@
     "metalsmith-permalinks": "^0.4.1",
     "motion-ui": "^1.2.2",
     "static-server": "^2.0.2"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "foundation": "foundation",
+    "imgix": "imgix",
+    "imagesloaded": "imagesLoaded"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.min.js",
+    "foundation": "./node_modules/foundation-sites/dist/foundation.min.js",
+    "imagesloaded": "./node_modules/imagesloaded/imagesloaded.pkgd.min.js",
+    "imgix": "./src/assets/js/imgix.min.js"
   }
 }

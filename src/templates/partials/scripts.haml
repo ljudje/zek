@@ -1,4 +1,7 @@
-%script{src: "/assets/js/jquery.min.js"}
-%script{src: "/assets/js/foundation.min.js"}
-%script{src: "/assets/js/imgix.min.js"}
-%script{src: "/assets/js/app.js"}
+:javascript
+	bundle_script = document.createElement('script');
+	bundle_script.type = 'text/javascript';
+	bundle_script.src = '/assets/js/bundle.js';
+
+	first_script = document.getElementsByTagName('script')[0];
+	first_script.parentNode.insertBefore(bundle_script, first_script);

@@ -2,6 +2,7 @@ module.exports = (grunt) ->
 	# Required tasks
 	grunt.loadNpmTasks('grunt-exec')
 	grunt.loadNpmTasks('grunt-haml')
+	grunt.loadNpmTasks('grunt-browserify')
 	grunt.loadNpmTasks('grunt-contrib-sass')
 	grunt.loadNpmTasks('grunt-contrib-coffee')
 	grunt.loadNpmTasks('grunt-contrib-copy')
@@ -23,7 +24,7 @@ module.exports = (grunt) ->
 
 			coffee:
 				files: ['src/scripts/{,*/}*.coffee']
-				tasks: ['coffee']
+				tasks: ['scripts']
 
 			sass:
 				files: ['src/stylesheets/{,*/}*.{scss,sass}'],
@@ -82,6 +83,11 @@ module.exports = (grunt) ->
 					ext: '.js'	
 				}]
 
+		browserify:
+			dist:
+				files:
+					'build/assets/js/bundle.js': [ 'build/assets/js/app.js' ]
+
 		copy:
 			depjs:
 				files:
@@ -134,7 +140,7 @@ module.exports = (grunt) ->
 	# Subtasks
 	grunt.registerTask('wipe', ['clean'])
 	grunt.registerTask('styles', ['sass'])
-	grunt.registerTask('scripts', ['coffee'])
+	grunt.registerTask('scripts', ['coffee', 'browserify'])
 	grunt.registerTask('templates', ['haml'])
 	grunt.registerTask('content', ['exec:metalsmith', 'copy'])
 	grunt.registerTask('open', ['exec:browser'])
