@@ -81,6 +81,11 @@ module.exports =
 		options = params[params.length - 1]
 		return "<p class='cta'>" + options.fn(this) + "</p>"
 
+	embed: ->
+		params = Array.prototype.slice.call(arguments)
+		options = params[params.length - 1]
+		return "<p class='embed'>" + options.fn(this) + "</p>"
+
 	strip_html: (markup) ->
 		sanitizeHTML(markup, allowedTags: [])
 

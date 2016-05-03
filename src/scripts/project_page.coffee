@@ -3,12 +3,16 @@
 # # # # # # # # # # # # # # #
 
 resize_videos = (e) ->
-	console.log('lol', document)
-	$('.contents .youtube iframe, .contents .vimeo iframe').each (i, v) ->
-		width = $(v).width()
+	$('.contents .youtube iframe, .contents .vimeo iframe').each (i, video) ->
+		width = $(video).width()
 		height = width / 1.6
-		$(v).height(height)	
-		$(v).parent().height(height + 1)
+		$(video).height(height)	
+		$(video).parent().height(height + 1)
+
+resize_embeds = (e) ->
+	$('.contents .embed iframe').each (i, embed) ->
+		height = $(embed).height()
+		$(embed).parent().height(height)
 
 annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
@@ -18,7 +22,10 @@ annotate_paragraphs = ->
 style_content = ->
 	annotate_paragraphs()
 	resize_videos()
-	$(window).resize(resize_videos)
+	resize_embeds()
+	$(window).resize ->
+		resize_videos()
+		resize_embeds()
 
 module.exports = ->
 	if $('body').hasClass('project')

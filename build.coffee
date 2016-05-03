@@ -41,6 +41,7 @@ Handlebars.registerHelper "cta", helpers.cta
 Handlebars.registerHelper "spacer", helpers.spacer
 Handlebars.registerHelper "chain", helpers.chain
 Handlebars.registerHelper "strip_html", helpers.strip_html
+Handlebars.registerHelper "embed", helpers.embed
 
 # Register Solidus helpers
 helper.help(Handlebars)

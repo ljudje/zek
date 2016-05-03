@@ -10,8 +10,7 @@ order: 600
 
 {{> img src="notmyboard.jpg" }}
 
-<p><iframe allowfullscreen="" frameborder="0" height="900" mozallowfullscreen="true" onmousewheel="" src="https://sketchfab.com/models/07b613f32d67437f8958fd034ec48569/embed" webkitallowfullscreen="true" width="1200"></iframe></p>
-
+{{# embed }}<iframe allowfullscreen="" frameborder="0" height="900" mozallowfullscreen="true" onmousewheel="" src="https://sketchfab.com/models/07b613f32d67437f8958fd034ec48569/embed" webkitallowfullscreen="true" width="1200"></iframe>{{/ embed }}
 
 {{> img src="oval-trikot-artur-2016.jpg" }}
 
