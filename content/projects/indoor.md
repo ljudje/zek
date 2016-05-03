@@ -2,7 +2,7 @@
 name: Indoor
 thumbnail: indoor_thumb.jpeg
 cover: racun_cover.jpg
-description: An exhibition of posters made of laser printed graphics on gradient paper (Belgrade / 2009).
+description: 
 order: 500
 ---
 
@@ -16,6 +16,42 @@ order: 500
 
 {{> img src="caphead.jpg" }}
 
+{{> img src="sova.jpg" }}
+
+{{> img src="craigxkatie.jpg" }}
+
+{{> img src="sgfigurines.jpg" }}
+
+{{> img src="ribi.jpg" }}
+
+{{> img src="sucks.jpg" }}
+
+{{> img src="gumb.jpg" }}
+
+{{> img src="brixtonbike.jpg" }}
+
+{{> img src="solarbike.jpg" }}
+
+{{> img src="posbike.jpg" }}
+
+{{> img src="celtra.jpg" }}
+
+{{> img src="zek-crew-printam.jpg" }}
+
+{{> img src="ergoles.jpg" }}
+
+{{> img src="four1.jpg" }}
+
+{{> img src="four2.jpg" }}
+
+{{> img src="mavricazek.jpg" }}
+
+{{> img src="mavricazek2.jpg" }}
+
+{{> img src="izrezanci2.jpg" }}
+
+{{> img src="glaston.jpg" }}
+
 {{> img src="domzale1.jpg" }}
 
 {{> img src="domzale2.jpg" }}
@@ -26,20 +62,4 @@ order: 500
 
 {{> img src="domzale6.jpg" }}
 
-{{> img src="gumb.jpg" }}
-
-{{> img src="ribi.jpg" }}
-
-{{> img src="sova.jpg" }}
-
-{{> img src="sucks.jpg" }}
-
-{{> img src="zek-crew-printam.jpg" }}
-
-{{> img src="four1.jpg" }}
-
-{{> img src="four2.jpg" }}
-
 {{> img src="foopack.jpg" }}
-
-{{> img src="majica.jpg" }}

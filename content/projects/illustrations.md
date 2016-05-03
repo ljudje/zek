@@ -1,12 +1,12 @@
 ---
 name: Illustrations
-thumbnail: thumbnail-illustrations.jpeg
+thumbnail: bone.png
 cover: kit.jpg
 description: 
 order: 1400
 ---
 
-{{> img src="kaca.jpg" }}
+{{> img src="kaca.JPG" }}
 
 {{> img src="pujsi.jpg" }}
 
@@ -14,7 +14,7 @@ order: 1400
 
 {{> img src="comp6.jpg" }}
 
-{{> img src="kaca3.jpg" }}
+{{> img src="kaca3.JPG" }}
 
 {{> img src="babuska.png" }}
 
