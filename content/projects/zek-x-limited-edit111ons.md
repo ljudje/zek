@@ -44,13 +44,19 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{> img src="zunaj.jpg" }}
 
-##### As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie.
+{{ spacer }}{{ spacer }}
+
+#### As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie.
+
+{{ spacer }}{{ spacer }}
 
 {{> youtube id="uFc5gbmu7HM" }}
 
-{{ spacer }}
+{{ spacer }}{{ spacer }}{{ spacer }}{{ spacer }}
 
 ### Research phase & Making of
+
+{{ spacer }}{{ spacer }}{{ spacer }}
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
 
