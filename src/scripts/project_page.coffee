@@ -11,7 +11,23 @@ resize_videos = (e) ->
 
 resize_embeds = (e) ->
 	$('.contents .embed iframe').each (i, embed) ->
-		height = $(embed).height()
+		# If the element scales according to a ratio
+		if spec_width != '100%'
+			# Read spec ratio
+			spec_width = $(embed).attr('width')
+			spec_height = $(embed).attr('height')
+			ratio = spec_width / spec_height
+			# Calculate new height from ratio
+			width = $(embed).width()
+			height = width * ratio
+			# Resize embed
+			$(embed).height(height)
+		# else, the element stretches to 100% width
+		else
+			# Just ensure the desired height is remembered
+			height = $(embed).height()
+
+		# Ensure the parent doesn't leave a bottom gap
 		$(embed).parent().height(height)
 
 annotate_paragraphs = ->
