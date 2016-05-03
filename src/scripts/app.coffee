@@ -48,3 +48,9 @@ $(document).ready ->
 			$el = $('body.project a.next-arrow')
 			if  $el.length > 0
 				document.location.href = $el.attr('href')
+
+	if $('body').hasClass('home')
+		$('.logo a').click (e) ->
+			e.preventDefault()
+			$('html, body').animate(scrollTop: 0)
+
