@@ -40,7 +40,7 @@ module.exports = (grunt) ->
 				tasks: ['exec:metalsmith']
 
 			rebuild:
-				files: ['content/{,*/}*.md', 'build.coffee', 'src/builder/{,*/}*.coffee']
+				files: ['content/{,*/}*.{md,yaml}', 'build.coffee', 'src/builder/{,*/}*.coffee']
 				tasks: ['exec:metalsmith']
 
 			assets:
