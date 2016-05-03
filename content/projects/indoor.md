@@ -14,13 +14,11 @@ order: 500
 
 {{> img src="milka.jpg" }}
 
-{{> img src="caphead.jpg" }}
+{{> img src="caphead.jpg" size="small" }}
 
-{{> img src="sova.jpg" }}
+{{> img src="sova.jpg" size="small"}}
 
-{{> img src="craigxkatie.jpg" }}
-
-{{> img src="sgfigurines.jpg" }}
+{{> img src="sgfigurines.jpg" size="small" }}
 
 {{> img src="ribi.jpg" }}
 
@@ -44,22 +42,22 @@ order: 500
 
 {{> img src="four2.jpg" }}
 
-{{> img src="mavricazek.jpg" }}
+{{> img src="mavricazek.jpg" size="small" }}
 
-{{> img src="mavricazek2.jpg" }}
+{{> img src="mavricazek2.jpg" size="small" }}
 
 {{> img src="izrezanci2.jpg" }}
 
 {{> img src="glaston.jpg" }}
 
-{{> img src="domzale1.jpg" }}
+{{> img src="domzale1.jpg" size="small" }}
 
-{{> img src="domzale2.jpg" }}
+{{> img src="domzale2.jpg" size="small" }}
 
-{{> img src="domzale3.jpg" }}
+{{> img src="domzale3.jpg" size="small" }}
 
-{{> img src="domzale4.jpg" }}
+{{> img src="domzale4.jpg" size="small" }}
 
-{{> img src="domzale6.jpg" }}
+{{> img src="domzale6.jpg" size="small" }}
 
-{{> img src="foopack.jpg" }}
+{{> img src="foopack.jpg" size="small" }}

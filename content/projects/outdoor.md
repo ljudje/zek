@@ -35,8 +35,6 @@ order: 460
 
 {{> img src="drek.jpg" }}
 
-{{> img src="drek-proces.jpg" }}
-
 {{> img src="layers-nature.jpg" }}
 
 {{> img src="layers-freedom.jpg" }}
