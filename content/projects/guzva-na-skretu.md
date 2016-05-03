@@ -8,9 +8,7 @@ order: 1310
 
 {{> img src="guzva1.jpg" }}
 
-{{> img src="guzva2.jpg" }}
-
-{{> img src="guzva3.jpg" }}
+{{> img src="guzva3.jpg"  }}
 
 {{> img src="guzva12.jpg" }}
 
@@ -43,3 +41,5 @@ order: 1310
 {{> img src="guzva18.jpg" }}
 
 {{> img src="guzva19.jpg" }}
+
+{{> img src="guzva2.jpg" size="small" }}

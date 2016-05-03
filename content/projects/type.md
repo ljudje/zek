@@ -43,15 +43,24 @@ order: 600
 
 {{> img src="tipografiti-18.jpg" }}
 
+{{> img src="clidevektor.png" }}
+
+{{> img src="sansserifserif.png" }}
+
 {{> img src="TattooType_delovna03.png" }}
 
 {{> img src="helvetica-pointed.jpg" }}
 
-{{> img src="3dserif.jpg" }}
+{{> img src="typezekekperiments.png" }}
 
 {{> img src="simulating3d.jpg" }}
 
-{{> img src="sans-serif-serif.jpg" }}
+{{> img src="perspective-serif.png" }}
 
-{{> img src="perspective-serif.jpg" }}
+{{> img src="freshfuckingpaint.png" }}
 
+{{> img src="quietvektor.png" }}
+
+{{> img src="sideeffectstag.png" }}
+
+{{> img src="trok-slb-fant.jpg" }}

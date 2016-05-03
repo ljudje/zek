@@ -16,8 +16,8 @@ order: 1450
 
 {{> img src="4plus5.png" }}
 
-{{> img src="4plus6.png" }}
+{{> img src="4plus6.png" size="small" }}
 
-{{> img src="4plus7.png" }}
+{{> img src="4plus7.png" size="small" }}
 
-{{> img src="4plus8.png" }}
+{{> img src="4plus8.png"size="small" }}
