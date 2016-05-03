@@ -4,29 +4,34 @@
 	{{> head }}
 
 	%meta{property: 'og:title', content: 'ZEK crew'}
-	{{#if description}}
+
+	{{# if description }}
 	%meta{property: 'og:description', content: "We're the ZEK crew :)"}
-	{{/if}}
-	{{#if cover}}
+	{{/ if }}
+	
+	{{# if cover }}
 	%meta{property: 'og:image', content: 'http://static-zek.ljudje.si/assets/logo.svg'}
-	{{/if}}
+	{{/ if }}
 
 	%body.home.page
-
 
 		#page
 			
 			{{> header }}
 
 			.welcome-message
-				{{{ contents }}}
-						
+				{{{ contents }}}	
 
 			.projects
 				{{# each collections.projects }}
 				{{> project_thumbnail this }}
-				{{/each }}			
+				{{/ each }}			
 
 			{{> footer }}
 
-		{{> scripts}}
+			{{# if site.postscript }}
+			.postscript
+				{{ markdown site.postscript }}
+			{{/ if }}
+
+		{{> scripts }}
