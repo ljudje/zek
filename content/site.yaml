@@ -1,4 +1,6 @@
-# Global site metadata
-
-# Add things you wan't to access in the templates: {{ something }}
-something: Your data
+postscript: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio erat, eleifend finibus leo eu, vestibulum interdum tortor. Proin ex ligula, pulvinar eu vehicula et, eleifend placerat ligula. Phasellus porta tortor eget magna sollicitudin feugiat in ac erat. Pellentesque consectetur, erat at pellentesque pharetra, lectus ex varius metus, nec pulvinar arcu mi in nunc. Phasellus quis auctor lorem. Nullam in mattis enim. Proin tincidunt dapibus pretium. Ut a nisi dui. Morbi quis tincidunt est. Integer vitae enim laoreet, convallis urna eu, pretium purus. Aenean volutpat vehicula diam a laoreet. Quisque nisi massa, laoreet vel interdum vitae, vehicula vel nunc. Nam id diam ultricies, condimentum eros nec, efficitur est. Vivamus et pellentesque sapien, id mattis enim. Nunc malesuada placerat arcu a pharetra. Suspendisse sed erat odio.
+  
+  Integer porttitor, libero nec dignissim ultrices, justo tortor sollicitudin enim, ac maximus velit quam nec quam. Proin eu massa commodo, porttitor tellus vel, iaculis libero. Mauris sit amet congue massa. Morbi quis turpis nibh. In gravida ligula et elit elementum volutpat vitae sed eros. In hac habitasse platea dictumst. Mauris sollicitudin malesuada rhoncus. Nulla vitae condimentum dolor, eget dictum tellus. Phasellus eu vestibulum lacus, ut malesuada metus.
+  
+  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper condimentum lacinia. Pellentesque eget enim a nisl sollicitudin rutrum. In porta purus eget eros interdum, sed viverra massa rutrum. Vivamus vitae mollis nisl. Vestibulum ut sagittis urna. In hac habitasse platea dictumst. Sed ac nisl accumsan, semper urna vitae, dignissim diam. Morbi nec nibh nunc. In ullamcorper odio ante, ut consectetur lorem aliquet et. Sed rhoncus velit ut auctor cursus. Sed faucibus auctor porttitor. Morbi laoreet metus velit, ac varius enim ultricies eu. Etiam facilisis orci vel sapien efficitur tincidunt.
