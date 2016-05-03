@@ -2,7 +2,7 @@
 
 .responsive-image
 	{{# responsive_image this.src }}
-	.imgix-fluid.small-img{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: calc({{ x_ratio }}%*2/3);'}
+	.imgix-fluid.small-img{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: calc({{ x_ratio }}%*7/12);'}
 	{{/ responsive_image }}
 
 {{ else }}

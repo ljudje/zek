@@ -304,10 +304,14 @@ body.project
 			img
 				width: 100%
 
-		p.imgix-fluid
+		.imgix-fluid
 			background-color: #efefef
 
-		p.no-img, p.small-img
+		.small-img
+			+breakpoint(small)
+				+grid-column(7 of 12)
+			
+		p.no-img, .small-img
 			@extend .padded-content
 		
 		p.no-img+p.no-img
