@@ -47,9 +47,12 @@ module.exports = (grunt) ->
 				files: ['src/assets/{,*/}*.*']
 				tasks: ['copy:assets']
 
-			project_images:
-				files: ['content/projects/{,*/}*.{jpg,JPG,jpeg,JPEG,gif,GIF,png,PNG,svg,SVG,webp,WEBP}']
-				tasks: ['copy:project_images']
+			project_assets:
+				files: [
+					'content/projects/{,*/}*.{jpg,JPG,jpeg,JPEG,gif,GIF,png,PNG,svg,SVG,webp,WEBP}'
+					'content/projects/{,*/}*.{webm,WEBM,mov,MOV,mp4,MP4,mpeg,MPEG,mpeg4,MPEG4}'
+				]
+				tasks: ['copy:project_assets']
 
 		sass:
 			options:
@@ -93,11 +96,11 @@ module.exports = (grunt) ->
 					dest: 'build/assets'
 				}]
 
-			project_images:
+			project_assets:
 				files: [{
 					expand: true
 					cwd: 'content/projects'
-					src: '{,*/}*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}'
+					src: '{,*/}*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF,svg,SVG,mov,MOV,mp4,MP4}'
 					dest: 'build/assets/projects'
 				}]		
 
