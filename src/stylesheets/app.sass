@@ -39,6 +39,16 @@ $tricex: #3c3c3c
 a 
 	text-decoration: underline
 
+.padded-content
+	+breakpoint(small)
+		+grid-column(1 of 1)
+	+breakpoint(medium up)
+		+grid-column(6 of 12)
+	float: none !important
+	margin:
+		left: auto
+		right: auto
+
 body.page
 	header
 		height: 49px
@@ -276,17 +286,10 @@ body.project
 			background-color: #efefef
 
 		p.no-img, p.small-img, .youtube, .vimeo
-			+breakpoint(small)
-				+grid-column(1 of 1)
-			+breakpoint(medium up)
-				+grid-column(8 of 12)
-			float: none !important
-			margin:
-				left: auto
-				right: auto
+			@extend .padded-content
 		
 		p.no-img, .youtube, .vimeo
-			max-width: 35rem
+			// max-width: 35rem
 
 		p.cta
 			text-align: center
