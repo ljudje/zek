@@ -1,14 +1,4 @@
 .project
 	%a{href: "/projects/{{ this.paths.name }}"}
-		{{# if local }}
-
-		.project-thumbnail{style: 'background-image: url({{ project_image_url this.thumbnail }});'}
-			%img.sizer{src: '/assets/1by1.png', style: 'width: 100%'}
-
-		{{ else }}
-
-		.project-thumbnail.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ encode this.paths.name }}/{{ encode this.thumbnail }}?fit=crop', style: 'padding-top: 100%'}		
-
-		{{/ if }}
-
+		.project-thumbnail.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ encode this.paths.name }}/{{ encode this.thumbnail }}?fit=crop&fm=jpg', style: 'padding-top: 100%'}
 		%span.title {{ this.name }}
