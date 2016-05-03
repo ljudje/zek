@@ -1,13 +1,17 @@
 !!!
 %html{:lang => "en"}
-
-	{{> head }}
-
-	%meta{property: 'og:title', content: 'ZEK crew'}
-
-	%meta{property: 'og:description', content: "We're the ZEK crew ;)"}
 	
-	%meta{property: 'og:image', content: 'http://{{ site.hostname }}/assets/facebook_cover.jpg'}
+	%head
+
+		{{> head }}
+		
+		%title ZEK
+
+		%meta{property: 'og:title', content: 'ZEK crew'}
+
+		%meta{property: 'og:description', content: "We're the ZEK crew ;)"}
+		
+		%meta{property: 'og:image', content: 'http://{{ site.hostname }}/assets/facebook_cover.jpg'}
 
 	%body.home.page
 
