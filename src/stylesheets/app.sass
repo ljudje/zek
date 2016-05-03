@@ -259,9 +259,21 @@ body.project
 				left: 3.4rem
 				right: 3.4rem
 	
+	.expanded-contents
+		width: 100%
+		+breakpoint(medium up)
+			padding:
+				left: 0
+				right: 0
+	
+	.video-contents
+		background: $black
+		margin-top: -1rem
+		margin-bottom: 2rem
+
 	.contents
 
-		h1, h2, h3, h4, h5, h6, p, .youtube, .vimeo, .responsive-image
+		h1, h2, h3, h4, h5, h6, p, .responsive-image
 			+grid-column(1 of 1)
 			float: none
 
@@ -271,10 +283,8 @@ body.project
 			margin-top: 2rem
 			margin-bottom: 2rem
 
-		.youtube, .vimeo
-			text-align: center
 
-		p, ul, ol, dl, table, blockquote, .youtube, .vimeo, .responsive-image
+		p, ul, ol, dl, table, blockquote, .responsive-image
 			margin-bottom: 2rem
 
 		.spacer
@@ -297,15 +307,17 @@ body.project
 		p.imgix-fluid
 			background-color: #efefef
 
-		p.no-img, p.small-img, .youtube, .vimeo
+		p.no-img, p.small-img
 			@extend .padded-content
 		
 		p.no-img+p.no-img
 			margin-top: -1rem
 
-
-		p.no-img, .youtube, .vimeo
-			// max-width: 35rem
+		.youtube, .vimeo
+			text-align: center
+			+grid-row
+			iframe
+				@extend .padded-content
 
 		p.cta
 			text-align: center
