@@ -60,6 +60,8 @@ order: 1400
 
 {{> img src="2d.jpg" }}
 
+{{> img src="PVR.jpg" }}
+
 {{> img src="bone.png" }}
 
 {{>  img src="cik.jpg" }}
