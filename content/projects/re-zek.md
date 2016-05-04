@@ -6,29 +6,13 @@ description:  An exhibition organised by Emzin featuring 14 lenticular posters (
 order: 300
 ---
 
-{{> video_loop src='rezek1.mp4' }}
+{{> video_loop src='DefensivePlainAmazonparrot.webm' }}
 
-{{> video_loop src='rezek2.mp4' }}
+<video class="embed-video" id="embed-video" poster="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg" autoplay="" muted="" loop="" style="max-width: none; max-height: none; height: 1530px;"><source id="webmSource" src="https://zippy.gfycat.com/DefensivePlainAmazonparrot.webm" type="video/webm"><source id="mp4Source" src="https://fat.gfycat.com/DefensivePlainAmazonparrot.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg"></video>
 
-{{> video_loop src='rezek3.mp4' }}
 
-{{> video_loop src='rezek4.mp4' }}
-
-{{> video_loop src='rezek5.mp4' }}
-
-{{> video_loop src='rezek6.mp4' }}
-
-{{> video_loop src='rezek7.mp4' }}
-
-{{> video_loop src='rezek8.mp4' }}
-
-{{> video_loop src='rezek9.mp4' }}
-
-{{> video_loop src='rezek10.mp4' }}
-
-{{> video_loop src='rezek11.mp4' }}
-
-{{> video_loop src='rezek12.mp4' }}
+{{# embed }}<video class="embed-video" id="embed-video" poster="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg" autoplay="" muted="" loop="" style="max-width: none; max-height: none; height: 1530px;"><source id="webmSource" src="https://zippy.gfycat.com/DefensivePlainAmazonparrot.webm" type="video/webm"><source id="mp4Source" src="https://fat.gfycat.com/DefensivePlainAmazonparrot.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg"></video>
+{{/ embed }}
 
 {{> img src="rezekpotret.jpg" }}
 
