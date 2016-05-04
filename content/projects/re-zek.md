@@ -6,18 +6,30 @@ description:  An exhibition organised by Emzin featuring 14 lenticular posters (
 order: 300
 ---
 
-{{> img src='/assets/media/rezek1.mp4' }}
-{{> img src='/assets/media/rezek2.mp4' }}
-{{> img src='/assets/media/rezek3.mp4' }}
-{{> img src='/assets/media/rezek4.mp4' }}
-{{> img src='/assets/media/rezek5.mp4' }}
-{{> img src='/assets/media/rezek6.mp4' }}
-{{> img src='/assets/media/rezek7.mp4' }}
-{{> img src='/assets/media/rezek8.mp4' }}
-{{> img src='/assets/media/rezek9.mp4' }}
-{{> img src='/assets/media/rezek10.mp4' }}
-{{> img src='/assets/media/rezek11.mp4' }}
-{{> img src='/assets/media/rezek12.mp4' }}
+{{> video_loop src='rezek1.mp4' }}
+
+{{> video_loop src='rezek2.mp4' }}
+
+{{> video_loop src='rezek3.mp4' }}
+
+{{> video_loop src='rezek4.mp4' }}
+
+{{> video_loop src='rezek5.mp4' }}
+
+{{> video_loop src='rezek6.mp4' }}
+
+{{> video_loop src='rezek7.mp4' }}
+
+{{> video_loop src='rezek8.mp4' }}
+
+{{> video_loop src='rezek9.mp4' }}
+
+{{> video_loop src='rezek10.mp4' }}
+
+{{> video_loop src='rezek11.mp4' }}
+
+{{> video_loop src='rezek12.mp4' }}
 
 {{> img src="rezekpotret.jpg" }}
+
 {{> vimeo id='6923270'}}

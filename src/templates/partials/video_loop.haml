@@ -1,0 +1,3 @@
+%p.looping-video
+  %video{autoplay: true, loop: true}
+    %source{src: '/assets/projects/{{ encode @root.paths.name }}/{{ encode this.src }}', type: 'video/mp4'}
