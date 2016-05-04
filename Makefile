@@ -7,8 +7,11 @@ build: node_modules Gemfile.lock
 dev: node_modules Gemfile.lock
 	bundle exec ./node_modules/grunt-cli/bin/grunt dev
 
+#server: node_modules
+#	node ./node_modules/static-server/bin/static-server.js build
+
 server: node_modules
-	node ./node_modules/static-server/bin/static-server.js build
+	node ./node_modules/node-static/bin/cli.js -a 0.0.0.0 -p 9080 build
 
 open: node_modules
 	open http://localhost:9080
