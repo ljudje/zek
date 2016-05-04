@@ -39,6 +39,8 @@ order: 460
 
 {{> img src="layers-freedom.jpg" }}
 
+{{> img src="layer-wall-brussels.jpg" }}
+
 {{> img src="kroznik-klobuk.jpg" }}
 
 {{> img src="leon.jpg" }}
