@@ -53,10 +53,8 @@ resize_embeds = (selector) ->
 		
 annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
-		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
+		if $(p).find('img, embed, .responsive-image, video').length == 0
 			$(p).addClass('no-img')
-		if $(p).find('video').length > 0 or $(p).find('embed').length > 0
-			$(p).addClass('no-img') unless $(p).hasClass('no=img')
 			
 style_content = ->
 	annotate_paragraphs()
