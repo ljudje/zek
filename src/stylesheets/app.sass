@@ -16,6 +16,20 @@ $tricex: #3c3c3c
 =source
 	font-family: 'Source Sans Pro', sans-serif
 
+// MARGINS //
+
++breakpoint(small)
+	.margin-bottom
+		margin-bottom: 1rem
+	.margin-top
+		margin-top: 1rem
+
++breakpoint(medium up)
+	.margin-bottom
+		margin-bottom: 2rem
+	.margin-top
+		margin-top: 2rem
+
 // HEADER //
 
 .anchored-nav
@@ -102,10 +116,6 @@ body.home
 	.projects
 		+grid-row
 
-		padding:
-			left: 0.5rem
-			right: 0.5rem
-
 		+breakpoint(medium up)
 			padding:
 				left: 2rem
@@ -162,6 +172,7 @@ body.home
 			color: white
 
 	.postscript
+		+grid-row
 		+breakpoint(small)
 			padding-top: 1rem
 		+breakpoint(medium up)
@@ -269,7 +280,7 @@ body.project
 	.video-contents
 		background: $black
 		margin-top: -1rem
-		margin-bottom: 2rem
+		@extend .margin-bottom
 
 	.contents
 
@@ -280,12 +291,12 @@ body.project
 		h1, h2, h3, h4, h5, h6
 			+lato
 			text-align: center
-			margin-top: 2rem
-			margin-bottom: 2rem
+			@extend .margin-top
+			@extend .margin-bottom
 
 
 		p, ul, ol, dl, table, blockquote, .responsive-image
-			margin-bottom: 2rem
+			@extend .margin-bottom
 
 		.spacer
 			+breakpoint(small)
@@ -311,13 +322,14 @@ body.project
 
 		.small-img
 			+breakpoint(small)
-				+grid-column(7 of 12)
+				+grid-column(9 of 12)
 
 		p.no-img, .small-img
 			@extend .padded-content
 		
 		p.no-img+p.no-img
-			margin-top: -1rem
+			+breakpoint(medium up)
+				margin-top: -1rem
 
 		.youtube, .vimeo
 			text-align: center
@@ -359,7 +371,7 @@ body.project
 	.related
 		height: 70vh
 		position: relative
-		margin-top: 2rem
+		@extend .margin-top
 
 		a
 			+lato
