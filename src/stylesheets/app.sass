@@ -284,9 +284,15 @@ body.project
 
 	.contents
 
-		h1, h2, h3, h4, h5, h6, p, .responsive-image
-			+grid-column(1 of 1)
+		h1, h2, h3, h4, h5, h6
 			float: none
+
+		h1, h2
+			+grid-column(1 of 1)
+
+		h3, h4, h5, h6
+			+grid-column(7 of 12)
+			margin: inherit auto
 
 		h1, h2, h3, h4, h5, h6
 			+lato
@@ -320,6 +326,10 @@ body.project
 		img.imgix-fluid
 			width: 100%
 
+		.responsive-image
+			+grid-column(1 of 1)
+			float: none
+
 		.small-img
 			+breakpoint(small)
 				+grid-column(9 of 12)
@@ -350,6 +360,8 @@ body.project
 			margin-top: -1rem
 
 		p.embed
+			@extend .padded-content
+			
 			iframe, video
 				width: 100%
 
