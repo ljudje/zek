@@ -21,7 +21,7 @@ debug_metadata = utils.debug_metadata
 # Decorates files with appropriate .template according to pattern
 assign_layouts = utils.assign_layouts
 # Remove images from scope
-remove_images = utils.remove_images_from_scope
+remove_by_ext = utils.remove_files_by_ext
 # Remove drafts
 remove_drafts = utils.remove_drafts
 # Remove ignored
@@ -103,7 +103,9 @@ metalsmith = Metalsmith(__dirname)
 	# Moves HTML files into a folder with the same name, renames them to index.html
 	.use(permalinks())
 	# Removes images from the content compilation pipeline
-	.use(remove_images())
+	.use(remove_by_ext(['.jpg', '.jpeg', '.gif', '.svg', '.png']))
+	# Removes videos from the content compilation pipeline
+	.use(remove_by_ext(['.mov', '.mp4', '.mpeg', '.webm']))
 	# Development utility (source in util.js)
 	# .use(debug_metadata())
 	# Build

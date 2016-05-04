@@ -43,9 +43,17 @@ module.exports =
 					delete files[file]
 			done()
 
+	remove_files_by_ext: (extensions) ->
+		(files, metalsmith, done) ->
+			for file of files
+				current_extension = files[file].paths.ext.toLowerCase()
+				if extensions.indexOf(current_extension) > -1
+					delete files[file]
+			done()
+
 	remove_ignored_files: (config) ->
 		(files, metalsmith, done) ->
-			ignored_files = [ '.DS_Store' ]
+			ignored_files = [ '.DS_Store', '.gitkeep' ]
 			for file of files
 				current_file = files[file].paths.base
 				if ignored_files.indexOf(current_file) > -1
