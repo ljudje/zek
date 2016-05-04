@@ -16,4 +16,4 @@ order: 1600
 
 {{> img src="06-sinnombre-zek.jpg" }}
 
-{{> img src="sinnombre-making.jpg" }}
+{{> img src="sinnombre_making.jpg" }}
