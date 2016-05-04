@@ -30,6 +30,10 @@ order: 600
 
 {{> img src="Heytoday2.jpg" }}
 
+{{> img src="Randy2.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
 {{> img src="Malibu.png" size="small" }}
 
 {{ spacer }}
@@ -47,8 +51,6 @@ order: 600
 {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="ZigaArtnak_MedoLettering.jpg" }}
-
-{{> img src="Randy2.jpg" }}
 
 {{ spacer }}
 
