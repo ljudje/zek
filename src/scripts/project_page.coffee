@@ -10,7 +10,7 @@ resize_videos = (e) ->
 		$(video).parent().height(height + 1)
 
 resize_embeds = (e) ->
-	$('.contents .embed iframe').each (i, embed) ->
+	$('.contents .embed iframe, .contents .embed video').each (i, embed) ->
 		# If the element scales according to a ratio
 		if spec_width != '100%'
 			# Read spec ratio
@@ -34,7 +34,9 @@ annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
 		if $(p).find('img').length == 0 and $(p).hasClass('imgix-fluid') == false
 			$(p).addClass('no-img')
-
+		if $(p).find('video').length > 0 or $(p).find('embed').length > 0
+			$(p).addClass('no-img') unless $(p).hasClass('no=img')
+			
 style_content = ->
 	annotate_paragraphs()
 	resize_videos()
