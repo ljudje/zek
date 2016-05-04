@@ -306,11 +306,13 @@ body.project
 
 		.imgix-fluid
 			background-color: #efefef
+		img.imgix-fluid
+			width: 100%
 
 		.small-img
 			+breakpoint(small)
 				+grid-column(7 of 12)
-			
+
 		p.no-img, .small-img
 			@extend .padded-content
 		

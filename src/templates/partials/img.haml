@@ -1,15 +1,15 @@
 {{# equal this.size "small" }}
 
-.responsive-image
+.responsive-image.small-img
 	{{# responsive_image this.src }}
-	.imgix-fluid.small-img{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: calc({{ x_ratio }}%*7/12);'}
+	%img.imgix-fluid{'data-src': '{{ @root.site.asset_host }}/{{ src }}?fit=crop', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
 	{{/ responsive_image }}
 
 {{ else }}
 
 .responsive-image
 	{{# responsive_image this.src }}
-	.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}?fit=crop', 'data-local': '{{ @root.paths.name }}/{{ name }}', 'data-width': '{{ width }}', 'data-height': '{{ height }}', 'data-y-ratio': '{{ y_ratio }}', 'data-x-ratio': '{{ x_ratio}}', style: 'padding-top: {{ x_ratio }}%;'}
+	%img.imgix-fluid{'data-src': 'http://{{ @root.site.asset_host }}/{{ src }}?fit=crop', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
 	{{/ responsive_image }}
 
 {{/ equal }}
