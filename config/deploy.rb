@@ -24,7 +24,7 @@ namespace :deploy do
 	end
 	after "deploy:setup", "deploy:setup_config"
 	task :build_static_page do
-		run "cd #{release_path} && bundle && npm install && make build"
+		run "cd #{release_path} && bundle && npm install && npm set progress=false && make build"
 	end
 	after 'deploy:update_code', 'deploy:build_static_page'
 end
