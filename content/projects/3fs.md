@@ -1,15 +1,22 @@
 ---
 name: 3fs
-thumbnail: thumbnail-3fs.jpeg
+thumbnail: 3fs6.JPG
 cover: 3fs1.JPG
-description: Graphic design of 3FS office walls, made with custom cut black and white stickers. Interior design Jana Rot / photos Jaka Vinšek
+description: Office stickers on walls
 order: 1460
 ---
 
-The work was awarded with the ‘DOS winter recognition 2009‘.
+{{ spacer }}
 
+Made with custom cut black and white stickers. The work was awarded with DOS winter recognition 2009. 
 
-{{> img src="3fs2.JPG" }}
+{{> img src="3fs2.JPG" size="small" }}
+
+Interior design: Jana Rot
+
+Photos: Jaka Vinšek
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="3fs3.JPG" }}
 
@@ -17,7 +24,7 @@ The work was awarded with the ‘DOS winter recognition 2009‘.
 
 {{> img src="3fs5.JPG" }}
 
-{{> img src="3fs6.JPG" }}
+{{> img src="3fs6.JPG" size="small" }}
 
 {{> img src="3fs7.JPG" }}
 
@@ -25,12 +32,12 @@ The work was awarded with the ‘DOS winter recognition 2009‘.
 
 {{> img src="3fs9.JPG" }}
 
-{{> img src="3fs10.JPG" }}
+{{> img src="3fs10.JPG" size="small" }}
 
 {{> img src="3fs11.JPG" }}
 
 {{> img src="3fs12.JPG" }}
 
-{{> img src="3fs13.JPG" }}
+{{> img src="3fs13.JPG" size="small" }}
 
 {{> img src="3fs14.JPG" }}

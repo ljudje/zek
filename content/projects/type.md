@@ -1,6 +1,6 @@
 ---
 name: Type
-thumbnail: thumbthezek.jpg
+thumbnail: thumbnailtype.png
 cover: DieZekCrew.jpg
 description: 
 order: 600
@@ -14,7 +14,13 @@ order: 600
 
 {{> img src="notmyboard2.jpg" }}
 
+{{ spacer }}
+
 {{# embed }}<iframe allowfullscreen="" frameborder="0" width="100" height="100" mozallowfullscreen="true" onmousewheel="" src="https://sketchfab.com/models/07b613f32d67437f8958fd034ec48569/embed" webkitallowfullscreen="true"></iframe>{{/ embed }}
+
+{{ spacer }}
+
+{{> img src="ZEK_Stickers-rex.jpg" }}
 
 {{> img src="oval-trikot-artur-2016.jpg" size="small" }}
 
@@ -22,7 +28,7 @@ order: 600
 
 {{> img src="artur-2015-27b-dec.jpg" size="small" }}
 
-{{> img src="artur-glow.jpg" }}
+{{> img src="artur-glow.jpg" size="small" }}
 
 {{> img src="skynet_big.jpg" }}
 
@@ -84,7 +90,7 @@ order: 600
 
 {{> img src="typezekekperiments.png" }}
 
-{{> img src="simulating3d.jpg" }}
+{{> img src="simulating3d.jpg" size="small" }}
 
 {{> img src="perspective-serif.png" }}
 
