@@ -8,11 +8,17 @@ order: 500
 
 {{> img src="facelift.jpg" }}
 
-{{> img src="candelight1.jpg" }}
+{{ spacer }}
+
+{{> img src="candelight1.jpg" size="small" }}
 
 {{> img src="candelight2.jpg" }}
 
+{{ spacer }}
+
 {{> img src="milka.jpg" }}
+
+{{ spacer }}
 
 {{> img src="caphead.jpg" size="small" }}
 
@@ -20,11 +26,19 @@ order: 500
 
 {{> img src="sgfigurines.jpg" size="small" }}
 
-{{> img src="ribi.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="ribi.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="sucks.jpg" }}
 
-{{> img src="gumb.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="gumb.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="brixtonbike.jpg" }}
 
@@ -32,23 +46,39 @@ order: 500
 
 {{> img src="posbike.jpg" }}
 
+{{ spacer }}
+
 {{> img src="celtra.jpg" }}
+
+{{ spacer }}
 
 {{> img src="zek-crew-printam.jpg" }}
 
+{{ spacer }}
+
 {{> img src="ergoles.jpg" }}
+
+{{ spacer }}
 
 {{> img src="four1.jpg" }}
 
 {{> img src="four2.jpg" }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="mavricazek.jpg" size="small" }}
 
 {{> img src="mavricazek2.jpg" size="small" }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="izrezanci2.jpg" }}
 
+{{ spacer }}
+
 {{> img src="glaston.jpg" }}
+
+{{ spacer }}
 
 {{> img src="domzale1.jpg" size="small" }}
 
@@ -60,4 +90,4 @@ order: 500
 
 {{> img src="domzale6.jpg" size="small" }}
 
-{{> img src="foopack.jpg" size="small" }}
+{{> img src="foopack.jpg" }}
