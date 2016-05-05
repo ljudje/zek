@@ -8,28 +8,48 @@ order: 510
 
 {{> img src="belgrade2.jpg" }}
 
-{{> img src="belgrade3.jpg" }}
+{{ spacer }} {{ spacer }}
 
-{{> img src="belgrade4.jpg" }}
+{{> img src="belgrade4.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgrade5.jpg" }}
 
+{{ spacer }}
+
 {{> img src="belgrade6.jpg" }}
 
-{{> img src="belgrade7.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="belgrade7.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgrade8.jpg" }}
 
-{{> img src="belgrade9.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="belgrade9.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgrade10.jpg" }}
 
-{{> img src="belgrade11.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="belgrade11.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgrade12.jpg" }}
 
 {{> img src="belgrade13.jpg" }}
 
-{{> img src="belgrade14.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="belgrade14.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgradekolaz.jpg" }}
