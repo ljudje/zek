@@ -8,7 +8,7 @@ order: 1500
 
 {{> img src="tapeart2a.jpg" }}
 
-{{> img src="tapeart2b.jpg" }}
+{{> img src="tapeart2b.jpg" size="small" }}
 
 {{> img src="tapeart3.jpg" }}
 

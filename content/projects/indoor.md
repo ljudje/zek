@@ -1,19 +1,28 @@
 ---
 name: Indoor
-thumbnail: indoor_thumb.jpeg
+thumbnail: thumbnailtetris.jpg
 cover: racun_cover.jpg
 description: 
 order: 500
 ---
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="facelift.jpg" }}
 
+<<<<<<< Updated upstream
 {{ spacer }}
 
 {{> img src="candelight1.jpg" size="small" }}
+=======
+{{ spacer }} {{ spacer }}
 
-{{> img src="candelight2.jpg" }}
+{{> img src="candelight1.jpg" }}
+>>>>>>> Stashed changes
 
+{{> img src="candelight2.jpg" size="small" }}
+
+<<<<<<< Updated upstream
 {{ spacer }}
 
 {{> img src="milka.jpg" }}
@@ -21,10 +30,15 @@ order: 500
 {{ spacer }}
 
 {{> img src="caphead.jpg" size="small" }}
+=======
+{{ spacer }} {{ spacer }}
 
-{{> img src="sova.jpg" size="small"}}
+{{> img src="gumb.jpg" }}
+>>>>>>> Stashed changes
 
-{{> img src="sgfigurines.jpg" size="small" }}
+{{> img src="sucks.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{ spacer }} {{ spacer }}
 
@@ -32,11 +46,19 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="sucks.jpg" }}
+{{> img src="milka.jpg" size="small" }}
 
+<<<<<<< Updated upstream
 {{ spacer }} {{ spacer }}
 
 {{> img src="gumb.jpg" size="small" }}
+=======
+{{> img src="caphead.jpg" size="small" }}
+
+{{> img src="sova.jpg" size="small"}}
+
+{{> img src="sgfigurines.jpg" size="small" }}
+>>>>>>> Stashed changes
 
 {{ spacer }} {{ spacer }}
 
@@ -44,12 +66,19 @@ order: 500
 
 {{> img src="solarbike.jpg" }}
 
-{{> img src="posbike.jpg" }}
+{{ spacer }} {{ spacer }}
+
+{{> img src="four1.jpg" }}
+
+{{> img src="four2.jpg" }}
+
+{{ spacer }} {{ spacer }}
 
 {{ spacer }}
 
 {{> img src="celtra.jpg" }}
 
+<<<<<<< Updated upstream
 {{ spacer }}
 
 {{> img src="zek-crew-printam.jpg" }}
@@ -61,8 +90,17 @@ order: 500
 {{ spacer }}
 
 {{> img src="four1.jpg" }}
+=======
+{{ spacer }} {{ spacer }}
 
-{{> img src="four2.jpg" }}
+{{> img src="zek-crew-printam.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="ergoles.jpg" }}
+>>>>>>> Stashed changes
+
+{{ spacer }} {{ spacer }}
 
 {{ spacer }} {{ spacer }}
 
@@ -74,9 +112,17 @@ order: 500
 
 {{> img src="izrezanci2.jpg" }}
 
+<<<<<<< Updated upstream
 {{ spacer }}
 
 {{> img src="glaston.jpg" }}
+=======
+{{ spacer }} {{ spacer }}
+
+{{> img src="glaston.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
+>>>>>>> Stashed changes
 
 {{ spacer }}
 

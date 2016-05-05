@@ -1,19 +1,25 @@
 ---
 name: Sin Nombre
 thumbnail: thumbnail-sinnombre.jpeg
-cover: 01-sinnombre-zek.jpg
+cover: 00-sinnombre-zek.jpg
 description: 
 order: 1600
 ---
 
-{{> img src="02-sinnombre-zek.jpg" }}
+{{> img src="02-sinnombre-zek.jpg"}}
 
-{{> img src="03-sinnombre-zek.jpg" }}
+{{ spacer }}
 
-{{> img src="04-sinnombre-zek.jpg" }}
+{{> img src="03-sinnombre-zek.jpg" size="small" }}
+
+{{> img src="04-sinnombre-zek.jpg" size="small" }}
+
+{{ spacer }}
 
 {{> img src="05-sinnombre-zek.jpg" }}
 
 {{> img src="06-sinnombre-zek.jpg" }}
+
+{{ spacer }}
 
 {{> img src="sinnombre_making.jpg" }}

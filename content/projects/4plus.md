@@ -2,9 +2,15 @@
 name: "4+"
 thumbnail: 4plus.jpg
 cover: 4plus.jpg
-description: An [internet-based exhibition](http://www.zek.si/4plus/) consisting of four people and an empty black canvas, which they had to fill with their own various graphics, each using his unique colour and uploading his graphics through a pre-made interface. Online, viewers could observe progress daily. The finished piece was printed and exhibited at the “Biennale des Jeunes Créateurs de l’Europe et de la Méditerrannée (BJCEM)” in May 2008. Created in cooperation with David Krančan and put together by Lovro Žitnik
+description: An [internet-based exhibition](http://www.zek.si/4plus/)
 order: 1450
 ---
+
+It started with four people filling graphics on a empty black canvas. Each artist uses his unique colour and uploads his graphics through a pre-made interface. Viewers could observe progress daily. 
+
+The finished piece was printed and exhibited at the “Biennale des Jeunes Créateurs de l’Europe et de la Méditerrannée (BJCEM)” in May 2008. Created in cooperation with David Krančan and put together by Lovro Žitnik.
+
+{{ spacer }} {{ spacer }} 
 
 {{> img src="4plus1.png" }}
 
