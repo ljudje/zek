@@ -8,7 +8,9 @@ order: 1450
 
 It started with four people filling graphics on a empty black canvas. Each artist uses his unique colour and uploads his graphics through a pre-made interface. Viewers could observe progress daily. 
 
-The finished piece was printed and exhibited at the “Biennale des Jeunes Créateurs de l’Europe et de la Méditerrannée (BJCEM)” in May 2008. Created in cooperation with David Krančan and put together by Lovro Žitnik.
+The finished piece was printed and exhibited at the “Biennale des Jeunes Créateurs de l’Europe et de la Méditerrannée (BJCEM)” in May 2008. 
+
+<i> Created in cooperation with David Krančan and put together by Lovro Žitnik. </i>
 
 {{ spacer }} {{ spacer }} 
 

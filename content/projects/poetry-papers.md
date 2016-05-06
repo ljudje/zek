@@ -2,13 +2,9 @@
 name: Poetry papers
 thumbnail: rojzle_thumb.gif
 cover: vse_sm_cover.jpg
-description:  Poetry by men who sit on couches (2012).
+description:  Poetry by men who sit on couches <br> <i> Collection of poems printed on Ziggi rolling papers / 2012 </i>
 order: 400
 ---
-
-{{> label title="Seven-volume collection of poems printed on Ziggi rolling papers" description="" }}
-
-{{ spacer }}
 
 {{> img src="1sm.jpg" }}
 

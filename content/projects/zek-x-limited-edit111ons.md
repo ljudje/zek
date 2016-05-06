@@ -2,7 +2,7 @@
 name: ZEK x LIMITED EDIT111ONS
 thumbnail: 008_LIMITED-EDIT111ONS4.jpg
 cover: 008_LIMITED-EDIT111ONS3.jpg
-description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br> Poligon, Ljubljana / 2014
+description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br> <i> Poligon, Ljubljana / 2014 </i>
 order: 100
 ---
 

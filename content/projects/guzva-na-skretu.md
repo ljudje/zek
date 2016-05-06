@@ -2,13 +2,15 @@
 name: Gužva na skretu
 thumbnail: thumbnail-guzvanaskretu.jpg
 cover: coverguzvanaskretu.jpg
-description: Toilet Que - a mural in the restrooms <br> Kino Šiška, Ljubljana / 2011
+description: Toilet Que - a mural in the restrooms <br> <i> Kino Šiška, Ljubljana / 2011 </i>
 order: 1310
 ---
 
 {{> img src="guzva1.jpg" size="small" }}
 
-It depicts 72 persons who defined Ljubljana's vibrant music and art scene of the past 30 years.
+The painting depicts 72 persons who defined Ljubljana's vibrant music and art scene for the past 30 years.
+
+{{ spacer }}
 
 {{> img src="guzva3.jpg" }}
 

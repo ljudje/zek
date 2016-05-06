@@ -14,7 +14,7 @@ Made with custom cut black and white stickers. The work was awarded with DOS win
 
 {{> img src="3fs2.JPG" size="small" }}
 
-Interior design: Jana Rot <br> Photos: Jaka Vinšek
+<i> Interior design: Jana Rot <br> Photos: Jaka Vinšek </i>
 
 {{ spacer }} {{ spacer }}
 
