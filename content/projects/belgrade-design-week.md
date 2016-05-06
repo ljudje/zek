@@ -46,7 +46,7 @@ order: 450
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="belgrade13.jpg size="small" }}
+{{> img src="belgrade13.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
 
