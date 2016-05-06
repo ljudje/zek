@@ -51,6 +51,14 @@ resize_embeds = (selector) ->
 		# 		# and stop listening for changes
 		# 		$(embed).off 'loadedmetadata'
 		
+resize_project_nav_images = ->
+	window_height = $(window).height()
+	obscured = $('.logo').outerHeight() + $('.prev-thumb a .title').outerHeight() + $('footer').outerHeight()
+	remain = window_height - obscured
+	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').height(remain)
+	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').width('100%')
+	console.log 'resizing', window_height, obscured, remain
+
 annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
 		if $(p).find('img, embed, .responsive-image, video').length == 0
@@ -58,11 +66,16 @@ annotate_paragraphs = ->
 			
 style_content = ->
 	annotate_paragraphs()
-	resize_videos()
-	resize_embeds()
-	$(window).resize ->
+
+	resize_layout = ->
 		resize_videos()
 		resize_embeds()
+		resize_project_nav_images()
+
+	resize_layout()
+
+	$(window).on('resize', resize_layout)
+	$(window).on('orientationchange', resize_layout)
 
 module.exports = ->
 	if $('body').hasClass('project')

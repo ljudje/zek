@@ -1,6 +1,7 @@
 @charset 'utf-8'
 @import 'dependencies'
 
+$bleak: #efefef
 $silver: #9C9C9C
 $metal: #333
 $cox: rgb(60, 60, 60)
@@ -265,6 +266,8 @@ body.project
 
 	.contents, .related
 		+grid-row
+
+	.contents
 		+breakpoint(medium up)
 			padding:
 				left: 3.4rem
@@ -322,7 +325,7 @@ body.project
 				width: 100%
 
 		.imgix-fluid
-			background-color: #efefef
+			background-color: $bleak
 		img.imgix-fluid
 			width: 100%
 
@@ -361,7 +364,7 @@ body.project
 
 		p.embed
 			@extend .padded-content
-			
+
 			iframe, video
 				width: 100%
 
@@ -383,76 +386,114 @@ body.project
 			text-align: left
 
 	.related
-		height: 70vh
-		position: relative
 		@extend .margin-top
+		position: relative
+		background: $bleak
+		+breakpoint(medium up)
+			height: 80vh
 
+		.clearance
+			height: 43px
+			background: $white
 		a
 			+lato
+			text-decoration: none
 			
 			.img
-				width: 100%
-				padding-top: 80%
-				background-position: center
-				transition: opacity .2s
+				background-color: $metal
+				.imgix-fluid
+					transition: opacity .2s
 
 			.title
+				overflow: hidden
 				transition: opacity .5s, color .5s
 
 		a
 			.img
-				opacity: .2
+				.imgix-fluid
+					opacity: 1
+					transition: opacity .2s
 			.title
-				opacity: 1
-				color: $black
+				.name
+					color: $black
 
 		a:hover
 			.img
-				opacity: 0
+				.imgix-fluid
+					opacity: 0.33
+					transition: opacity .4s
 			.title
-				opacity: 1
-				color: $black
+				.name
+					color: $metal
 		
+
 		.prev-thumb, .next-thumb
 			+grid-column(1 of 2)
 			
-			.title
-				position: absolute
-				top: 5.3rem
-
-			.name, .meta
+			a, .title, .name, .meta
 				display: block
-			.name
-				font-size: 2rem
+
+			.title
+				padding-top: 2.5rem
+
 			.meta
 				font-size: 1rem
+				line-height: 1.4
+				@media (orientation: landscape) and (max-width: 640px)
+					display: none
+
+			.name
+				line-height: 1.2
+				margin-bottom: 2rem 
+				+breakpoint(small)
+					font-size: 1.5rem
+				+breakpoint(medium up)
+					font-size: 2rem
 
 		.prev-thumb
+			padding-left: 0
+			+breakpoint(small)
+				padding-right: 0.5rem
+			+breakpoint(medium up)
+				padding-right: 1rem
 			a
 				text-align: left
 			.title
-				left: 6rem
+				+breakpoint(small)
+					margin-left: 1rem
+				+breakpoint(medium up)
+					margin-left: 6rem
 
 		.next-thumb
+			padding-right: 0
+			+breakpoint(small)
+				padding-left: 0.5rem
+			+breakpoint(medium up)
+				padding-left: 1rem
 			a
 				text-align: right
 			.title
-				right: 6rem
+				+breakpoint(small)
+					margin-right: 1rem
+				+breakpoint(medium up)
+					margin-right: 6rem
 				
 
 // *** MISC &&& //
 
 footer
-	height: 30vh
 	position: relative
 	+grid-row
+	+breakpoint(small)
+		height: 4rem
+	+breakpoint(medium up)
+		height: 20vh
 
 	.links
 		+grid-column(1 of 1)
 		text-align: center
 
 		a
-			margin-top: 15vh
 			display: inline-block
 			line-height: 2rem
 			width: 2rem
@@ -462,6 +503,10 @@ footer
 			background-size: cover
 			-webkit-transform: translateY(-50%)
 			transform: translateY(-50%)
+			+breakpoint(small)
+				margin-top: 2rem
+			+breakpoint(medium up)
+				margin-top: 10vh
 
 			span
 				display: none
