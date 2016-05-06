@@ -36,29 +36,22 @@ order: 450
 
 {{> img src="belgrade10.jpg" }}
 
-<<<<<<< Updated upstream
 {{ spacer }} {{ spacer }}
 
 {{> img src="belgrade11.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
-=======
-{{> img src="belgrade11.jpg" size="small" }}
->>>>>>> Stashed changes
 
 {{> img src="belgrade12.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="belgrade13.jpg size="small" }}
 
 {{ spacer }} {{ spacer }}
-<<<<<<< Updated upstream
 
 {{> img src="belgrade14.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
-=======
->>>>>>> Stashed changes
-
-{{> img src="belgrade14.jpg" size="small" }}
 
 {{> img src="belgradekolaz.jpg"  }}
