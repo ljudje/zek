@@ -10,17 +10,15 @@ order: 500
 
 {{> img src="facelift.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}  
 
 {{> img src="candelight1.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}
-
-{{> img src="candelight1.jpg" }}
+{{ spacer }} 
 
 {{> img src="candelight2.jpg" size="small" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="milka.jpg" }}
 
@@ -28,33 +26,19 @@ order: 500
 
 {{> img src="caphead.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}
-
-{{> img src="gumb.jpg" }}
-
-{{> img src="sucks.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}
-
-{{ spacer }} {{ spacer }}
+{{> img src="sgfigurines.jpg" size="small" }}
 
 {{> img src="ribi.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}
+{{> img src="sova.jpg" size="small"}}
 
-{{> img src="milka.jpg" size="small" }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
-{{ spacer }} {{ spacer }}
+{{> img src="sucks.jpg" }}
 
 {{> img src="gumb.jpg" size="small" }}
 
-{{> img src="caphead.jpg" size="small" }}
-
-{{> img src="sova.jpg" size="small"}}
-
-{{> img src="sgfigurines.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="brixtonbike.jpg" }}
 
@@ -68,21 +52,7 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{ spacer }}
-
 {{> img src="celtra.jpg" }}
-
-{{ spacer }}
-
-{{> img src="zek-crew-printam.jpg" }}
-
-{{ spacer }}
-
-{{> img src="ergoles.jpg" }}
-
-{{ spacer }}
-
-{{> img src="four1.jpg" }}
 
 {{ spacer }} {{ spacer }}
 
@@ -103,10 +73,6 @@ order: 500
 {{ spacer }} {{ spacer }}
 
 {{> img src="izrezanci2.jpg" }}
-
-{{ spacer }}
-
-{{> img src="glaston.jpg" }}
 
 {{ spacer }} {{ spacer }}
 

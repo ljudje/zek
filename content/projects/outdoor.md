@@ -6,18 +6,15 @@ description:
 order: 470
 ---
 
+{{ spacer }} {{ spacer }}  
 
 {{> img src="dobrodosli.JPG" }}
 
-{{ spacer }}
-
-{{> img src="bozicek.jpg" }}
+{{ spacer }} {{ spacer }}  
 
 {{> img src="bozicek.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
-
-{{ spacer }}
 
 {{> img src="plasticbagmonster.jpg" }}
 
@@ -25,17 +22,11 @@ order: 470
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
-{{ spacer }}
-
-{{> img src="childhood-pattern.jpg" }}
-
 {{ spacer }} {{ spacer }}  
 
 {{> img src="childhood-pattern.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
-
-{{ spacer }}
 
 {{> img src="cattothechase.jpg" }}
 
@@ -49,21 +40,11 @@ order: 470
 
 {{> img src="kdortobere.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}
-
-{{ spacer }} {{ spacer }}  
-
-{{> img src="imwithstupid.jpg" size="small" }}
-
-{{> img src="kdortobere.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }}  {{ spacer }} {{ spacer }}  
 
 {{> img src="oblikobranje.gif" size="small" }}
 
-{{ spacer }} {{ spacer }}
-
-{{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}  
 
 {{> img src="ZEK-LucilleCaballero.jpg" size="small" }}
 
@@ -85,25 +66,11 @@ order: 470
 
 {{> img src="layer-wall-brussels.jpg" size="small" }}
 
-{{ spacer }}
-
-{{ spacer }} {{ spacer }}  
-
-{{> img src="layers-nature.jpg" }}
-
-{{> img src="layers-freedom.jpg" size="small" }}
-
-{{> img src="layer-wall-brussels.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}  
-
-{{ spacer }}
+{{ spacer }} {{ spacer }}  {{ spacer }} {{ spacer }}
 
 {{> img src="leon.jpg" }}
 
 {{ spacer }}
-
-{{> img src="scream.jpg" }}
 
 {{> img src="kroznik-klobuk.jpg" size="small" }}
 
@@ -115,48 +82,35 @@ order: 470
 
 {{> img src="metlika.jpg" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="lobanja-smeti.JPG" size="small" }}
-
-{{ spacer }} {{ spacer }}
 
 {{ spacer }} {{ spacer }}  
 
-{{> img src="lobanja-smeti.JPG" size="small" }}
-
 {{> img src="artur-trok.jpg" size="small" }}
 
-{{ spacer }}
-
-{{> img src="glavur.jpg" }}
+{{ spacer }} {{ spacer }}  
 
 {{> img src="glavur.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
 
-{{ spacer }} {{ spacer }}
-
 {{> img src="senca-spreji.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
 
-{{ spacer }} {{ spacer }}  
-
 {{> img src="frozek.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}  
 
 {{> img src="sablona.jpg" size="small" }}
 
-{{> img src="sablona.jpg" size="small" }}
+{{ spacer }} {{ spacer }}  
 
 {{> img src="supki.jpg" size="small" }}
 
-{{> img src="nalepke.jpg" }}
-
-{{ spacer }}
-
 {{ spacer }} {{ spacer }}  
 
-{{> img src="nalepke.jpg" size="small" }}
+{{> img src="nalepke.jpg" }}
+

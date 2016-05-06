@@ -1,8 +1,7 @@
 ---
 name: Gužva na skretu
-thumbnail: thumbnail-guzva.jpeg
-cover: guzvanaskretu.jpg
-description: Gužva na skretu (toilet queue) is a mural in the restrooms of Kino Šiška Center for urban culture in Ljubljana, Slovenia. It depicts 72 persons who defined Ljubljana's vibrant music and art scene of the past 30 years.
+thumbnail: thumbnail-guzvanaskretu.jpg
+cover: coverguzvanaskretu.jpg
 description: Toilet Que - a mural in the restrooms of Kino Šiška Center, Ljubljana, Slovenia.
 order: 1310
 ---
@@ -11,7 +10,7 @@ order: 1310
 
 It depicts 72 persons who defined Ljubljana's vibrant music and art scene of the past 30 years.
 
-{{> img src="guzva3.jpg"  }}
+{{> img src="guzva3.jpg" }}
 
 {{> img src="guzva7.jpg" size="small" }}
 
@@ -39,6 +38,8 @@ It depicts 72 persons who defined Ljubljana's vibrant music and art scene of the
 
 {{> img src="guzva11.jpg" size="small" }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="guzva13.jpg" }}
 
 {{> img src="guzva14.jpg" }}
@@ -52,10 +53,6 @@ It depicts 72 persons who defined Ljubljana's vibrant music and art scene of the
 {{> img src="guzva18.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
-
-{{> img src="guzva17.jpg" size="small" }}
-
-{{> img src="guzva18.jpg" size="small" }}
 
 {{> img src="guzva19.jpg" }}
 

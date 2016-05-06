@@ -2,7 +2,7 @@
 name: ZEK x LIMITED EDIT111ONS
 thumbnail: 008_LIMITED-EDIT111ONS4.jpg
 cover: 008_LIMITED-EDIT111ONS3.jpg
-description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project (Poligon, Ljubljana / 2014).
+description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br>(Poligon, Ljubljana / 2014).
 order: 100
 ---
 
@@ -28,7 +28,7 @@ To effectively grasp the intricacy of the construction of exhibition pieces, we 
 
 The authorial gesture is founded on principles of formalism and the mathemati- cally precise geographical data from the lives of majestic summits. In addition to the bohemian intuitive mastering of the language of visual arts, the scientific aspect of the exhibit pieces called for an expedition through heaps and mountains of paper, securing the calculations’ place in art. Rather than suggesting a mere artistic interpretation, the most recent ZEK intervention is therefore an excerpt of reality, transcending the limits of an exhibition piece form. It could be said that its entirety is held up to absent standards, emerging as a reminder of the elusive structure of time and the fleeting comprehensive- ness of space. It is precisely the absence of standards and cardinal directions that enables us to cease to be amazed, be it at our own insignificance or at— likewise our own—misguided conception of the world around us.
 
-## — Nika Jurman
+— Nika Jurman
 
 {{ spacer }}
 
@@ -44,19 +44,19 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{> img src="zunaj.jpg" }}
 
-{{ spacer }} {{ spacer }}
-
-## As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie.
-
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }}
 
 {{> youtube id="uFc5gbmu7HM" }}
 
+{{ spacer }} 
+
+ {{> label title="As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie." description="" }}
+
+## x
+
+## Research phase & making of
+
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
-
-## Research phase & Making of
-
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
 

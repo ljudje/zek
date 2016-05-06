@@ -10,11 +10,11 @@ order: 1460
 
 Made with custom cut black and white stickers. The work was awarded with DOS winter recognition 2009. 
 
+{{ spacer }}
+
 {{> img src="3fs2.JPG" size="small" }}
 
-Interior design: Jana Rot
-
-Photos: Jaka Vinšek
+Interior design: Jana Rot <br> Photos: Jaka Vinšek
 
 {{ spacer }} {{ spacer }}
 

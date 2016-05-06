@@ -6,8 +6,9 @@ description:  Poetry by men who sit on couches (2012).
 order: 400
 ---
 
-A 7 volume collection of poems printed on Ziggi rolling papers. 
-{{ spacer }} {{ spacer }}
+{{> label title="Seven-volume collection of poems printed on Ziggi rolling papers" description="" }}
+
+{{ spacer }}
 
 {{> img src="1sm.jpg" }}
 
