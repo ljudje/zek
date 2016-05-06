@@ -53,7 +53,7 @@ resize_embeds = (selector) ->
 		
 resize_project_nav_images = ->
 	window_height = $(window).height()
-	obscured = $('.logo').outerHeight() + $('.prev-thumb a .title').outerHeight() + $('footer').outerHeight()
+	obscured = $('.logo').outerHeight() + $('.prev-thumb a .title, .next-thumb a .title').outerHeight() + $('footer').outerHeight()
 	remain = window_height - obscured
 	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').height(remain)
 	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').width('100%')
