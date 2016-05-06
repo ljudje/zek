@@ -90,6 +90,8 @@ order: 600
 
 {{> img src="typezekekperiments.png" }}
 
+{{ spacer }}
+
 {{> img src="simulating3d.jpg" size="small" }}
 
 {{> img src="perspective-serif.png" }}

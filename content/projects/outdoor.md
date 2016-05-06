@@ -40,17 +40,19 @@ order: 470
 
 {{> img src="kdortobere.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}  {{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}  
 
 {{> img src="oblikobranje.gif" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }}  
 
 {{> img src="ZEK-LucilleCaballero.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }}
 
-{{ spacer }}
+{{> img src="kapsi.gif" size="small" }}
+
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="kokice.jpg" }}
 
@@ -66,7 +68,7 @@ order: 470
 
 {{> img src="layer-wall-brussels.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}  {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="leon.jpg" }}
 
@@ -76,15 +78,13 @@ order: 470
 
 {{> img src="scream.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }}  
-
-{{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="metlika.jpg" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> img src="lobanja-smeti.JPG" size="small" }}
+{{> img src="lobanja-smeti-pokoncna.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
 

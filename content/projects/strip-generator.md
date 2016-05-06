@@ -8,6 +8,8 @@ order: 1200
 
 Created in 2005 as a simple flash tool, with custom designed characters, objects and elements. Later it grew into a large community, which currently has over 350.000 registered users and has generated over 960.000 comics. The project was developed with 3fs and awarded as top game on Europrix Top talent award 2005 and as best interactive content at Magdalena.
 
+{{ spacer }}
+
 {{> img src="strip1.jpg" }}
 
 {{> img src="strip2.jpg" }}

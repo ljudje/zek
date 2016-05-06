@@ -2,7 +2,7 @@
 name: Tape Art
 thumbnail: thumbnail-tapeart.jpg
 cover: tapeart1.jpg
-description: We made custom billboards for Orto's Tape Art campaign.
+description: Custom billboards for Orto's Tape Art campaign <br> <i> Ljubljana / 2010 </i>
 order: 1500
 ---
 
