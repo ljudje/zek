@@ -1,6 +1,6 @@
 ---
 name: Indoor
-thumbnail: thumbnailtetris.jpg
+thumbnail: Tetris_thumb.jpg
 cover: racun_cover.jpg
 description: 
 order: 500
@@ -52,7 +52,11 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="celtra.jpg" }}
+{{> img src="celtra3.jpg" }}
+
+{{ spacer }}
+
+{{> img src="celtra2.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
 
