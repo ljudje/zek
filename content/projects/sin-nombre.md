@@ -2,7 +2,7 @@
 name: Sin Nombre
 thumbnail: thumbnail-sinnombre.jpeg
 cover: 00-sinnombre-zek.jpg
-description: Custom billboards for Kinoteka's movie Sin Nombre <br> <i> Ljubljana / 2010 </i>
+description: Custom billboards for the movie Sin Nombre playing in Kinodvor <br> <i> Ljubljana / 2010 </i>
 order: 1600
 ---
 
@@ -24,4 +24,6 @@ order: 1600
 
 {{> youtube id="GKcd-JQa_2w" }}
 
-{{> img src="sinnombre_making.jpg" }}
+{{ spacer }}
+
+{{> img src="sinnombre_making1.jpg" size="small" }}
