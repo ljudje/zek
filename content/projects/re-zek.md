@@ -24,6 +24,10 @@ order: 300
 
 {{# embed }}<video class="embed-video" id="embed-video" poster="https://thumbs.gfycat.com/SlimFrailAndeancat-poster.jpg" autoplay="" muted="" loop=""><source id="webmSource" src="https://zippy.gfycat.com/SlimFrailAndeancat.webm" type="video/webm"><source id="mp4Source" src="https://fat.gfycat.com/SlimFrailAndeancat.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/SlimFrailAndeancat-poster.jpg"></video>{{/ embed }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="rezekportret.jpg" size="small" }}
+
+{{ spacer }}
 
 {{> vimeo id='6923270'}}

@@ -94,13 +94,13 @@ order: 1400
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="2d.jpg" size="small" }}
+{{> img src="2d1.jpg" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> img src="PVR.jpg" }}
+{{> img src="PVR.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="bone.png" }}
 
@@ -116,11 +116,11 @@ order: 1400
 
 {{ spacer }} {{ spacer }} 
 
-{{> img src="missmatch.jpg" }}
+{{> img src="missmatch1.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 
-{{> img src="nalepke.jpg" }}
+{{> img src="nalepke.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} 
 
@@ -137,4 +137,6 @@ order: 1400
 {{ spacer }} {{ spacer }} 
 {{ spacer }} {{ spacer }} 
 
-{{> img src="zek-crew-portrait.jpg" }}
+{{> img src="zek-crew-portrait.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
