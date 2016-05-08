@@ -44,15 +44,15 @@ order: 470
 
 {{> img src="oblikobranje.gif" size="small" }}
 
-{{ spacer }} {{ spacer }}  
-
-{{> img src="ZEK-LucilleCaballero.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="kapsi.gif" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }}
+
+{{> img src="ZEK-LucilleCaballero.jpg" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="kokice.jpg" }}
 
