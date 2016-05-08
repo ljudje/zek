@@ -36,6 +36,8 @@ order: 500
 
 {{> img src="sucks.jpg" }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="gumb.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }}
