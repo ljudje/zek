@@ -10,8 +10,16 @@ order: 1500
 
 {{> img src="tapeart2b.jpg" size="small" }}
 
+{{ spacer }}
+
 {{> img src="tapeart3.jpg" }}
+
+{{ spacer }}
 
 {{> img src="tapeart4.jpg" }}
 
+{{ spacer }} {{ spacer }} {{ spacer }} 
+
 {{> img src="tapeart5.jpg" }}
+
+{{ spacer }} {{ spacer }} 
