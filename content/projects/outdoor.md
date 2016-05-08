@@ -6,8 +6,6 @@ description:
 order: 470
 ---
 
-{{ spacer }} {{ spacer }}  
-
 {{> img src="dobrodosli.JPG" }}
 
 {{ spacer }} {{ spacer }}  
@@ -17,8 +15,6 @@ order: 470
 {{ spacer }} {{ spacer }}  
 
 {{> img src="plasticbagmonster.jpg" }}
-
-{{ spacer }} {{ spacer }}  
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
@@ -44,15 +40,15 @@ order: 470
 
 {{> img src="oblikobranje.gif" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="kapsi.gif" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="ZEK-LucilleCaballero.jpg" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }}
 
 {{> img src="kokice.jpg" }}
 
@@ -60,7 +56,7 @@ order: 470
 
 {{> img src="drek.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="layers-nature.jpg" size="small" }}
 
@@ -68,13 +64,15 @@ order: 470
 
 {{> img src="layer-wall-brussels.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="leon.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="kroznik-klobuk.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="scream.jpg" size="small" }}
 
@@ -82,7 +80,7 @@ order: 470
 
 {{> img src="metlika.jpg" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="lobanja-smeti-pokoncna.jpg" size="small" }}
 
@@ -105,8 +103,6 @@ order: 470
 {{ spacer }} {{ spacer }}  
 
 {{> img src="sablona.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}  
 
 {{> img src="supki.jpg" size="small" }}
 
