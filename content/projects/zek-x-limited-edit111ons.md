@@ -8,10 +8,6 @@ order: 100
 
 {{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
 
-{{ spacer }} 
-
-{{> img src="DSC_0063.jpg" }}
-
 {{ spacer }} {{ spacer }}
 
 {{> img src="008_LIMITED-EDIT111ONS4.jpg" size="small" }}
