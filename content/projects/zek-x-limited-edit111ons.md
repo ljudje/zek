@@ -8,15 +8,15 @@ order: 100
 
 {{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
 
+{{ spacer }} 
+
 {{> img src="DSC_0063.jpg" }}
 
-{{> img src="individuals.jpg" }}
+{{ spacer }} {{ spacer }}
 
-{{# cta }} [See all 111 artworks >](http://zekx111.tumblr.com/) {{/ cta }}
+{{> img src="008_LIMITED-EDIT111ONS4.jpg" size="small" }}
 
-{{> img src="008_LIMITED-EDIT111ONS4.jpg" }}
-
-{{> img src="V5.jpg" }}
+{{> img src="V5.jpg" size="small" }}
 
 {{ spacer }}
 
@@ -30,9 +30,13 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 — Nika Jurman
 
-{{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> youtube id="e18h5OKS5r0" }}
+{{> img src="1individuals.jpg" }}
+
+{{> label title="[See all 111 artworks](http://zekx111.tumblr.com/)" description="" }}
+
+{{ spacer }}
 
 {{> img src="018_LIMITED-EDIT111ONSss.jpg" }}
 
@@ -46,13 +50,11 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{ spacer }}
 
+{{> label title="As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie." description="" }}
+
 {{> youtube id="uFc5gbmu7HM" }}
 
-{{ spacer }} 
-
- {{> label title="As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie." description="" }}
-
-## x
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 ## Research phase & making of
 
@@ -60,9 +62,17 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
 
+{{ spacer }}
+
 {{> img src="635500129876435527_kolektiv_zek.png" size="small" }}
 
 {{> img src="10371964_10153276286317564_5615823264779274578_n.jpg" size="small" }}
+
+{{ spacer }}
+
+{{> youtube id="e18h5OKS5r0" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="IMG_0505.JPG" size="small" }}
 
