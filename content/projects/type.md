@@ -40,7 +40,7 @@ order: 600
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="Malibu.png" size="small" }}
+{{> img src="1Malibu.jpg" size="small" }}
 
 {{ spacer }}
 
@@ -54,7 +54,9 @@ order: 600
 
 {{> img src="NakedBurt_zek_napis01.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }}
+{{> img src="Zekpixel.jpg" }}
+
+{{ spacer }}
 
 {{> img src="ZigaArtnak_MedoLettering.jpg" }}
 
