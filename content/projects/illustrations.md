@@ -8,6 +8,10 @@ order: 1400
 
 {{> img src="kaca.JPG" }}
 
+{{> img src="avion.jpg" }}
+
+{{> img src="jesus.jpg" }}
+
 {{> img src="pujsi.jpg" size="small" }}
 
 {{> img src="djordan.jpg" }}
@@ -62,7 +66,7 @@ order: 1400
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="p-tic.jpg" size="small" }}
+{{> img src="Topless.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 
