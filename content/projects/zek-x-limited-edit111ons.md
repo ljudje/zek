@@ -54,6 +54,8 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{> label title="As soon as the exhibition opened, bootleggers started gathering to get their piece of the pie." description="" }}
 
+{{ spacer }}
+
 {{> img src="bootleg.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }}
