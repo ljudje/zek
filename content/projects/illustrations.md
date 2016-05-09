@@ -3,7 +3,7 @@ name: Illustrations
 thumbnail: bone.png
 cover: kit.jpg
 description: 
-order: 1400
+order: 700
 ---
 
 {{> img src="kaca.JPG" }}
