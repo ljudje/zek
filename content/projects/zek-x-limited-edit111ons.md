@@ -1,20 +1,18 @@
 ---
 name: ZEK x LIMITED EDIT111ONS
 thumbnail: 008_LIMITED-EDIT111ONS4.jpg
-cover: 008_LIMITED-EDIT111ONS3.jpg
+cover: 1stranska.jpg
 description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br> <i> Poligon, Ljubljana / 2014 </i>
 order: 100
 ---
+
+{{> img src="1008_LIMITED-EDIT111ONS3.jpg" }}
 
 {{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="008_LIMITED-EDIT111ONS4.jpg" size="small" }}
-
-{{> img src="V5.jpg" size="small" }}
-
-{{ spacer }}
+{{> img src="1nopics.jpg" size="small" }}
 
 The exhibition pieces are a representation of mountains with heights from 4,000 m to 6,000 m at a specific time in their existence. The subtle unravelling of dimensions intrinsic to the two-dimensional form leaves room for thought, interpolating the everyman into the problem of transience. That which is subjected to the laws of time is inevitably contingent on recollection; this time, we can take it away.
 
@@ -22,21 +20,27 @@ The recherché technique of fractal folding—the cunning conceptualisation of t
 
 To effectively grasp the intricacy of the construction of exhibition pieces, we have to be cognizant of the fact that the mountains portrayed are not among the most topographically prominent—predominantly represented in public discourse has so far been the notorious geographical bourgeoisie. The no less valuable champions of the mid-levels depicted are reflections of a certain reality. In the same vein, the topography of a summit cannot be given precedence over the foot of a mountain. Searching for beauty in moderation and appreciating the nature, no matter its proportions, just may effect the responsibility towards the world that we have longed for time and time again.
 
-The authorial gesture is founded on principles of formalism and the mathemati- cally precise geographical data from the lives of majestic summits. In addition to the bohemian intuitive mastering of the language of visual arts, the scientific aspect of the exhibit pieces called for an expedition through heaps and mountains of paper, securing the calculations’ place in art. Rather than suggesting a mere artistic interpretation, the most recent ZEK intervention is therefore an excerpt of reality, transcending the limits of an exhibition piece form. It could be said that its entirety is held up to absent standards, emerging as a reminder of the elusive structure of time and the fleeting comprehensive- ness of space. It is precisely the absence of standards and cardinal directions that enables us to cease to be amazed, be it at our own insignificance or at— likewise our own—misguided conception of the world around us.
+The authorial gesture is founded on principles of formalism and the mathematically precise geographical data from the lives of majestic summits. In addition to the bohemian intuitive mastering of the language of visual arts, the scientific aspect of the exhibit pieces called for an expedition through heaps and mountains of paper, securing the calculations’ place in art. Rather than suggesting a mere artistic interpretation, the most recent ZEK intervention is therefore an excerpt of reality, transcending the limits of an exhibition piece form. It could be said that its entirety is held up to absent standards, emerging as a reminder of the elusive structure of time and the fleeting comprehensiveness of space. It is precisely the absence of standards and cardinal directions that enables us to cease to be amazed, be it at our own insignificance or at— likewise our own—misguided conception of the world around us.
 
 — Nika Jurman
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> img src="1individuals.jpg" }}
+{{> img src="008_LIMITED-EDIT111ONS4.jpg" size="small" }}
+
+{{> img src="V5.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="1individuals.jpg" size="small" }}
 
 {{> label title="[See all 111 artworks](http://zekx111.tumblr.com/)" description="" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="018_LIMITED-EDIT111ONSss.jpg" }}
 
-{{> img src="DSC_0032.jpg" }}
+{{> img src="DSC_0004.jpg" }}
 
 {{> img src="zekpero.jpg" }}
 
@@ -46,15 +50,17 @@ The authorial gesture is founded on principles of formalism and the mathemati- c
 
 {{ spacer }}
 
-{{> label title="As soon as the exhibition opened, bootleggers started gathering in the hood to get their piece of the pie." description="" }}
-
 {{> youtube id="uFc5gbmu7HM" }}
+
+{{> label title="As soon as the exhibition opened, bootleggers started gathering to get their piece of the pie." description="" }}
+
+{{> img src="bootleg.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
 ## Research phase & making of
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
 
