@@ -415,30 +415,31 @@ body.project
 			.img
 				background-color: $metal
 				.imgix-fluid
-					transition: opacity .2s
 					background-position: center center
 
 			.title
 				overflow: hidden
-				transition: opacity .5s, color .5s
 
 		a
+			transition: background-color .1s
 			.img
 				.imgix-fluid
 					opacity: 1
-					transition: opacity .2s
+					transition: opacity .1s
 			.title
 				color: #666
-				transition: color .4s
+				transition: color .3s
 
 		a:hover
+			background: darken($bleak, 10%)
+			transition: background-color .3s
 			.img
 				.imgix-fluid
 					opacity: 0.33
-					transition: opacity .4s
+					transition: opacity .3s
 			.title
 				color: $black
-				transition: color .2s
+				transition: color .1s
 		
 
 		.prev-thumb, .next-thumb
