@@ -321,7 +321,7 @@ body.project
 		h2
 			font-size: 1.8rem
 			text-transform: uppercase
-			
+
 		p, ul, ol, dl, table, blockquote, .responsive-image
 			@extend .margin-bottom
 
@@ -348,12 +348,17 @@ body.project
 			width: 100%
 
 		.responsive-image
-			+grid-column(1 of 1)
+			+breakpoint(small)
+				padding:
+					left: 0
+					right: 0
+			+breakpoint(medium up)
+				+grid-column(1 of 1)
 			float: none
 
 		.small-img
 			+breakpoint(small)
-				+grid-column(9 of 12)
+				+grid-column(10 of 12)
 			+breakpoint(medium up)
 				+grid-column(7 of 12)
 
