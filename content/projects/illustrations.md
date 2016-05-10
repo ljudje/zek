@@ -18,7 +18,11 @@ order: 700
 
 {{> img src="comp6.jpg" size="small" }}
 
+{{ spacer }} {{ spacer }} 
+
 {{> img src="kaca3.JPG" size="small" }}
+
+{{ spacer }} {{ spacer }} 
 
 {{> img src="babuska.png" }}
 
@@ -68,6 +72,12 @@ order: 700
 
 {{> img src="Topless.jpg" }}
 
+{{> img src="bozic-vozicki.jpg" }}
+
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+
+{{> img src="obesenec.jpg" }}
+
 {{ spacer }} {{ spacer }} 
 
 {{> img src="comp2.jpg" }}
@@ -110,13 +120,23 @@ order: 700
 
 {{ spacer }} {{ spacer }} 
 
+{{> img src="a3format-bojan.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
+
 {{>  img src="cik.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 
-{{> img src="comp4.jpg" size="small" }}
+{{> img src="lopovtat.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
 
 {{> img src="govnac.jpg" }}
+
+{{ spacer }} {{ spacer }} 
+
+{{> img src="comp4.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} 
 
@@ -132,9 +152,21 @@ order: 700
 
 {{ spacer }} {{ spacer }}
 
+{{> img src="ptichdrekh.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="pinkhead.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
+
 {{> img src="pljuca.gif" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
+
+{{> img src="sabotage.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="reverend.jpg" }}
 

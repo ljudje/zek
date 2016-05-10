@@ -28,11 +28,15 @@ order: 600
 
 {{> img src="artur-2015-27b-dec.jpg" size="small" }}
 
+{{> img src="artur-transf.jpg" size="small" }}
+
 {{> img src="artur-glow.jpg" size="small" }}
 
 {{> img src="skynet_big.jpg" }}
 
 {{> img src="Bobmo2.jpg" }}
+
+{{> img src="jackson.jpg" }}
 
 {{> img src="Heytoday2.jpg" }}
 
