@@ -26,14 +26,7 @@ add_winking_behaviour = ->
 
 	wink()
 
-add_ios_hovering_behaviour = ->
-	$('.project').on 'touchstart', (e) ->
-		$(e.targetElement).find('a').addClass('hover')
-	$('.project').on 'touchend', (e) ->
-		$('.project a').removeClass('hover')
-
 module.exports = ->
 	if $('body').hasClass('home')
 		add_scroll_behaviour()
 		add_winking_behaviour()
-		add_ios_hovering_behaviour()

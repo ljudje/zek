@@ -158,28 +158,30 @@ body.home
 		a
 			.project-thumbnail
 				opacity: 1
+				+breakpoint(small only)
+					transition: opacity 0s	
 				+breakpoint(medium up)
 					transition: opacity .4s
 			.title
 				opacity: 0
+				+breakpoint(small only)
+					transition: opacity 0s
 				+breakpoint(medium up)
 					transition: opacity .2s
 				
 		a:hover
 			.project-thumbnail
 				opacity: 0.33
+				+breakpoint(small only)
+					transition: opacity 0s
 				+breakpoint(medium up)
 					transition: opacity .2s
 			.title
 				opacity: 1
+				+breakpoint(small only)
+					transition: opacity 0s
 				+breakpoint(medium up)
 					transition: opacity .4s
-
-		a.hover
-			.project-thumbnail
-				opacity: 0.33
-			.title
-				opacity: 1
 
 		.title
 			+lato
@@ -627,7 +629,7 @@ footer
 		a:hover
 			opacity: 1
 			transition: $fast-opacity
-			
+
 	a.fb
 		background-image: url(/assets/footer-facebook.svg)
 	a.email
