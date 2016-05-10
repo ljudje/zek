@@ -214,11 +214,17 @@ body.project
 	.prev-arrow, .next-arrow
 		position: fixed
 		display: block
+		z-index: 2
+		transition: filter .2s, -webkit-filter .2s
 
 		img
 			opacity: 0.66
 
-	+breakpoint(small)
+	.prev-arrow-medium-up.invert, .next-arrow-medium-up.invert
+		-webkit-filter: invert(100%)
+		filter: invert(100%)
+
+	+breakpoint(small only)
 		.prev-arrow-medium-up, .next-arrow-medium-up
 			display: none
 
@@ -466,25 +472,37 @@ body.project
 				overflow: hidden
 
 		a
-			transition: background-color .1s
+			+breakpoint(small only)
+				background-color: $cox
+				.title
+					color: $white
+
+			+breakpoint(medium up)
+				transition: background-color .1s
+				.title
+					color: #666
+					transition: color .3s
+			
 			.img
 				.imgix-fluid
 					opacity: 1
 					transition: opacity .1s
-			.title
-				color: #666
-				transition: color .3s
 
 		a:hover
-			background: darken($bleak, 10%)
-			transition: background-color .3s
+
+			+breakpoint(medium up)
+				background-color: darken($bleak, 10%)
+				background-color: $cox
+				transition: background-color .3s
+				.title
+					color: $black
+					color: $white
+					transition: color .1s
+
 			.img
 				.imgix-fluid
 					opacity: 0.33
 					transition: opacity .3s
-			.title
-				color: $black
-				transition: color .1s
 		
 
 		.prev-thumb, .next-thumb

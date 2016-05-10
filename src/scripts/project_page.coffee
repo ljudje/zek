@@ -77,6 +77,18 @@ style_content = ->
 	$(window).on('resize', resize_layout)
 	$(window).on('orientationchange', resize_layout)
 
+add_arrow_hover_behaviour = ->
+	$('.next-thumb a').mouseenter (e) ->
+		$('.next-arrow').addClass('invert') # unless $('.next-arrow').hasClass('invert')
+	$('.next-thumb a').mouseleave (e) ->
+		$('.next-arrow').removeClass('invert')
+	
+	$('.prev-thumb a').mouseenter (e) ->
+		$('.prev-arrow').addClass('invert') # unless $('.prev-arrow').hasClass('invert')
+	$('.prev-thumb a').mouseleave (e) ->
+		$('.prev-arrow').removeClass('invert')
+
 module.exports = ->
 	if $('body').hasClass('project')
 		style_content()
+		add_arrow_hover_behaviour()
