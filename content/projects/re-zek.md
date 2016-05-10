@@ -31,3 +31,7 @@ order: 300
 {{ spacer }}
 
 {{> vimeo id='6923270'}}
+
+{{> label title="Exhibition opening" description="" }}
+
+{{ spacer }}
