@@ -2,7 +2,7 @@
 name: Belgrade design week
 thumbnail: belgrade_thumb.jpeg
 cover: belgradecover.jpg
-description: Laser printed graphics on gradient paper, <i>Belgrade / 2009</i>
+description: Laser printed graphics on gradient paper — <i>Belgrade / 2009</i>
 order: 450
 ---
 

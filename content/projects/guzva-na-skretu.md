@@ -2,7 +2,7 @@
 name: Gužva na skretu
 thumbnail: thumbnail-guzvanaskretu.jpg
 cover: coverguzvanaskretu.jpg
-description: Toilet Que - a mural in the restrooms, <i>Kino Šiška, Ljubljana / 2011</i>
+description: Toilet Que - a mural in the restrooms — <i>Kino Šiška, Ljubljana / 2011</i>
 order: 1310
 ---
 
