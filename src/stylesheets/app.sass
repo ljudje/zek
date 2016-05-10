@@ -408,7 +408,13 @@ body.project
 			+grid-column(1 of 1)
 
 		p.embed.soundcloud
-			margin-top: -2rem
+			+breakpoint(small)
+				margin-top: -1rem
+				padding:
+					left: 0
+					right: 0
+			+breakpoint(medium up)
+				margin-top: -2rem
 
 	.share
 		+grid-row
