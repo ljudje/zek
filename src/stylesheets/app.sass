@@ -493,23 +493,26 @@ body.project
 			a, .title, .name, .meta
 				display: block
 
-			.title
-				padding-top: 2.0rem
-
 			.meta
 				font-size: 0.95rem
 				line-height: 1.4
-				margin-bottom: 0.4rem
 				@media (orientation: landscape) and (max-width: 640px)
 					display: none
+				+breakpoint(small)
+					margin-top: 0.8rem
+					margin-bottom: 0
+				+breakpoint(medium up)
+					margin-top: 2.0rem
+					margin-bottom: 0.4rem
 
 			.name
 				line-height: 1.2
-				margin-bottom: 2rem 
 				+breakpoint(small)
 					font-size: 1.5rem
+					margin-bottom: 1.3rem 
 				+breakpoint(medium up)
 					font-size: 2rem
+					margin-bottom: 2rem
 
 		.prev-thumb
 			padding-left: 0
@@ -574,11 +577,12 @@ footer
 			background-position: center center
 			background-repeat: no-repeat
 			background-size: cover
-			-webkit-transform: translateY(-50%)
-			transform: translateY(-50%)
 			+breakpoint(small)
-				margin-top: 2.4rem
+				-webkit-transform: translateY(50%)
+				transform: translateY(50%)
 			+breakpoint(medium up)
+				-webkit-transform: translateY(-50%)
+				transform: translateY(-50%)
 				margin-top: 10vh
 
 			span
