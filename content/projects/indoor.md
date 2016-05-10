@@ -16,7 +16,7 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="milka.jpg" size="small" }}
+{{> img src="milka.jpg" }}
 
 {{ spacer }} {{ spacer }}
 

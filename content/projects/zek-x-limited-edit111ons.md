@@ -68,15 +68,11 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{> img src="IMG_0598.jpg" size="small" }}
 
-{{ spacer }}
-
 {{> label title="Photography [David Lotrič](http://facebook.com/davidlotric)" description="" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }} {{ spacer }}
 
 ## RESEARCH PHASE & MAKING OF
-
-{{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="ZEK_letak_print02-1.jpg" }}
 
