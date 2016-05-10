@@ -267,7 +267,7 @@ body.project
 				right: 1rem
 		+breakpoint(medium up)
 			+grid-column(10 of 12)
-			float: none
+			float: none !important
 		// +breakpoint(xxlarge)
 		// 	font-size: 1.16rem
 
@@ -303,7 +303,7 @@ body.project
 	.contents
 
 		h1, h2, h3, h4, h5, h6
-			float: none
+			float: none !important
 
 		h1, h2
 			+grid-column(1 of 1)
@@ -355,7 +355,7 @@ body.project
 					right: 0
 			+breakpoint(medium up)
 				+grid-column(1 of 1)
-			float: none
+			float: none !important
 
 		.small-img
 			+breakpoint(small)
@@ -383,6 +383,7 @@ body.project
 				font-weight: 400
 		
 		p.label
+			clear: both
 			text-align: center
 			font-size: 0.95rem
 			font-weight: 500
@@ -519,7 +520,6 @@ body.project
 					margin-right: 1rem
 				+breakpoint(medium up)
 					margin-right: 6rem
-				
 
 body.project-zek-2012
 	.contents
