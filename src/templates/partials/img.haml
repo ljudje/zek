@@ -2,14 +2,14 @@
 
 .responsive-image.small-img
 	{{# responsive_image this.src }}
-	%img.imgix-fluid{'data-src': 'http://{{ @root.site.asset_host }}/{{ src }}?fit=crop', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
+	%img.imgix-fluid{'data-src': 'http://{{ @root.site.asset_host }}/{{ src }}?fit=crop&q=85', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
 	{{/ responsive_image }}
 
 {{ else }}
 
 .responsive-image
 	{{# responsive_image this.src }}
-	%img.imgix-fluid{'data-src': 'http://{{ @root.site.asset_host }}/{{ src }}?fit=crop', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
+	%img.imgix-fluid{'data-src': 'http://{{ @root.site.asset_host }}/{{ src }}?fit=crop&q=80', 'data-local': '{{ encode @root.paths.name }}/{{ encode name }}', 'width': '{{ width }}', 'height': '{{ height }}', 'src': '/assets/1by1.png'}
 	{{/ responsive_image }}
 
 {{/ equal }}
