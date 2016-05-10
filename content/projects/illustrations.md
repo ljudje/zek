@@ -136,6 +136,14 @@ order: 700
 
 {{ spacer }} {{ spacer }} 
 
+{{> img src="flady.jpg" }}
+
+{{ spacer }} {{ spacer }} 
+
+{{> img src="sharqarium.jpg" }}
+
+{{ spacer }} {{ spacer }} 
+
 {{> img src="comp4.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} 
@@ -170,8 +178,7 @@ order: 700
 
 {{> img src="reverend.jpg" }}
 
-{{ spacer }} {{ spacer }} 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="zek-crew-portrait.jpg" size="small" }}
 

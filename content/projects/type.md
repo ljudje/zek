@@ -90,6 +90,10 @@ order: 600
 
 {{> img src="clidevektor.png" size="small" }}
 
+{{> img src="rexcrn.jpg" size="small" }}
+
+{{> img src="inlandknights.jpg" }}
+
 {{> img src="sansserifserif.png" }}
 
 {{> img src="Tattoo.jpg" size="small" }}

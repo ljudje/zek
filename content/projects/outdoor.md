@@ -32,6 +32,10 @@ order: 470
 
 {{ spacer }} {{ spacer }}
 
+{{> img src="kanarci.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
 {{> img src="imwithstupid.jpg" size="small" }}
 
 {{> img src="kdortobere.jpg" size="small" }}
@@ -78,6 +82,8 @@ order: 470
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
+{{> img src="metlika-detail.jpg" size="small" }}
+
 {{> img src="metlika.jpg" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} 
@@ -91,6 +97,10 @@ order: 470
 {{ spacer }} {{ spacer }}  
 
 {{> img src="glavur.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}  
+
+{{> img src="ograjazek.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
 
