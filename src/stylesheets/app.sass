@@ -375,12 +375,19 @@ body.project
 			a
 				font-size: 24px
 				font-weight: 400
+		
+		p.label:first-child
+			margin-top: -2.5rem
 
 		p.label
 			text-align: center
-			margin-top: -1rem
 			font-size: 0.95rem
 			font-weight: 500
+			+breakpoint(small)
+				margin-top: -0.5rem
+				line-height: 1.4
+			+breakpoint(medium up)
+				margin-top: -1rem
 			em
 				font-weight: 300
 
