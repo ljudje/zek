@@ -17,7 +17,7 @@
 		%meta{property: 'og:image', content: 'http://{{ site.asset_host }}/{{ encode paths.name }}/{{ encode cover }}?w=1200&fm=jpg'}
 		{{/ if }}
 
-	%body.project.page
+	%body.project.page{class: 'project-{{paths.name}}'}
 
 		#page
 
