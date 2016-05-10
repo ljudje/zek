@@ -98,6 +98,8 @@ order: 600
 
 {{> img src="Tattoo.jpg" size="small" }}
 
+{{ spacer }}
+
 {{> img src="typezekekperiments.png" }}
 
 {{ spacer }}
