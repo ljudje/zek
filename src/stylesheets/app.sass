@@ -244,15 +244,16 @@ body.project
 		font-weight: 300
 		color: $koln
 		text-align: center
-		max-width: 42rem
 		margin:
 			left: auto
 			right: auto
-
 		+breakpoint(small)
 			padding:
 				left: 1rem
 				right: 1rem
+		+breakpoint(medium up)
+			+grid-column(10 of 12)
+			float: none
 		+breakpoint(xxlarge)
 			font-size: 1.16rem
 

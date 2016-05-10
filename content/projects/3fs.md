@@ -2,7 +2,7 @@
 name: 3fs
 thumbnail: thumb3fs.jpg
 cover: 3fs1.JPG
-description: Office stickers on walls <br> <i> Third Frame Studios, Kranj / 2009 </i>
+description: Office stickers on walls, <i>Third Frame Studios, Kranj / 2009</i>
 order: 1460
 ---
 
