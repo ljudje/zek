@@ -9,19 +9,22 @@ add_scroll_behaviour = ->
 		
 add_winking_behaviour = ->
 	$wel = $('.welcome-message p')
-	console.log('w1', $wel.length)
+
+	first_interval = 1000
 
 	wink = ->
 		$wel.text('We’re the ZEK Crew ;)')
-		setTimeout(un_wink, 180)
+		setTimeout(un_wink, 180 + Math.random() * 40)
 
 	un_wink = ->
 		$wel.text('We’re the ZEK Crew :)')
-		setTimeout(wink, 2000 + Math.random() * 3000)
+		if first_interval
+			setTimeout(wink, 1500)
+			first_interval = false
+		else
+			setTimeout(wink, 2000 + Math.random() * 3000)
 
 	wink()
-
-	console.log 'added winking behavour'
 
 module.exports = ->
 	if $('body').hasClass('home')
