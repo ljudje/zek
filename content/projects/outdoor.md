@@ -18,7 +18,11 @@ order: 470
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
-{{ spacer }} {{ spacer }}  
+{{ spacer }} 
+
+{{> img src="newmessage.jpg" }}
+
+{{ spacer }} {{ spacer }} 
 
 {{> img src="childhood-pattern.jpg" size="small" }}
 
@@ -34,7 +38,11 @@ order: 470
 
 {{> img src="kanarci.jpg" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }} 
+
+{{> img src="mozalcifra.jpg" size="small" }}
+
+{{ spacer }}
 
 {{> img src="imwithstupid.jpg" size="small" }}
 
@@ -89,6 +97,10 @@ order: 470
 {{ spacer }} {{ spacer }} {{ spacer }} 
 
 {{> img src="lobanja-smeti-pokoncna.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
+
+{{> img src="pes-laze.jpg" }}
 
 {{ spacer }} {{ spacer }}  
 

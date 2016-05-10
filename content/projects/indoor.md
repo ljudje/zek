@@ -6,9 +6,8 @@ description:
 order: 500
 ---
 
-{{> img src="facelift.jpg" }}
 
-{{ spacer }} {{ spacer }}  
+{{ spacer }} {{ spacer }}
 
 {{> img src="candelight1.jpg" size="small" }}
 
@@ -18,11 +17,23 @@ order: 500
 
 {{> img src="milka.jpg" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }}
 
 {{> img src="misice.jpg" }}
 
+{{ spacer }}
+
+{{> img src="prosimo.jpg" }}
+
 {{ spacer }} {{ spacer }}
+
+{{> img src="eruption.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="facelift.jpg" }}
+
+{{ spacer }} {{ spacer }}  
 
 {{> img src="caphead.jpg" size="small" }}
 
