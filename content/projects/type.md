@@ -104,6 +104,6 @@ order: 600
 
 {{> img src="quietvektor.png" }}
 
-{{> img src="sideeffectstag.png" }}
+{{> img src="1sideeffectstag.png" }}
 
 {{> img src="trok-slb-fant.jpg" }}
