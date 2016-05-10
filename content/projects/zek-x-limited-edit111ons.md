@@ -40,7 +40,7 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-## OPENING
+## THE OPENING
 
 {{> img src="IMG_0142.jpg" }}
 
@@ -82,6 +82,8 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{> img src="10371964_10153276286317564_5615823264779274578_n.jpg" size="small" }}
 
+{{> label title="Images taken from the ZEK Crew journey archives" description="" }}
+
 {{ spacer }}
 
 {{> youtube id="e18h5OKS5r0" }}
@@ -99,4 +101,3 @@ The authorial gesture is founded on principles of formalism and the mathematical
 {{> img src="jazpos.jpg" size="small" }}
 
 {{> img src="10679850_706246312795649_4887000306584404137_o.jpg" size="small" }}
-

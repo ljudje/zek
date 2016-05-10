@@ -1,7 +1,7 @@
 ---
 name: Strip Generator
 thumbnail: thumbnail-sg.jpeg
-cover: stripgen.jpg
+cover: 1stripgen.jpg
 description: A [tool for creating your own comics](http://stripgenerator.com/)
 order: 1200
 ---
