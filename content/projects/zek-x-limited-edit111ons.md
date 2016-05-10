@@ -86,7 +86,7 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{> youtube id="e18h5OKS5r0" }}
 
-{{> label title="Exhibition coverage by Radio-Television Slovenia" description="" }}
+{{> label title="Exhibition coverage by Radio-Television Slovenia 1" description="" }}
 
 {{ spacer }} {{ spacer }}
 
