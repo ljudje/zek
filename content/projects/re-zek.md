@@ -30,4 +30,6 @@ order: 300
 
 {{ spacer }}
 
+## OPENING
+
 {{> vimeo id='6923270'}}

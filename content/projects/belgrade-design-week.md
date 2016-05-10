@@ -54,4 +54,6 @@ order: 450
 
 {{ spacer }} {{ spacer }}
 
+## MAKING OF
+
 {{> img src="belgradekolaz.jpg"  }}
