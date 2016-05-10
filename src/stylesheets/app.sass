@@ -376,10 +376,17 @@ body.project
 				font-weight: 300
 
 		p.embed
-			@extend .padded-content
-
 			iframe, video
 				width: 100%
+		
+		p.pure-embed
+			@extend .padded-content
+
+		p.custom-embed
+			+grid-column(1 of 1)
+
+		p.embed.soundcloud
+			margin-top: -2rem
 
 	.share
 		+grid-row

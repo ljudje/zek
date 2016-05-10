@@ -84,7 +84,11 @@ module.exports =
 	embed: ->
 		params = Array.prototype.slice.call(arguments)
 		options = params[params.length - 1]
-		return "<p class='embed'>" + options.fn(this) + "</p>"
+		hash = params[0].hash
+		if hash.kind
+			return "<p class='embed #{hash.kind} custom-embed'>" + options.fn(this) + "</p>"
+		else
+			return "<p class='embed pure-embed'>" + options.fn(this) + "</p>"
 
 	strip_html: (markup) ->
 		sanitizeHTML(markup, allowedTags: [])
