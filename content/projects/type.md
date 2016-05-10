@@ -32,6 +32,10 @@ order: 600
 
 {{> img src="artur-glow.jpg" size="small" }}
 
+{{> img src="artur-tipografit.jpg" size="small" }}
+
+{{ spacer }}
+
 {{> img src="skynet_big.jpg" }}
 
 {{> img src="Bobmo2.jpg" }}
