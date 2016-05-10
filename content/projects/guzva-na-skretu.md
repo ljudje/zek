@@ -6,15 +6,17 @@ description: Toilet Queue - a mural in the restrooms — <i>Kino Šiška, Ljublj
 order: 1310
 ---
 
-{{> img src="guzva1.jpg" size="small" }}
-
-The painting depicts 72 persons who defined Ljubljana's vibrant music and art scene for the past 30 years.
+The mural depicts 72 people that defined Ljubljana's vibrant music and art scene in the past 30 years.
 
 {{ spacer }}
 
 {{> img src="guzva3.jpg" }}
 
+{{ spacer }} {{ spacer }}
+
 {{> img src="guzva7.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="guzva12.jpg" }}
 
