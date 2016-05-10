@@ -514,14 +514,14 @@ body.project
 			.meta
 				font-size: 0.95rem
 				line-height: 1.4
-				@media (orientation: landscape) and (max-width: 640px)
-					display: none
 				+breakpoint(small only)
 					margin-top: 0.8rem
 					margin-bottom: 0
 				+breakpoint(medium up)
 					margin-top: 2.0rem
 					margin-bottom: 0.4rem
+				@media (orientation: landscape) and (max-width: 640px)
+					display: none
 
 			.name
 				line-height: 1.2
@@ -531,6 +531,9 @@ body.project
 				+breakpoint(medium up)
 					font-size: 2rem
 					margin-bottom: 2rem
+				@media (orientation: landscape) and (max-width: 640px)
+					margin-top: 1rem
+					margin-bottom: 1rem
 
 		.prev-thumb
 			padding-left: 0
