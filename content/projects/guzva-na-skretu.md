@@ -61,9 +61,3 @@ The mural depicts 72 people that defined Ljubljana's vibrant music and art scene
 {{> img src="guzva19.jpg" }}
 
 {{> img src="guzva17.jpg" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> img src="guzva1_2.jpg" size="small" }}
-
-{{> img src="guzva2_2.jpg" size="small" }}

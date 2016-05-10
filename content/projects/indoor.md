@@ -38,6 +38,10 @@ order: 500
 
 {{> img src="gumb.jpg" size="small" }}
 
+{{ spacer }} {{ spacer }}
+
+{{> img src="anaxzek.jpg" }}
+
 {{ spacer }} {{ spacer }} {{ spacer }}
 
 {{> img src="brixtonbike.jpg" }}
