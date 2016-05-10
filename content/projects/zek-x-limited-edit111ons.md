@@ -2,17 +2,17 @@
 name: ZEK x LIMITED EDIT111ONS
 thumbnail: 008_LIMITED-EDIT111ONS4.jpg
 cover: stranska.jpg
-description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br> <i> Poligon, Ljubljana / 2014 </i>
+description:  An exhibition of 111 unique artworks organised by [LIMITED EDIT111ONS](http://www.stud111o.com/2017710) project <br> <i> Poligon, Ljubljana / 2014 </i> 
 order: 100
 ---
 
-{{> img src="1008_LIMITED-EDIT111ONS3.jpg" }}
+{{> img src="IMG_0013.jpg" }}
 
-{{> img src="_ZEK-X-LIMITED-EDIT111ONS-pregled-del-foto-David-Lotric.jpg" }}
+{{> img src="IMG_9781.jpg" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="1nopics.jpg" size="small" }}
+{{> img src="IMG_9907.jpg" size="small" }}
 
 The exhibition pieces are a representation of mountains with heights from 4,000 m to 6,000 m at a specific time in their existence. The subtle unravelling of dimensions intrinsic to the two-dimensional form leaves room for thought, interpolating the everyman into the problem of transience. That which is subjected to the laws of time is inevitably contingent on recollection; this time, we can take it away.
 
@@ -24,7 +24,7 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 — Nika Jurman
 
-{{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="008_LIMITED-EDIT111ONS4.jpg" size="small" }}
 
@@ -36,29 +36,41 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{> label title="[See all 111 artworks](http://zekx111.tumblr.com/)" description="" }}
 
+{{ spacer }} {{ spacer }} {{ spacer }}
+
+## Opening
+
+{{ spacer }}
+
+{{> img src="IMG_0142.jpg" }}
+
 {{ spacer }} {{ spacer }}
 
-{{> img src="018_LIMITED-EDIT111ONSss.jpg" }}
-
-{{> img src="DSC_0004.jpg" }}
-
-{{> img src="zekpero.jpg" }}
-
-{{> img src="050_LIMITED-EDIT111ONSZek-crew_IMG_0690.jpg" }}
-
-{{> img src="zunaj.jpg" }}
+{{> img src="IMG_0363.jpg" size="small" }}
 
 {{ spacer }}
 
+{{> img src="pero1.jpg" size="small" }}
+
+{{> img src="pero2.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="IMG_0690.jpg" }}
+
+{{> img src="IMG_0534.jpg" }}
+	
 {{> youtube id="uFc5gbmu7HM" }}
 
-{{> label title="As soon as the exhibition opened, bootleggers started gathering to get their piece of the pie." description="" }}
+{{> label title="Outside the venue bootleggers started gathering to get their piece of the pie" description="" }}
 
 {{ spacer }}
 
-{{> img src="bootleg.jpg" size="small" }}
+{{> img src="IMG_0598.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }}
+{{> label title="Photography [David Lotrič](http://facebook.com/davidlotric)" description="" }}
+
+{{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
 ## Research phase & making of
 
@@ -75,6 +87,8 @@ The authorial gesture is founded on principles of formalism and the mathematical
 {{ spacer }}
 
 {{> youtube id="e18h5OKS5r0" }}
+
+{{> label title="Exhibition coverage by Radio-Television Slovenia" description="" }}
 
 {{ spacer }} {{ spacer }}
 
