@@ -78,12 +78,12 @@ style_content = ->
 
 add_arrow_hover_behaviour = ->
 	$('.next-thumb a').mouseenter (e) ->
-		$('.next-arrow').addClass('invert') # unless $('.next-arrow').hasClass('invert')
+		$('.next-arrow').addClass('invert') unless $('.next-arrow').hasClass('invert')
 	$('.next-thumb a').mouseleave (e) ->
 		$('.next-arrow').removeClass('invert')
 	
 	$('.prev-thumb a').mouseenter (e) ->
-		$('.prev-arrow').addClass('invert') # unless $('.prev-arrow').hasClass('invert')
+		$('.prev-arrow').addClass('invert') unless $('.prev-arrow').hasClass('invert')
 	$('.prev-thumb a').mouseleave (e) ->
 		$('.prev-arrow').removeClass('invert')
 
