@@ -20,10 +20,10 @@ order: 1600
 
 {{> img src="04-sinnombre-zek.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}
+
+## MAKING OF
 
 {{> youtube id="GKcd-JQa_2w" }}
 
-{{ spacer }}
-
-{{> img src="sinnombre_making1.jpg" size="small" }}
+{{> img src="sinnombre_making.jpg" }}

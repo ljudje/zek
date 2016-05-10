@@ -12,6 +12,8 @@ order: 1690
 
 {{> img src="trnfest4.jpg" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
-{{> img src="makingof.jpg" size="small" }}
+## MAKING OF
+
+{{> img src="makingof.jpg" }}
