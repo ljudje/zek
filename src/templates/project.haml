@@ -26,15 +26,19 @@
 			%section.main
 
 				{{# if previous}}
-				%a.prev-arrow{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
+				%a.prev-arrow.prev-arrow-medium-up{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
 					%img{src: '/assets/arrow-left.svg'}
+				%a.prev-arrow.prev-arrow-small{href: '/projects/{{ previous.paths.name }}', title: '{{ previous.name }}'}
+					%img{src: '/assets/arrow-left-small.svg'}
 				{{/ if }}
 				
 				%h1 {{ name }}
 
 				{{# if next}}
-				%a.next-arrow{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
+				%a.next-arrow.next-arrow-medium-up{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
 					%img{src: '/assets/arrow-right.svg'}
+				%a.next-arrow.next-arrow-small{href: '/projects/{{ next.paths.name }}', title: '{{ next.name }}'}
+					%img{src: '/assets/arrow-right-small.svg'}
 				{{/ if }}
 
 				{{# if description }}

@@ -203,6 +203,9 @@ body.project
 			opacity: 0.66
 
 	+breakpoint(small)
+		.prev-arrow-medium-up, .next-arrow-medium-up
+			display: none
+
 		.prev-arrow
 			padding-right: 10px
 		.next-arrow
@@ -218,8 +221,13 @@ body.project
 				height: 1rem
 
 	+breakpoint(medium up)
+		.prev-arrow-small, .next-arrow-small
+			display: none
+		.prev-arrow-medium-up, .next-arrow-medium-up
+			display: block
+
 		.prev-arrow, .next-arrow
-			top: 5.6rem
+			top: 4.6rem
 			img
 				height: 66%
 
