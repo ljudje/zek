@@ -153,18 +153,28 @@ body.home
 
 		a
 			.project-thumbnail
-				transition: opacity .4s
 				opacity: 1
+				+breakpoint(medium up)
+					transition: opacity .4s
 			.title
-				transition: opacity .2s
 				opacity: 0
+				+breakpoint(medium up)
+					transition: opacity .2s
 				
-		a:hover, a.hover
+		a:hover
 			.project-thumbnail
-				transition: opacity .2s
+				opacity: 0.33
+				+breakpoint(medium up)
+					transition: opacity .2s
+			.title
+				opacity: 1
+				+breakpoint(medium up)
+					transition: opacity .4s
+
+		a.hover
+			.project-thumbnail
 				opacity: 0.33
 			.title
-				transition: opacity .4s
 				opacity: 1
 
 		.title
