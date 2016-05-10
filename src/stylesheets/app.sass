@@ -8,6 +8,10 @@ $cox: rgb(60, 60, 60)
 $koln: rgb(30, 30, 30)
 $tricex: #3c3c3c
 
+$slow-opacity: opacity 1.2s
+$fast-opacity: opacity 0.2s
+$small-opacity: 0.66
+
 =roboto
 	font-family: Roboto, sans-serif
 
@@ -49,11 +53,11 @@ $tricex: #3c3c3c
 		background: white
 	img
 		height: 20px
-		opacity: .66
+		opacity: $small-opacity
 
 	a:hover img
 		opacity: 1
-		transition: height 0.4s, opacity 0.2s
+		transition: height 0.4s, $fast-opacity
 
 a 
 	text-decoration: underline
@@ -89,7 +93,7 @@ body.page
 				text-align: center
 			img
 				margin: 11px
-				transition: height 0.4s, opacity 1.2s
+				transition: height 0.4s, $slow-opacity
 
 		nav.is-anchored
 			@extend .anchored-nav
@@ -218,7 +222,14 @@ body.project
 		transition: filter .2s, -webkit-filter .2s
 
 		img
-			opacity: 0.66
+			opacity: $small-opacity
+			transition: $slow-opacity
+
+	.prev-arrow, .next-arrow
+		&:hover img
+			opacity: 1
+			transition: $fast-opacity
+
 
 	.prev-arrow-medium-up.invert, .next-arrow-medium-up.invert
 		-webkit-filter: invert(100%)
@@ -610,6 +621,13 @@ footer
 			span
 				display: none
 
+		a
+			opacity: $small-opacity
+			transition: $slow-opacity
+		a:hover
+			opacity: 1
+			transition: $fast-opacity
+			
 	a.fb
 		background-image: url(/assets/footer-facebook.svg)
 	a.email
