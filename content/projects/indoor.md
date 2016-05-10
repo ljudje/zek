@@ -20,6 +20,10 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
+{{> img src="misice.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
 {{> img src="caphead.jpg" size="small" }}
 
 {{> img src="sgfigurines.jpg" size="small" }}
