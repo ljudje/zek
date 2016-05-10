@@ -36,7 +36,7 @@ order: 600
 
 {{> img src="Bobmo2.jpg" }}
 
-{{> img src="jackson.jpg" }}
+{{> img src="1jackson.jpg" }}
 
 {{> img src="Heytoday2.jpg" }}
 
@@ -100,10 +100,10 @@ order: 600
 
 {{> img src="simulating3d.jpg" size="small" }}
 
-{{> img src="perspective-serif.png" }}
+{{> img src="1perspective-serif copy.png" }}
 
-{{> img src="quietvektor.png" }}
+{{> img src="1quietvektor copy.png" }}
 
-{{> img src="1sideeffectstag.png" }}
+{{> img src="11sideeffectstag.png" }}
 
 {{> img src="trok-slb-fant.jpg" }}
