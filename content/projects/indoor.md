@@ -40,9 +40,9 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="anaxzek.jpg" }}
+{{> img src="anaxzek.jpg" size="small" }}
 
-{{ spacer }} {{ spacer }} {{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="brixtonbike.jpg" }}
 

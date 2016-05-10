@@ -30,7 +30,7 @@ order: 470
 
 {{> img src="panda-orca-artnak.JPG" }}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }}
 
 {{> img src="kanarci.jpg" }}
 
@@ -82,9 +82,9 @@ order: 470
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> img src="metlika-detail.jpg" size="small" }}
+{{> img src="metlika-detail.jpg" }}
 
-{{> img src="metlika.jpg" }}
+{{> img src="metlika.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} 
 
