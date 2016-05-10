@@ -24,6 +24,8 @@ The finished piece was printed and exhibited at the “Biennale des Jeunes Créa
 
 {{> img src="4plus5.png" }}
 
+{{ spacer }} {{ spacer }} 
+
 {{> img src="4plus6.png" size="small" }}
 
 {{> img src="4plus7.png" size="small" }}

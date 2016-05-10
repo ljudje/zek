@@ -6,7 +6,11 @@ description: Office stickers on walls — <i>Third Frame Studios, Kranj / 2009</
 order: 1460
 ---
 
+{{ spacer }}
+
 {{> img src="3fs2.JPG" size="small" }}
+
+{{ spacer }}
 
 {{> img src="3fs3.JPG" }}
 
@@ -30,13 +34,19 @@ order: 1460
 
 {{> img src="3fs9.JPG" }}
 
+{{ spacer }}
+
 {{> img src="3fs10.JPG" size="small" }}
+
+{{ spacer }}
 
 {{> img src="3fs11.JPG" }}
 
 {{ spacer }}
 
 {{> img src="3fs12.JPG" }}
+
+{{ spacer }}
 
 {{> img src="3fs13.JPG" size="small" }}
 
