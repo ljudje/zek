@@ -56,12 +56,12 @@ a
 
 .body-text
 	+source
-	font-size: 1.16rem
+	font-size: 1.15rem
 	color: rgb(60,60,60)
 	font-weight: 300
 	color: $koln
-	+breakpoint(xxlarge)
-		font-size: 1.36rem
+	// +breakpoint(xxlarge)
+	// 	font-size: 1.36rem
 
 .padded-content
 	+breakpoint(small)
@@ -312,7 +312,10 @@ body.project
 			@extend .margin-top
 			@extend .margin-bottom
 
-
+		h2
+			font-size: 1.8rem
+			text-transform: uppercase
+			
 		p, ul, ol, dl, table, blockquote, .responsive-image
 			@extend .margin-bottom
 
