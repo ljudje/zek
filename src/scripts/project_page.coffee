@@ -57,7 +57,6 @@ resize_project_nav_images = ->
 	remain = window_height - obscured
 	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').height(remain)
 	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').width('100%')
-	console.log 'resizing', window_height, obscured, remain
 
 annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
@@ -88,7 +87,22 @@ add_arrow_hover_behaviour = ->
 	$('.prev-thumb a').mouseleave (e) ->
 		$('.prev-arrow').removeClass('invert')
 
+add_zoom_detection_behaviour = ->
+	handle_scale_change = (event) ->
+       scale = event.originalEvent.scale
+       if scale > 1
+       		$('header').hide()
+       	else
+       		$('header').show()
+		
+	$('body').bind "gesturestart", handle_scale_change
+	$('body').bind "gesturechange", ->
+		setTimeout(handle_scale_change, 100)
+	$('body').bind "gestureend", ->
+		setTimeout(handle_scale_change, 200)
+
 module.exports = ->
 	if $('body').hasClass('project')
 		style_content()
 		add_arrow_hover_behaviour()
+		add_zoom_detection_behaviour()
