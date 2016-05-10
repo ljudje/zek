@@ -401,7 +401,6 @@ body.project
 	.related
 		@extend .margin-top
 		position: relative
-		background: $bleak
 		+breakpoint(medium up)
 			height: 80vh
 
@@ -410,12 +409,14 @@ body.project
 			background: $white
 		a
 			+lato
+			background: $bleak
 			text-decoration: none
 			
 			.img
 				background-color: $metal
 				.imgix-fluid
 					transition: opacity .2s
+					background-position: center center
 
 			.title
 				overflow: hidden
@@ -427,8 +428,8 @@ body.project
 					opacity: 1
 					transition: opacity .2s
 			.title
-				.name
-					color: $black
+				color: #666
+				transition: color .4s
 
 		a:hover
 			.img
@@ -436,8 +437,8 @@ body.project
 					opacity: 0.33
 					transition: opacity .4s
 			.title
-				.name
-					color: $metal
+				color: $black
+				transition: color .2s
 		
 
 		.prev-thumb, .next-thumb
@@ -447,11 +448,12 @@ body.project
 				display: block
 
 			.title
-				padding-top: 2.5rem
+				padding-top: 2.0rem
 
 			.meta
-				font-size: 1rem
+				font-size: 0.95rem
 				line-height: 1.4
+				margin-bottom: 0.4rem
 				@media (orientation: landscape) and (max-width: 640px)
 					display: none
 
