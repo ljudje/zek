@@ -19,7 +19,7 @@ $tricex: #3c3c3c
 
 // MARGINS //
 
-+breakpoint(small)
++breakpoint(small only)
 	.margin-bottom
 		margin-bottom: 1rem
 	.margin-top
@@ -70,7 +70,7 @@ a
 	// 	font-size: 1.36rem
 
 .padded-content
-	+breakpoint(small)
+	+breakpoint(small only)
 		+grid-column(1 of 1)
 	+breakpoint(medium up)
 		+grid-column(7 of 12)
@@ -129,7 +129,7 @@ body.home
 				right: 2rem
 
 	.project
-		+breakpoint(small)
+		+breakpoint(small only)
 			+grid-column(1 of 1)
 		+breakpoint(medium)
 			+grid-column(1 of 2)
@@ -190,7 +190,7 @@ body.home
 
 	.postscript
 		+grid-row
-		+breakpoint(small)
+		+breakpoint(small only)
 			padding-top: 1rem
 		+breakpoint(medium up)
 			padding-bottom: 3rem
@@ -271,7 +271,7 @@ body.project
 		margin:
 			left: auto
 			right: auto
-		+breakpoint(small)
+		+breakpoint(small only)
 			padding:
 				left: 1rem
 				right: 1rem
@@ -337,7 +337,7 @@ body.project
 
 		.spacer
 			clear: both
-			+breakpoint(small)
+			+breakpoint(small only)
 				padding-top: 1rem
 			+breakpoint(medium up)
 				padding-top: 3rem
@@ -359,7 +359,7 @@ body.project
 			width: 100%
 
 		.responsive-image
-			+breakpoint(small)
+			+breakpoint(small only)
 				padding:
 					left: 0
 					right: 0
@@ -368,7 +368,7 @@ body.project
 			float: none !important
 
 		.small-img
-			+breakpoint(small)
+			+breakpoint(small only)
 				padding:
 					left: 1rem
 					right: 1rem
@@ -399,7 +399,7 @@ body.project
 			text-align: center
 			font-size: 0.95rem
 			font-weight: 500
-			+breakpoint(small)
+			+breakpoint(small only)
 				margin-top: -0.5rem
 				line-height: 1.4
 			+breakpoint(medium up)
@@ -418,7 +418,7 @@ body.project
 			+grid-column(1 of 1)
 
 		p.embed.soundcloud
-			+breakpoint(small)
+			+breakpoint(small only)
 				margin-top: -1rem
 				padding:
 					left: 0
@@ -498,7 +498,7 @@ body.project
 				line-height: 1.4
 				@media (orientation: landscape) and (max-width: 640px)
 					display: none
-				+breakpoint(small)
+				+breakpoint(small only)
 					margin-top: 0.8rem
 					margin-bottom: 0
 				+breakpoint(medium up)
@@ -507,7 +507,7 @@ body.project
 
 			.name
 				line-height: 1.2
-				+breakpoint(small)
+				+breakpoint(small only)
 					font-size: 1.5rem
 					margin-bottom: 1.3rem 
 				+breakpoint(medium up)
@@ -516,14 +516,14 @@ body.project
 
 		.prev-thumb
 			padding-left: 0
-			+breakpoint(small)
+			+breakpoint(small only)
 				padding-right: 0.5rem
 			+breakpoint(medium up)
 				padding-right: 1rem
 			a
 				text-align: left
 			.title
-				+breakpoint(small)
+				+breakpoint(small only)
 					margin:
 						left: 1rem
 						right: 1rem
@@ -532,14 +532,14 @@ body.project
 
 		.next-thumb
 			padding-right: 0
-			+breakpoint(small)
+			+breakpoint(small only)
 				padding-left: 0.5rem
 			+breakpoint(medium up)
 				padding-left: 1rem
 			a
 				text-align: right
 			.title
-				+breakpoint(small)
+				+breakpoint(small only)
 					margin:
 						left: 1rem
 						right: 1rem
@@ -549,7 +549,7 @@ body.project
 body.project-zek-2012
 	.contents
 		p.label:first-child
-			+breakpoint(small)
+			+breakpoint(small only)
 				margin-top: -2.5rem
 			+breakpoint(medium up)
 				margin-top: -1rem
@@ -560,7 +560,7 @@ body.project-zek-2012
 footer
 	position: relative
 	+grid-row
-	+breakpoint(small)
+	+breakpoint(small only)
 		height: 4rem
 	+breakpoint(medium up)
 		height: 20vh
@@ -577,7 +577,7 @@ footer
 			background-position: center center
 			background-repeat: no-repeat
 			background-size: cover
-			+breakpoint(small)
+			+breakpoint(small only)
 				-webkit-transform: translateY(50%)
 				transform: translateY(50%)
 			+breakpoint(medium up)
