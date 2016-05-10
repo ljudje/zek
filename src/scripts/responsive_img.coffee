@@ -23,7 +23,8 @@ module.exports = ->
 		# deploy imgix image replacement
 		imgix.onready ->
 			imgix.fluid
-				updateOnResizeDown: true,
+				updateOnResizeDown: false,
+				updateOnPinchZoom: true,
 				pixelStep: 5,
 				autoInsertCSSBestPractices: true,
 				lazyLoad: true,
