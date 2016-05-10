@@ -518,6 +518,17 @@ body.project
 					transition: color .1s
 
 			.img
+				position: relative
+			.img:before
+				content: ''
+				display: block
+				width: 100%
+				height: 64px
+				background: url(/assets/power-shade.png) repeat-x top left
+				position: absolute
+				z-index: 4
+
+			.img
 				.imgix-fluid
 					opacity: 0.33
 					transition: opacity .3s
