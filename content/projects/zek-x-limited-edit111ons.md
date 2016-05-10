@@ -32,13 +32,13 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="1individuals.jpg" size="small" }}
+[{{> img src="1individuals.jpg" size="small" }}](http://zekx111.tumblr.com/)
 
 {{> label title="[See all 111 artworks](http://zekx111.tumblr.com/)" description="" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-## Opening
+## OPENING
 
 {{ spacer }}
 
@@ -74,7 +74,7 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 
-## Research phase & making of
+## RESEARCH PHASE & MAKING OF
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
