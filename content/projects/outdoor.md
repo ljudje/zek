@@ -10,7 +10,7 @@ order: 470
 
 {{ spacer }} {{ spacer }}  
 
-{{> img src="bozicek.jpg" size="small" }}
+{{> img src="bozicek.JPG" size="small" }}
 
 {{ spacer }} {{ spacer }}  
 
@@ -24,7 +24,7 @@ order: 470
 
 {{ spacer }} {{ spacer }}  
 
-{{> img src="cattothechase.jpg" }}
+{{> img src="Cattothechase.jpg" }}
 
 {{> img src="the-chase.jpg" }}
 
@@ -58,9 +58,9 @@ order: 470
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-{{> img src="layers-nature.jpg" size="small" }}
+{{> img src="Layers-Nature.jpg" size="small" }}
 
-{{> img src="layers-freedom.jpg" size="small" }}
+{{> img src="Layers-Freedom.jpg" size="small" }}
 
 {{> img src="layer-wall-brussels.jpg" size="small" }}
 

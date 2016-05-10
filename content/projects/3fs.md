@@ -54,4 +54,4 @@ order: 1460
 
 {{> img src="3fs14.JPG" }}
 
-<i> Interior design: Jana Rot <br> Photos: Jaka Vinšek </i>
+{{> label title="Interior design by [Jana Rot](http://www.rot.si/en/home/), photos by [Jaka Vinšek](http://jakavinsek.com/)" description="" }}
