@@ -30,6 +30,6 @@ order: 300
 
 {{> vimeo id='6923270'}}
 
-{{ spacer }} {{ spacer }}
+{{ spacer }}
 
 {{> img src="rezekportret.jpg" size="small" }}
