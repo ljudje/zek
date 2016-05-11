@@ -7,8 +7,6 @@ order: 500
 ---
 
 
-{{ spacer }} {{ spacer }}
-
 {{> img src="prosimo.jpg" }}
 
 {{ spacer }} {{ spacer }}

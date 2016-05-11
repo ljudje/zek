@@ -26,10 +26,10 @@ order: 300
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="rezekportret.jpg" size="small" }}
-
-{{ spacer }}
-
 ## THE OPENING
 
 {{> vimeo id='6923270'}}
+
+{{ spacer }} {{ spacer }}
+
+{{> img src="rezekportret.jpg" size="small" }}

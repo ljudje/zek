@@ -18,10 +18,6 @@ order: 470
 
 {{> img src="pomlad-je-sen-zime.jpg" }}
 
-{{ spacer }} 
-
-{{> img src="newmessage.jpg" }}
-
 {{ spacer }} {{ spacer }} 
 
 {{> img src="childhood-pattern.jpg" size="small" }}
@@ -42,11 +38,7 @@ order: 470
 
 {{> img src="kanarci.jpg" }}
 
-{{ spacer }} 
-
-{{> img src="mozalcifra.jpg" size="small" }}
-
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="imwithstupid.jpg" size="small" }}
 
