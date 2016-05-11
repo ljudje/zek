@@ -40,7 +40,7 @@ The authorial gesture is founded on principles of formalism and the mathematical
 
 {{ spacer }} {{ spacer }} {{ spacer }}
 
-## THE OPENING
+## The Opening
 
 {{> img src="IMG_0142.jpg" }}
 
