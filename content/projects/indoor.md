@@ -9,6 +9,10 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
+{{> img src="prosimo.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
 {{> img src="candelight1.jpg" size="small" }}
 
 {{> img src="candelight2.jpg" size="small" }}
@@ -16,18 +20,6 @@ order: 500
 {{ spacer }} {{ spacer }}
 
 {{> img src="milka.jpg" }}
-
-{{ spacer }}
-
-{{> img src="misice.jpg" }}
-
-{{ spacer }}
-
-{{> img src="prosimo.jpg" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> img src="eruption.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
 

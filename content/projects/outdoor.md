@@ -34,7 +34,11 @@ order: 470
 
 {{> img src="panda-orca-artnak.JPG" }}
 
-{{ spacer }}
+{{ spacer }} {{ spacer }} 
+
+{{> img src="vsenajboljse.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
 
 {{> img src="kanarci.jpg" }}
 
