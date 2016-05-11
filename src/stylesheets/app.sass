@@ -504,7 +504,8 @@ body.project
 			.img
 				.imgix-fluid
 					opacity: 1
-					transition: opacity .1s
+					+breakpoint(medium up)
+						transition: opacity .1s
 
 		a:hover
 
@@ -530,8 +531,9 @@ body.project
 
 			.img
 				.imgix-fluid
-					opacity: 0.33
-					transition: opacity .3s
+					+breakpoint(medium up)
+						opacity: 0.33
+						transition: opacity .3s
 		
 
 		.prev-thumb, .next-thumb
