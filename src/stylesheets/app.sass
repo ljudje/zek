@@ -507,6 +507,19 @@ body.project
 					+breakpoint(medium up)
 						transition: opacity .1s
 
+			.img
+				position: relative
+			.img:before
+				content: ''
+				width: 100%
+				height: 64px
+				background: url(/assets/power-shade.png) repeat-x top left
+				position: absolute
+				z-index: 4
+				+breakpoint(small only)
+					display: block
+				+breakpoint(medium up)
+					display: none
 		a:hover
 
 			+breakpoint(medium up)
@@ -518,17 +531,10 @@ body.project
 					color: $white
 					transition: color .1s
 
-			.img
-				position: relative
 			.img:before
-				content: ''
-				display: block
-				width: 100%
-				height: 64px
-				background: url(/assets/power-shade.png) repeat-x top left
-				position: absolute
-				z-index: 4
-
+				+breakpoint(medium up)
+					display: block
+				
 			.img
 				.imgix-fluid
 					+breakpoint(medium up)
