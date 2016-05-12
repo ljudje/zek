@@ -12,6 +12,12 @@ order: 700
 
 {{> img src="jesus.jpg" }}
 
+{{ spacer }} {{ spacer }} 
+
+{{> img src="drdoom.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }} 
+
 {{> img src="pujsi.jpg" size="small" }}
 
 {{> img src="djordan.jpg" }}

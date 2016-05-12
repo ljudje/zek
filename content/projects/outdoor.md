@@ -104,6 +104,10 @@ order: 470
 
 {{ spacer }} {{ spacer }}  
 
+{{> img src="pakdojeklekriv.jpg" size="small" }}
+
+{{ spacer }} {{ spacer }}  
+
 {{> img src="glavur.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}  
