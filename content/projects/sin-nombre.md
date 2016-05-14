@@ -10,9 +10,7 @@ order: 1600
 
 {{ spacer }}
 
-{{> img src="05-sinnombre-zek.jpg" size="small" }}
-
-{{> img src="06-sinnombre-zek.jpg" size="small" }}
+{{> img src="sinnombre-zek.gif" size="small" }}
 
 {{ spacer }}
 
