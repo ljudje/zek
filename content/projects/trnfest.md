@@ -17,3 +17,5 @@ order: 1690
 ## MAKING OF
 
 {{> img src="makingof.jpg" }}
+
+{{> img src="shareicons.jpg" }}
