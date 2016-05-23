@@ -3,7 +3,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks('grunt-exec')
 	grunt.loadNpmTasks('grunt-haml')
 	grunt.loadNpmTasks('grunt-browserify')
-	grunt.loadNpmTasks('grunt-contrib-sass')
+	grunt.loadNpmTasks('grunt-contrib-compass')
 	grunt.loadNpmTasks('grunt-contrib-coffee')
 	grunt.loadNpmTasks('grunt-contrib-copy')
 	grunt.loadNpmTasks('grunt-contrib-clean')
@@ -26,9 +26,9 @@ module.exports = (grunt) ->
 				files: ['src/scripts/{,*/}*.coffee']
 				tasks: ['scripts']
 
-			sass:
+			compass:
 				files: ['src/stylesheets/{,*/}*.{scss,sass}'],
-				tasks: ['sass'],
+				tasks: ['compass'],
 
 			haml:
 			  files: ['src/templates/{,*/}*.haml'],
@@ -55,24 +55,18 @@ module.exports = (grunt) ->
 				]
 				tasks: ['copy:project_assets']
 
-		sass:
+		compass:
 			options:
 				raw: 'Encoding.default_external = \'utf-8\'\n'
-				loadPath: [
+				importPath: [
 					'node_modules/foundation-sites/scss'
 					'node_modules/motion-ui/src'
 				]
+				outputStyle: 'compressed'
 			dist:
 				options:
-					sourcemap: 'none'
-					style: 'compressed'
-				files: [{
-					expand: true
-					cwd: 'src/stylesheets'
-					src: ['*.scss', '*.sass']
-					dest: 'build/assets/css'
-					ext: '.css'
-				}]
+					sassDir: 'src/stylesheets'
+					cssDir: 'build/assets/css'
 
 		coffee:
 			dist:
@@ -140,7 +134,7 @@ module.exports = (grunt) ->
 
 	# Subtasks
 	grunt.registerTask('wipe', ['clean'])
-	grunt.registerTask('styles', ['sass'])
+	grunt.registerTask('styles', ['compass'])
 	grunt.registerTask('scripts', ['coffee', 'browserify'])
 	grunt.registerTask('templates', ['haml'])
 	grunt.registerTask('content', ['exec:metalsmith', 'copy'])
