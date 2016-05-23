@@ -28,7 +28,9 @@ module.exports = (grunt) ->
 
 			sass:
 				files: ['src/stylesheets/{,*/}*.{scss,sass}'],
-				tasks: ['sass']
+				tasks: ['sass'],
+				options:
+					raw: 'Encoding.default_external = \'utf-8\'\n'
 
 			haml:
 			  files: ['src/templates/{,*/}*.haml'],
