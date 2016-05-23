@@ -29,8 +29,6 @@ module.exports = (grunt) ->
 			sass:
 				files: ['src/stylesheets/{,*/}*.{scss,sass}'],
 				tasks: ['sass'],
-				options:
-					raw: 'Encoding.default_external = \'utf-8\'\n'
 
 			haml:
 			  files: ['src/templates/{,*/}*.haml'],
@@ -59,6 +57,7 @@ module.exports = (grunt) ->
 
 		sass:
 			options:
+				raw: 'Encoding.default_external = \'utf-8\'\n'
 				loadPath: [
 					'node_modules/foundation-sites/scss'
 					'node_modules/motion-ui/src'
