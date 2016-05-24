@@ -18,3 +18,5 @@
 /src/assets/js/app.js
 
 /.tmp
+
+.DS_Store
