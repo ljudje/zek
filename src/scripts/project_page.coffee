@@ -101,8 +101,36 @@ add_zoom_detection_behaviour = ->
 	$('body').bind "gestureend", ->
 		setTimeout(handle_scale_change, 200)
 
+autoplayable_videos = []
+
+autoplay_videos_in_viewport = ->
+	scroll_top = $(window).scrollTop()
+	scroll_bottom = scroll_top + $(window).height()
+
+	for video in autoplayable_videos
+		video_top = $(video).offset().top
+		video_bottom = video_top + $(video).height()
+		
+		# If the video is within viewport
+		if video_top < scroll_bottom and video_bottom > scroll_top
+			$(video).get(0).play()
+			# $(video).removeClass('paused').addClass('playing')
+		else # the video is not within the viewport
+			$(video).get(0).pause()
+			# $(video).removeClass('playing').addClass('paused')
+
+loop_videos_only_in_viewport = ->
+	$('video').each (i, video) ->
+		if $(video).attr('autoplay') == 'autoplay'
+			$(video).attr('autoplay', false)
+			$(video).get(0).pause()
+			autoplayable_videos.push(video)
+
+	$(window).on 'scroll', Foundation.util.throttle(autoplay_videos_in_viewport, 30)
+
 module.exports = ->
 	if $('body').hasClass('project')
 		style_content()
+		loop_videos_only_in_viewport()
 		add_arrow_hover_behaviour()
 		add_zoom_detection_behaviour()
