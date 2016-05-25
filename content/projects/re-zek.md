@@ -8,84 +8,75 @@ order: 300
 
 
 
-{{> youtube id="YVmdAHbJ6rU" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek1.mp4" frame="false" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="obdsevuTgQs" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="4MGg5X_8_vs" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek2.mp4" frame="false" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="UbJ8ixN7MXo" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="ObeIjVVZF00" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek3.mp4" frame="true" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="OhqMFJr_ruk" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="oCPEs5mg6kk" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek4.mp4" frame="true" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="Cw-dPS_rKTc" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="ohkGFxwyA0Y" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek5.mp4" frame="true" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="b4xRzgMQHDI" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="dE6jfCBCzUU" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek6.mp4" frame="true" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
-{{> youtube id="gKNjytGvC7o" autoplay="true" loop="true" controls="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }} 
-
-{{> youtube id="ffxaUBWxayw" autoplay="true" loop="true" controls="false" }}
+{{> video_loop src="rezek7.mp4" frame="true" }}
 
 {{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
-{{ spacer }} {{ spacer }} 
+{{ spacer }} {{ spacer }}
 
+{{> video_loop src="rezek8.mp4" frame="true" }}
+
+{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek9.mp4" frame="true" }}
+
+{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek10.mp4" frame="true" }}
+
+{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek11.mp4" frame="true" }}
+
+{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek12.mp4" frame="true" }}
+
+{{> label title="Heads or Tails? (2012)" description="mixed media" }}
 
 <!--
 {{# embed }}<video class="embed-video" id="embed-video" poster="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg" autoplay="" muted="" loop=""><source id="webmSource" src="https://zippy.gfycat.com/DefensivePlainAmazonparrot.webm" type="video/webm"><source id="mp4Source" src="https://fat.gfycat.com/DefensivePlainAmazonparrot.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg"></video>{{/ embed }}
