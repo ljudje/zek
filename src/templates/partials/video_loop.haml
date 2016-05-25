@@ -1,3 +1,10 @@
-%p.looping-video
-  %video{autoplay: true, loop: true}
-    %source{src: '/assets/projects/{{ encode @root.paths.name }}/{{ encode this.src }}', type: 'video/mp4'}
+{{# equal frame "true" }}
+= "</div>"
+.contents.expanded-contents.video-contents
+	{{/ equal }}
+	.looping-video
+		%video{autoplay: "{{autoplay}}", loop: "{{loop}}"}
+			%source{src: '/assets/projects/{{ encode @root.paths.name }}/{{ encode this.src }}', type: 'video/mp4'}
+	{{# equal frame "true" }}
+= "<div class='contents'>"
+{{/ equal }}
