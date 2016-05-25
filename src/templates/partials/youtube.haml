@@ -1,5 +1,9 @@
 = "</div>"
 .contents.expanded-contents.video-contents
+	-# {{> youtube id='dfc72jda3' }}
+	-# {{> youtube id='dfc72jda3' controls='false' }}
+	-# {{> youtube id='dfc72jda3' playlist='cz7JaQQWxj8' }}
+	-# {{> youtube id='r1cr011' autoplay='true' loop='true' }}
 	.youtube
-		%iframe{width:"100%", src:"https://www.youtube.com/embed/{{ id }}", frameborder:"0", allowfullscreen: true}
+		%iframe{width: "100%", src:'https://www.youtube.com/embed/{{ this.id }}?rel=0&controls={{# equal controls "false" }}0{{ else }}1{{/ equal }}&showinfo=0&fs=0&loop={{# if loop }}1{{ else }}0{{/ if }}&autoplay={{# if autoplay }}1{{ else }}0{{/ if }}{{# if playlist }}&playlist={{ playlist }}{{ else }}{{# equal loop "true" }}&playlist={{ id }}{{/ equal }}{{/ if }}', frameborder:"0", allowfullscreen: true}
 = "<div class='contents'>"
