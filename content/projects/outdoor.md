@@ -16,7 +16,7 @@ order: 470
 
 {{> img src="plasticbagmonster.jpg" }}
 
-{{> img src="pomlad-je-sen-zime.jpg" }}
+{{> img src="Pomlad-je-sen-zime.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 
@@ -42,7 +42,7 @@ order: 470
 
 {{> img src="imwithstupid.jpg" size="small" }}
 
-{{> img src="kdortobere.jpg" size="small" }}
+{{> img src="kdor-to-bere.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}  
 

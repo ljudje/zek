@@ -1,20 +1,20 @@
 ---
 name: Trnfest
-thumbnail: trnfest_thumb.jpeg
+thumbnail: trnfest-thumb.jpeg
 cover: trnfest2_cover.jpg
 description: Custom billboards for the annual Trnfest festival — <i>Ljubljana / 2009</i>
-order: 1690
+order: 1490
 ---
 
 <video autoplay="autoplay" loop="loop" >
   <source src="rezek1.mp4" type="video/mp4" /></video>
 
 
-{{> img src="trnfest1.jpg" }}
+{{> img src="trnfest01.jpg" }}
 
-{{> img src="trnfest3.jpg" }}
+{{> img src="trnfest03.jpg" }}
 
-{{> img src="trnfest4.jpg" }}
+{{> img src="trnfest04.jpg" }}
 
 {{ spacer }} {{ spacer }}
 

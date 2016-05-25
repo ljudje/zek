@@ -1,6 +1,6 @@
 ---
 name: Indoor
-thumbnail: Tetris_thumb.jpg
+thumbnail: 01Tetris_thumb.jpg
 cover: racun_cover.jpg
 description: 
 order: 500
@@ -49,11 +49,9 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="brixtonbike.jpg" }}
+{{> img src="brixtonbike.jpg" size="small" }}
 
-{{> img src="solarbike.jpg" }}
-
-{{ spacer }}
+{{ spacer }} {{ spacer }}
 
 {{> img src="four1.jpg" }}
 
@@ -79,13 +77,7 @@ order: 500
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="mavricazek.jpg" size="small" }}
-
-{{> img src="mavricazek2.jpg" size="small" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> img src="izrezanci2.jpg" }}
+{{> img src="izrezanci2.jpg" size="small" }}
 
 {{ spacer }} {{ spacer }}
 

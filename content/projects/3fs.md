@@ -3,7 +3,7 @@ name: 3fs
 thumbnail: thumb3fs.jpg
 cover: 3fs1.JPG
 description: Stickers on walls — <i>Third Frame Studios, Kranj / 2009</i>
-order: 1460
+order: 1690
 ---
 
 {{ spacer }}

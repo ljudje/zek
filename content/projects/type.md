@@ -1,6 +1,6 @@
 ---
 name: Type
-thumbnail: thumbnailtype.png
+thumbnail: 01thumbnailtype.png
 cover: DieZekCrew.jpg
 description: 
 order: 600
@@ -36,7 +36,7 @@ order: 600
 
 {{ spacer }}
 
-{{> img src="skynet_big.jpg" }}
+{{> img src="skynet_bigger.jpg" }}
 
 {{> img src="Bobmo2.jpg" }}
 
@@ -108,7 +108,7 @@ order: 600
 
 {{ spacer }}
 
-{{> img src="simulating3d.jpg" size="small" }}
+{{> img src="simulating-3d.jpg" size="small" }}
 
 {{> img src="1perspective-serif copy.png" }}
 
