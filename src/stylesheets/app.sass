@@ -412,6 +412,20 @@ body.project
 			iframe
 				@extend .padded-content
 
+		.looping-video
+			text-align: center
+			+grid-row
+			max-height: 80vh
+			video
+				@extend .padded-content
+				max-height: 80vh
+
+		.looping-video + p
+			margin-top: 1rem
+
+		.looping-video + p.label
+			margin-top: 1rem
+
 		p.cta
 			text-align: center
 			a
