@@ -1,6 +1,6 @@
 ---
 name: Sin Nombre
-thumbnail: thumbnail-sinnombre.jpeg
+thumbnail: 00thumbnailsinnombre.jpeg
 cover: 000-sinnombre-zek.jpg
 description: Custom billboards for the movie Sin Nombre playing in Kinodvor — <i>Ljubljana / 2010</i>
 order: 1600

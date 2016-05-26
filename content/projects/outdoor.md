@@ -16,7 +16,7 @@ order: 470
 
 {{> img src="plasticbagmonster.jpg" }}
 
-{{> img src="Pomlad-je-sen-zime.jpg" }}
+{{> img src="pomlad-je-sen-zime-01.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 

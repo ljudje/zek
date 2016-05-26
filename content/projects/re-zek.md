@@ -8,75 +8,75 @@ order: 300
 
 
 
-{{> video_loop src="rezek1.mp4" frame="false" }}
+{{> video_loop src="rezek5b.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> video_loop src="rezek2.mp4" frame="false" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="3D" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek3.mp4" frame="true" }}
+{{> video_loop src="rezek1a.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> video_loop src="rezek4.mp4" frame="true" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Shootout" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek5.mp4" frame="true" }}
+{{> video_loop src="rezek2a.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> video_loop src="rezek6.mp4" frame="true" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Still Life" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek7.mp4" frame="true" }}
+{{> video_loop src="rezek3.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> video_loop src="rezek8.mp4" frame="true" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Graff" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek9.mp4" frame="true" }}
+{{> video_loop src="rezek4.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
-
-{{ spacer }} {{ spacer }}
-
-{{> video_loop src="rezek10.mp4" frame="true" }}
-
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Noise" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek11.mp4" frame="true" }}
+{{> video_loop src="rezek6.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Lights Out" description="dynamic poster" }}
 
 {{ spacer }} {{ spacer }}
 
-{{> video_loop src="rezek12.mp4" frame="true" }}
+{{> video_loop src="rezek7.mp4" frame="false" }}
 
-{{> label title="Heads or Tails? (2012)" description="mixed media" }}
+{{> label title="Peeping" description="dynamic poster" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek8.mp4" frame="false" }}
+
+{{> label title="Turbulence" description="dynamic poster" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek9.mp4" frame="false" }}
+
+{{> label title="Symbols" description="dynamic poster" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek10.mp4" frame="false" }}
+
+{{> label title="Z Letters" description="dynamic poster" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek11.mp4" frame="false" }}
+
+{{> label title="E Letters" description="dynamic poster" }}
+
+{{ spacer }} {{ spacer }}
+
+{{> video_loop src="rezek12.mp4" frame="false" }}
+
+{{> label title="K Letters" description="dynamic poster" }}
 
 <!--
 {{# embed }}<video class="embed-video" id="embed-video" poster="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg" autoplay="" muted="" loop=""><source id="webmSource" src="https://zippy.gfycat.com/DefensivePlainAmazonparrot.webm" type="video/webm"><source id="mp4Source" src="https://fat.gfycat.com/DefensivePlainAmazonparrot.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/DefensivePlainAmazonparrot-poster.jpg"></video>{{/ embed }}
