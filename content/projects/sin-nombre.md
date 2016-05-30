@@ -10,7 +10,7 @@ order: 1600
 
 {{ spacer }}
 
-{{> img src="sinnombre-zek.gif" size="small" }}
+{{> video_loop src="sinnombre-zek.mp4" frame="false" }}
 
 {{ spacer }}
 

@@ -6,10 +6,6 @@ description: Custom billboards for the annual Trnfest festival — <i>Ljubljana 
 order: 1490
 ---
 
-<video autoplay="autoplay" loop="loop" >
-  <source src="rezek1.mp4" type="video/mp4" /></video>
-
-
 {{> img src="trnfest01.jpg" }}
 
 {{> img src="trnfest03.jpg" }}
@@ -22,4 +18,3 @@ order: 1490
 
 {{> img src="makingof.jpg" }}
 
-{{> img src="shareicons.jpg" }}

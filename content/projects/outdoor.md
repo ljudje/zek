@@ -46,11 +46,11 @@ order: 470
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}  
 
-{{> img src="oblikobranje.gif" size="small" }}
+{{> video_loop src="oblikobranje.mp4" frame="false" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }} 
 
-{{> img src="kapsi.gif" size="small" }}
+{{> video_loop src="kapsi.mp4" frame="false" }}
 
 {{ spacer }} {{ spacer }} {{ spacer }} {{ spacer }}
 

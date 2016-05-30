@@ -94,7 +94,7 @@ order: 700
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="cunt.gif" }}
+{{> video_loop src="cunt.mp4" frame="false" }}
 
 {{ spacer }} {{ spacer }} 
 
@@ -174,7 +174,7 @@ order: 700
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="pljuca.gif" size="small" }}
+{{> video_loop src="pljuca.mp4" frame="false" }}
 
 {{ spacer }} {{ spacer }}
 
