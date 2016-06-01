@@ -10,7 +10,7 @@ order: 700
 
 {{> img src="avion.jpg" }}
 
-{{> img src="jesus.jpg" }}
+{{> img src="jesus1.jpg" }}
 
 {{ spacer }} {{ spacer }} 
 

@@ -1,6 +1,6 @@
 ---
 name: Re:ZEK
-thumbnail: rezekthumb.gif
+thumbnail: thumb-rezek.jpg
 cover: rezek.jpg
 description:  An exhibition organised by Emzin featuring 14 lenticular posters — <i>Avla Gallery, NLB Bank, Ljubljana / 2009</i>
 order: 300
