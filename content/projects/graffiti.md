@@ -65,7 +65,7 @@ order: 460
 
 {{> img src="Graff_Reks_2009.jpg" }}
 
-{{> img src="Graff_Reks_Iraq_2009 copy.jpg" }}
+{{> img src="Graff_Reks_Iraq_2009.jpg" }}
 
 {{> img src="Graff_Okay_2009.jpg" }}
 
