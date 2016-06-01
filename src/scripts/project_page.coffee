@@ -114,10 +114,8 @@ autoplay_videos_in_viewport = ->
 		# If the video is within viewport
 		if scroll_top < video_bottom and scroll_bottom > video_top
 			$(video).get(0).play()
-			# $(video).removeClass('paused').addClass('playing')
 		else # the video is not within the viewport
 			$(video).get(0).pause()
-			# $(video).removeClass('playing').addClass('paused')
 
 loop_videos_only_in_viewport = ->
 	$('video').each (i, video) ->
@@ -129,6 +127,7 @@ loop_videos_only_in_viewport = ->
 	unless Foundation.MediaQuery.current == 'small'
 		$(window).on 'scroll', Foundation.util.throttle(autoplay_videos_in_viewport, 30)
 		autoplay_videos_in_viewport()
+	
 
 module.exports = ->
 	if $('body').hasClass('project')
