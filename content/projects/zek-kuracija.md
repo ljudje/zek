@@ -129,6 +129,8 @@ Najbrž ni naključje, da kolektiv na ogled postavi Giftshop - ta biser sodobne 
 
 {{> img src="makingof_kolaz5.jpg" size="small"}}
 
+{{> img src="makingof_kolaz8.jpg" size="small"}}
+
 {{> img src="makingof_kolaz7.jpg" size="small"}}
 
 {{> img src="makingof_kolaz6.jpg" size="small"}}
