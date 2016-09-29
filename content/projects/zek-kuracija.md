@@ -2,14 +2,14 @@
 name: ZEK Kuracija
 thumbnail: rov_thumb.jpg
 cover: coverov.jpg
-description: Nothing but the gift shop, Kranj / 2016
+description: A curated exhibition — <i>The tunnels of Kranj / 2016</i>
 order: 99
 ---
 
 {{> img src="rov1.jpg" }}
 
 
-{{> label title=" “Že ob prvem obisku rova smo začutili, da je v lisah nekaj več in da to ne more biti naključje. Po temeljitejšem pregledu so bila naša predvidevanja potrjena.” - ZEK crew " description="" }}
+{{> label title=" »At our first visit to the tunnel, we immediately got the feeling that there was something more to those stains. After a thorough examination, our suspicions proved correct.« — ZEK crew " description="" }}
 
 {{ spacer }}
 
@@ -41,19 +41,23 @@ order: 99
 
 {{> label title=" № 49 " description="" }}
 
-{{ spacer }} {{ spacer }}
-
-Vlažen rov, na stenah osvetljene lise apnenca, na koncu prodajalna s spominki, v prodajalni s spominki majice, vžigalniki, koledarji, plakati, skodelice, magneti, obeski za ključe, puzli, frizbiji, zvezki in razglednice z motivi osvetljenih lis na stenah vlažnega rova. It sure is a ZEK razstava alright.
-
-Lise umetnike nagovorijo, v njih vidijo priložnost za opomenjanje čudovitega kaosa umetnosti narave. Zaman. Pravici do dodeljevanja pomena se kolektiv kmalu odpove. Sledi grenka ugotovitev, da je tako početje vnaprej izgubljena bitka - človek je nepomemben, narava večna. Duha ubijajoče spoznanje pa volje do izražanja zlepa ne ustavi. ZEK si iztrga pravico do manipulacije s slabo zaščitenimi avtorskimi deli narave. Pred umetniško veličino takega kova pa veliki umetniki klonejo, postanejo nevedni otroci, ki svojega obstoja ne znajo osmisliti. V sodelovanju z naravo se predvidljivo zatečejo na človeku zelo dobro znan teren. Kolektiv se loti monetizacije nečesa kar ni njihovo, a so bili tam prvi.
-
-Na začetku prejšnjega stoletja je umetnost z reprodukcijo izgubljala avtentičnost, pri ZEK kuraciji pa si jo z reprodukcijo šele pribori. Umik na mesto kuratorja sili metodo v kompleksno in novo formalno inventivnost. Koncept razstave je preizprašan. Bežno sugerirani motivi lis gasijo neusahljivo željo po interpretaciji. Obsedenost s pomenom je privedla do njegove zasičenosti in morda do luči na koncu tunela.
-
-Najbrž ni naključje, da kolektiv na ogled postavi Giftshop - ta biser sodobne družbeno gospodarske ureditve - trgovino, ki prodaja darila. Vse kaže da izrazita avtorefleksivnost tudi tokrat ni izstopila iz meja sproščene zajebancije.
-
-{{ spacer }} {{ spacer }}
+{{ spacer }} 
 
 {{> img src="rov8.jpg" }}
+
+{{ spacer }} {{ spacer }}
+
+A damp tunnel, illuminated stains of calcareous sinter on its walls, and at the end, a gift shop. In the gift shop: T-shirts, lighters, calendars, posters, coffee mugs, magnets, keychains, jigsaw puzzles, frisbees, notebooks and postcards with motifs of the illuminated spots on the walls of the damp tunnel. It sure is a ZEK exhibition all right.
+
+The stains speak to the artists, and they in turn see in the stains an opportunity to give meaning to the magnificent chaos of the art of nature—but alas, the collective soon renounces their right to assign it. Next, a bitter realization: Their endeavor was no more than a futile struggle—man is insignificant, nature is eternal. Though spirit-crushing, the realization does not break their will of self-expression. ZEK decides to seize the right to manipulate nature’s poorly-copyrighted material, but the artists finally yield under an artistic majesty of such a huge magnitude, suddenly rendered ignorant children who cannot make sense of their own existence. The collective monetizes on something that does not belong to them—but they did find it first.
+
+At the beginning of the previous century, reproducing art made it less authentic; in ZEK curation, reproducing art is precisely what makes it authentic. Retiring to the position of a curator demands a method of a new, complex formal ingenuity. The concept of the exhibition itself has been re-examined; the vaguely suggested motifs of the stains are quenching the unquenchable thirst for interpretation. The obsession with meaning has resulted in the saturation of meaning—and, perhaps, in the light at the end of the tunnel.
+
+It is probably not a coincidence that the collective decided on the exhibition of the Gift shop, a pearl of the contemporary socio-economic order—a shop that sells gifts. It appears that at its core, ZEK’s strong auto-reflexivity continues to be rooted in carefree shenanigans.
+
+— Nika Jurman
+
+{{ spacer }} {{ spacer }}
 
 {{> img src="rov9.jpg" }}
 
@@ -105,11 +109,17 @@ Najbrž ni naključje, da kolektiv na ogled postavi Giftshop - ta biser sodobne 
 
 {{> img src="rov25.jpg" size="small"}}
 
-{{> img src="rov26.jpg" }}
+{{> img src="rov26.jpg" size="small"}}
 
 {{> img src="rov27.jpg" size="small"}}
 
 {{> label title="Photos by [Primož Zorko](http://primozzorko.com)" description="" }}
+
+{{ spacer }}
+
+{{> vimeo id="183953403" }}
+
+{{> label title="Exhibition coverage by Radio-Television Slovenia 1" description="" }}
 
 {{ spacer }} {{ spacer }}
 
@@ -127,18 +137,14 @@ Najbrž ni naključje, da kolektiv na ogled postavi Giftshop - ta biser sodobne 
 
 {{> img src="makingof_kolaz4.jpg" size="small"}}
 
-{{> img src="makingof_kolaz5.jpg" size="small"}}
-
 {{> img src="makingof_kolaz8.jpg" size="small"}}
 
 {{> img src="makingof_kolaz7.jpg" size="small"}}
 
 {{> img src="makingof_kolaz6.jpg" size="small"}}
 
-{{ spacer }} {{ spacer }}
+{{> img src="makingof_kolaz5.jpg" size="small"}}
 
-{{> img src="rov28.jpg" size="small"}}
 
-{{> label title="Even though we have become serious conceptual artists, we still like to have a bit of fun every now and then." description="" }}
 
 
