@@ -129,21 +129,21 @@ It is probably not a coincidence that the collective decided on the exhibition o
 
 {{ spacer }} {{ spacer }}
 
-{{> img src="makingof_kolaz1.jpg" size="small"}}
+{{> img src="makingof_kolaz01.jpg" size="small"}}
 
-{{> img src="makingof_kolaz2.jpg" size="small"}}
+{{> img src="makingof_kolaz02.jpg" size="small"}}
 
-{{> img src="makingof_kolaz3.jpg" size="small"}}
+{{> img src="makingof_kolaz03.jpg" size="small"}}
 
-{{> img src="makingof_kolaz4.jpg" size="small"}}
+{{> img src="makingof_kolaz04.jpg" size="small"}}
 
-{{> img src="makingof_kolaz8.jpg" size="small"}}
+{{> img src="makingof_kolaz08.jpg" size="small"}}
 
-{{> img src="makingof_kolaz7.jpg" size="small"}}
+{{> img src="makingof_kolaz07.jpg" size="small"}}
 
-{{> img src="makingof_kolaz6.jpg" size="small"}}
+{{> img src="makingof_kolaz06.jpg" size="small"}}
 
-{{> img src="makingof_kolaz5.jpg" size="small"}}
+{{> img src="makingof_kolaz05.jpg" size="small"}}
 
 
 
