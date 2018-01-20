@@ -55,7 +55,7 @@
   },
   "browser": {
     "jquery": "./node_modules/jquery/dist/jquery.min.js",
-    "foundation": "./node_modules/foundation-sites/dist/foundation.min.js",
+    "foundation": "./node_modules/foundation-sites/dist/js/foundation.min.js",
     "imagesloaded": "./node_modules/imagesloaded/imagesloaded.pkgd.min.js",
     "imgix": "./src/assets/js/imgix.min.js"
   }
