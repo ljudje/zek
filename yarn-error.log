@@ -1,0 +1,88 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/themihaartnak/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  5.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "zekstatic",
+    "private": true,
+    "version": "0.0.1",
+    "description": "ZEK CREW",
+    "devDependencies": {
+      "browserify-shim": "^3.8.12",
+      "coffee-script": "^1.10.0",
+      "foundation-sites": "^6.2.0",
+      "graceful-fs": "^4.0.0",
+      "grunt": "^0.4.5",
+      "grunt-browserify": "^5.0.0",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-coffee": "^1.0.0",
+      "grunt-contrib-compass": "^1.1.1",
+      "grunt-contrib-concat": "^1.0.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-cssmin": "^1.0.1",
+      "grunt-contrib-sass": "^1.0.0",
+      "grunt-contrib-uglify": "^1.0.1",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-exec": "^0.4.6",
+      "grunt-filerev": "^2.3.1",
+      "grunt-haml": "^0.9.0",
+      "grunt-usemin": "^3.1.1",
+      "handlebars": "^4.0.5",
+      "handlebars-helper": "0.0.12",
+      "image-size": "^0.5.0",
+      "imagesloaded": "^4.1.0",
+      "jquery": "^2.2.2",
+      "lodash": "^4.0.0",
+      "metalsmith": "^2.1.0",
+      "metalsmith-collections": "^0.7.0",
+      "metalsmith-in-place": "^1.3.2",
+      "metalsmith-layouts": "^1.4.2",
+      "metalsmith-markdown": "^0.2.1",
+      "metalsmith-metadata": "0.0.4",
+      "metalsmith-paths": "^2.1.1",
+      "metalsmith-permalinks": "^0.4.1",
+      "motion-ui": "^1.2.2",
+      "node-static": "^0.7.7",
+      "sanitize-html": "^1.11.4"
+    },
+    "browserify": {
+      "transform": [
+        "browserify-shim"
+      ]
+    },
+    "browserify-shim": {
+      "jquery": "$",
+      "foundation": "foundation",
+      "imgix": "imgix",
+      "imagesloaded": "imagesLoaded"
+    },
+    "browser": {
+      "jquery": "./node_modules/jquery/dist/jquery.min.js",
+      "foundation": "./node_modules/foundation-sites/dist/js/foundation.min.js",
+      "imagesloaded": "./node_modules/imagesloaded/imagesloaded.pkgd.min.js",
+      "imgix": "./src/assets/js/imgix.min.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOTDIR: not a directory, unlink '/Users/themihaartnak/Documents/DELO/ZEK/git_ZEK_WEB/node_modules/what-input/gulpfile.js/index.js'
+      at Error (native)
