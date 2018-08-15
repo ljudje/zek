@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: username/repo # Change this to your repo
+  branch: master
+
+media_folder: src/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: articles
+    label: Articles
+    create: true
+    folder: src/content/articles
+    fields:
+
+      - name: title
+        label: Title (for URL generator)
+        widget: string
+
+      - name: date
+        label: Date and Time
+        widget: datetime
+
+      - name: body
+        label: Body
+        widget: text
+
+      - name: image
+        label: Cover Image
+        widget: image
+        required: false
+        
+      - name: draft
+        label: Draft (delay publication)
+        widget: boolean
+        default: false
+        required: false
