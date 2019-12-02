@@ -79,7 +79,7 @@
 							%span.name.equalize {{ previous.name }}
 						{{# responsive_image previous previous.thumbnail }}
 						.img
-							.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+							%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
 						{{/ responsive_image }}
 				{{ else }}
 				.prev-thumb
@@ -94,7 +94,7 @@
 							%span.name.equalize {{ next.name }}
 						{{# responsive_image next next.thumbnail }}
 						.img
-							.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+							%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
 						{{/ responsive_image }}
 				{{ else }}
 				.next-thumb

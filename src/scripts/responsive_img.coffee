@@ -14,10 +14,17 @@ overwrite_images_with_local_paths = ->
 		bkg_img = "url(#{path})"
 		if el.tagName == 'IMG'
 			el.src = path
+			el.loading = 'lazy'
 		else
 			$(el).css(backgroundImage: "#{bkg_img}", backgroundSize: "cover")
 
 module.exports = ->
+	overwrite_images_with_local_paths()
+
+	return true
+
+	## Legacy code
+
 	# If we're in production
 	if false and document.location.href.indexOf('localhost') == -1
 		# deploy imgix image replacement

@@ -1,4 +1,6 @@
 .project
 	%a{href: "/projects/{{ this.paths.name }}"}
-		.project-thumbnail.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ encode this.paths.name }}/{{ encode this.thumbnail }}?fit=crop&fm=jpg&q=50', style: 'padding-top: 100%'}
+		.project-thumbnail
+			.img-frame
+				%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ encode this.paths.name }}/{{ encode this.thumbnail }}?fit=crop&fm=jpg&q=50',  src: '/assets/1by1.png'}
 		%span.title {{ this.name }}
