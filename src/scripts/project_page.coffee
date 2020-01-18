@@ -55,8 +55,8 @@ resize_project_nav_images = ->
 	window_height = $(window).height()
 	obscured = $('.logo').outerHeight() + $('.prev-thumb a .title, .next-thumb a .title').outerHeight() + $('footer').outerHeight()
 	remain = window_height - obscured
-	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').height(remain)
-	$('.prev-thumb .imgix-fluid, .next-thumb .imgix-fluid').width('100%')
+	$('.prev-thumb .img, .next-thumb .img').height(remain)
+	$('.prev-thumb .img, .next-thumb .img').width('100%')
 
 annotate_paragraphs = ->
 	$('.contents p').each (i, p) ->
