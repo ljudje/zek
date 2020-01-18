@@ -48,7 +48,7 @@
 				{{# if cover}}
 				.cover
 					{{# responsive_image cover }}
-					%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}?fm=jpg&q=70', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
+					%img.imgix-fluid{'data-src': '/assets/projects/{{ src }}?fm=jpg&q=70', width: '{{ width }}', height: '{{ height }}', src: '/assets/1by1.png'}
 					{{/ responsive_image }}
 				{{/ if }}
 
@@ -79,7 +79,7 @@
 							%span.name.equalize {{ previous.name }}
 						{{# responsive_image previous previous.thumbnail }}
 						.img
-							%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+							%img.imgix-fluid{'data-src': '/assets/projects/{{ src }}'}
 						{{/ responsive_image }}
 				{{ else }}
 				.prev-thumb
@@ -94,7 +94,7 @@
 							%span.name.equalize {{ next.name }}
 						{{# responsive_image next next.thumbnail }}
 						.img
-							%img.imgix-fluid{'data-src': 'http://zek.imgix.net/{{ src }}'}
+							%img.imgix-fluid{'data-src': '/assets/projects/{{ src }}'}
 						{{/ responsive_image }}
 				{{ else }}
 				.next-thumb
