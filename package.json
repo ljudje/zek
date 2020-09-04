@@ -24,7 +24,7 @@
     "grunt-filerev": "^2.3.1",
     "grunt-haml": "^0.9.0",
     "grunt-usemin": "^3.1.1",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.5.3",
     "handlebars-helper": "0.0.12",
     "image-size": "^0.5.0",
     "imagesloaded": "^4.1.0",
