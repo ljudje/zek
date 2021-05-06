@@ -40,7 +40,7 @@
     "metalsmith-permalinks": "^0.4.1",
     "motion-ui": "^1.2.2",
     "node-static": "^0.7.7",
-    "sanitize-html": "^1.11.4"
+    "sanitize-html": "^2.3.2"
   },
   "browserify": {
     "transform": [
